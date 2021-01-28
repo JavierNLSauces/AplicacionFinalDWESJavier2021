@@ -1,0 +1,29 @@
+#main-eliminarDepartamento{
+    @include container-flex-center;
+
+    .form-container{
+        @include form-container-center;
+
+        >header{
+            >h2{
+                font-size: 2rem;
+            }
+        }
+        #form-eliminarDepartamento{
+
+            .input-field-container{
+                @include input-field-container;
+            }
+
+            .form-button{
+                @include form-button;
+            }
+        }
+
+        #form-buttons{
+            .form-button{
+                @include form-button;
+            }
+        }
+    }
+}
