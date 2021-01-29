@@ -1,0 +1,237 @@
+@mixin header{
+    display: grid;
+
+    grid-template-columns: 70px auto 70px;
+
+    grid-area: header;
+
+    height: $header-height; 
+
+    background: linear-gradient(180deg, rgba(24,24,24,1) 0%, rgba(255,255,255,0) 100%);
+
+    padding: 0px 40px 0px 40px;
+
+    #logo-jnl{
+        align-self: center;
+        width: 60px;
+        justify-self: flex-start;
+    }
+
+    #header-title{
+        justify-self: center;
+
+        font-family: $header-title-font;
+        
+        font-size: 3rem;
+        
+        color: #FF7F2A;
+    }
+
+    #header-profile{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        max-width: min-content;
+        justify-self: flex-end;
+
+        #fotoPerfil{
+            margin-left: 10px;
+            border-radius: 100%;
+            width: 50px;
+            height: 50px;
+        }
+
+        #menu-profile{
+            display: none;
+
+            min-width: max-content;
+                
+
+            flex-direction: column;
+            justify-content: center;
+
+            position: absolute;
+            top: 80px;
+            
+            background-color: #6a6868;
+            border-radius: 5px;
+            padding: 30px;
+            
+            &::before{
+                content: "";
+                position: absolute;
+                left: 82%;
+                width: 0;
+                height: 0;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-bottom: 10px solid #6a6868;
+                z-index: 1;
+                bottom: 100%;
+                
+            }
+
+            >*{
+                color: white;
+                padding: 5px 0px 5px 0px;
+                font-size: 1.3rem;
+            }
+
+            #nombre-usuario{
+                font-weight: bold;
+                width: 100%;
+                text-align: center;
+                border-radius: 5px;
+                border-bottom: 2px solid white;
+            }
+
+            button{
+                max-width: max-content;
+
+                &:first-of-type{
+                    padding-top: 15px;
+                }
+
+
+            }
+        }
+    }
+}
+
+@mixin container-flex-center{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin form-container-center {
+    display: block;
+    min-width: max-content;
+    min-height: min-content;
+    background: rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+    padding: 50px;
+
+    header {
+        color: white;
+    }
+}
+
+@mixin input-field {
+    width: 314px;
+    height: 50px;
+    font-size: 1.2rem;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    padding: 20px 0px 0px 20px;
+    background-color: #fff;
+    border-bottom: 3px solid #6a6865;
+}
+
+@mixin input-field-container {
+    position: relative;
+    width: min-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    label {
+        position: absolute;
+        font-size: 20px;
+        left: 20px;
+        bottom: 5px;
+        pointer-events: none;
+        transition: all 0.2s linear;
+    }
+
+    input {
+        @include input-field;
+
+        &:focus{
+            background-color: #dbdbdb;
+            border-bottom: 3px solid orange;
+        }
+
+        
+
+        
+        &:focus ~ label,
+        &:valid ~ label,
+        &:read-only ~ label {
+            font-size: 16px;
+            transform: translateY(-20px);
+        }
+
+        &:read-only,
+        &:read-only ~ label {
+            color: #c4c4c4;
+        }
+
+        &:read-only{
+            background-color: #393939;
+            border-bottom: 3px solid #6a6865;
+        }
+
+        &[type="date"] ~ label{
+            font-size: 16px;
+            transform: translateY(-20px);
+        }
+
+        &[type="file"]{
+            padding-top: 25px;
+            font-size: 0.7rem;
+            background-color: white;
+            
+            &,
+            &~label{
+                color: black;
+            }
+            
+            // & ~ label {
+            //     width: 314px;
+            //     height: 50px;
+            //     font-size: 1.2rem;
+            //     border: 0;
+            //     outline: none;
+            //     border-radius: 4px;
+            //     padding: 14px 0px 0px 20px;
+            //     background-color: #fff;
+            //     border-bottom: 3px solid #6a6865;
+            //     top: 20px;
+            //     left: 0;
+            //     cursor: pointer;
+            //     pointer-events: auto;
+            // }
+        }
+        
+    }
+}
+
+@mixin form-button {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ff7f2a;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.3rem;
+    margin: 20px 0px 20px 0px;
+    font-weight: bold;
+}
+
+@mixin button-as-a{
+    background-color: transparent;
+    outline: none;
+    border: none;
+
+    text-decoration: none;
+    
+    &:hover{
+        text-decoration: underline;
+    }
+}

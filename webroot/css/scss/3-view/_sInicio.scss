@@ -1,0 +1,54 @@
+#main-inicio {
+    flex-direction: column;
+    #bienvenida {
+        align-self: center;
+        max-height: min-content;
+
+        color: white;
+        > header {
+            margin: 10px 0px 10px 0px;
+            > h2 {
+                font-size: 3rem;
+            }
+        }
+
+        p {
+            font-size: 1.7rem;
+            margin: 10px 0px 10px 0px;
+        }
+    }
+
+    #form-vistas {
+        margin: auto auto auto auto;
+        button {
+            width: 300px;
+            height: 200px;
+            
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            &:hover > p {
+                background-color: transparent;
+            }
+
+            p {
+                color: #ffffffc4;
+                transition: all 0.4s ease;
+                background-color: #0000009c;
+                height: 100%;
+                width: 100%;
+                padding-top: 95px;
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+
+            &#MtoDepartamentos{
+                background-image: url("../css/images/mtoDepartamentos.png");
+            }
+            &#REST{
+                background-image: url("../css/images/REST.png");
+            }
+        }
+    }
+
+}

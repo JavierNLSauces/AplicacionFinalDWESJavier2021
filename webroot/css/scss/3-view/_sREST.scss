@@ -1,0 +1,86 @@
+#main-REST {
+    @include container-flex-center;
+
+    #REST-container {
+        text-align: center;
+
+        header {
+            margin-bottom: 10px;
+            > h2 {
+                color: white;
+                font-size: 2rem;
+            }
+        }
+
+        #REST-peliculas-container {
+            display: grid;
+            grid-auto-rows: max-content max-content;
+            grid-gap: 10px;
+            
+            .form-container {
+                @include form-container-center;
+
+                > header {
+                    > h2 {
+                        font-size: 2rem;
+                    }
+                }
+                #form-REST-pelicula {
+                    .input-field-container {
+                        @include input-field-container;
+                    }
+
+                    .form-button {
+                        @include form-button;
+                    }
+                    >span{
+                        color: red;
+                    }
+                }
+            }
+
+            #pelicula-container{
+                @include form-container-center;
+                color: white;
+            }
+        }
+
+        #REST-textoImagen-container {
+            margin-top: 10px;
+            display: grid;
+            grid-auto-rows: max-content max-content;
+            grid-gap: 10px;
+            
+            .form-container {
+                @include form-container-center;
+
+                > header {
+                    > h2 {
+                        font-size: 2rem;
+                    }
+                }
+                #form-REST-textoImagen {
+                    .input-field-container {
+                        @include input-field-container;
+                    }
+
+                    .form-button {
+                        @include form-button;
+                    }
+                    >span{
+                        color: red;
+                    }
+                }
+            }
+
+            #textoImagen-container{
+                @include form-container-center;
+                color: white;
+            }
+        }
+
+        .form-button {
+            @include form-button;
+        }
+    }
+}
