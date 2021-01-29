@@ -1,11 +1,5 @@
 <?php
-
-if(!isset($_SESSION['usuarioDAW217AplicacionFinal'])){ // si no se ha logueado le usuario
-    header('Location: ../index.php'); // redirige al index
-    exit;
-}
-
-$_SESSION['paginaEnCurso'] = $controladores['inicio']; // se guarda la ruta del controlador actual en la variable de sesion 'paginaEncurso' 
+$_SESSION['paginaAnterior'] = $controladores['inicio']; // se guarda la ruta del controlador actual en la variable de sesion 'paginaEncurso' 
 
 
 if (isset($_REQUEST['CerrarSesion'])) { // si se ha pulsado el boton de Cerrar Sesion
