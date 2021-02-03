@@ -1085,6 +1085,7 @@ body .body-container footer #address {
   background: rgba(0, 0, 0, 0.418);
   border-radius: 10px;
   border-collapse: collapse;
+  min-width: calc(100vw - 200px);
 }
 
 #main-mtoDepartamentos #container-departamentos #form-mtoDepartamentos #table-departamentos thead th {
@@ -1113,6 +1114,12 @@ body .body-container footer #address {
 #main-mtoDepartamentos #container-departamentos #form-mtoDepartamentos #table-departamentos tbody tr td button img {
   width: 30px;
   height: 34px;
+}
+
+#main-mtoDepartamentos #container-departamentos #form-mtoDepartamentos #table-departamentos #busqueda-no-encontrada {
+  min-width: calc(100vw - 200px);
+  color: red;
+  text-align: center;
 }
 
 #main-mtoDepartamentos #container-departamentos #form-mtoDepartamentos-paginacion {
@@ -2148,7 +2155,282 @@ body .body-container footer #address {
   color: white;
 }
 
+#main-REST #REST-container #REST-departamento-GET-container {
+  margin-top: 10px;
+  display: grid;
+  grid-auto-rows: max-content max-content;
+  grid-gap: 10px;
+}
+
+#main-REST #REST-container #REST-departamento-GET-container .form-container {
+  display: block;
+  min-width: max-content;
+  min-height: min-content;
+  background: rgba(0, 0, 0, 0.418);
+  border-radius: 10px;
+  padding: 50px;
+}
+
+#main-REST #REST-container #REST-departamento-GET-container .form-container header {
+  color: white;
+}
+
+#main-REST #REST-container #REST-departamento-GET-container .form-container > header > h2 {
+  font-size: 2rem;
+}
+
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .input-field-container {
+  position: relative;
+  width: min-content;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .input-field-container label {
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  bottom: 5px;
+  pointer-events: none;
+  transition: all 0.2s linear;
+}
+
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .input-field-container input {
+  width: 314px;
+  height: 50px;
+  font-size: 1.2rem;
+  border: 0;
+  outline: none;
+  border-radius: 4px;
+  padding: 20px 0px 0px 20px;
+  background-color: #fff;
+  border-bottom: 3px solid #6a6865;
+}
+
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .input-field-container input:focus {
+  background-color: #dbdbdb;
+  border-bottom: 3px solid orange;
+}
+
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .input-field-container input:focus ~ label,
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .input-field-container input:valid ~ label,
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .input-field-container input:read-only ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
+}
+
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .input-field-container input:read-only,
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .input-field-container input:read-only ~ label {
+  color: #c4c4c4;
+}
+
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .input-field-container input:read-only {
+  background-color: #393939;
+  border-bottom: 3px solid #6a6865;
+}
+
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .input-field-container input[type="date"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
+}
+
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .input-field-container input[type="file"] {
+  padding-top: 25px;
+  font-size: 0.7rem;
+  background-color: white;
+}
+
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .input-field-container input[type="file"],
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .input-field-container input[type="file"] ~ label {
+  color: black;
+}
+
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .form-button {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #ff7f2a;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1.3rem;
+  margin: 20px 0px 20px 0px;
+  font-weight: bold;
+}
+
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET > span {
+  color: red;
+}
+
+#main-REST #REST-container #REST-departamento-GET-container #departamento-GET-container {
+  display: block;
+  min-width: max-content;
+  min-height: min-content;
+  background: rgba(0, 0, 0, 0.418);
+  border-radius: 10px;
+  padding: 50px;
+  color: white;
+}
+
+#main-REST #REST-container #REST-departamento-GET-container #departamento-GET-container header {
+  color: white;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container {
+  margin-top: 10px;
+  display: grid;
+  grid-auto-rows: max-content max-content;
+  grid-gap: 10px;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container {
+  display: block;
+  min-width: max-content;
+  min-height: min-content;
+  background: rgba(0, 0, 0, 0.418);
+  border-radius: 10px;
+  padding: 50px;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container header {
+  color: white;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container > header > h2 {
+  font-size: 2rem;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container {
+  position: relative;
+  width: min-content;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container label {
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  bottom: 5px;
+  pointer-events: none;
+  transition: all 0.2s linear;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container input {
+  width: 314px;
+  height: 50px;
+  font-size: 1.2rem;
+  border: 0;
+  outline: none;
+  border-radius: 4px;
+  padding: 20px 0px 0px 20px;
+  background-color: #fff;
+  border-bottom: 3px solid #6a6865;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container input:focus {
+  background-color: #dbdbdb;
+  border-bottom: 3px solid orange;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container input:focus ~ label,
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container input:valid ~ label,
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container input:read-only ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container input:read-only,
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container input:read-only ~ label {
+  color: #c4c4c4;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container input:read-only {
+  background-color: #393939;
+  border-bottom: 3px solid #6a6865;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container input[type="date"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container input[type="file"] {
+  padding-top: 25px;
+  font-size: 0.7rem;
+  background-color: white;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container input[type="file"],
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container input[type="file"] ~ label {
+  color: black;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .form-button {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #ff7f2a;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1.3rem;
+  margin: 20px 0px 20px 0px;
+  font-weight: bold;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST > span {
+  color: red;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container #departamento-POST-container {
+  display: block;
+  min-width: max-content;
+  min-height: min-content;
+  background: rgba(0, 0, 0, 0.418);
+  border-radius: 10px;
+  padding: 50px;
+  color: white;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container #departamento-POST-container header {
+  color: white;
+}
+
 #main-REST #REST-container .form-button {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #ff7f2a;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1.3rem;
+  margin: 20px 0px 20px 0px;
+  font-weight: bold;
+}
+
+#main-Error #Error-container {
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+#main-Error #Error-container header {
+  margin-bottom: 10px;
+}
+
+#main-Error #Error-container header > h2 {
+  font-size: 2rem;
+}
+
+#main-Error #Error-container img {
+  width: 90%;
+}
+
+#main-Error #Error-container .form-button {
   display: block;
   width: 100%;
   border-radius: 5px;

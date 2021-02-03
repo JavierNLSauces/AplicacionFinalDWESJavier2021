@@ -7,7 +7,7 @@ if(isset($_REQUEST["Volver"])){
 } 
 
 
-$vistaEnCurso = $vistas['WIP']; // guardamos en la variable vistaEnCurso la vista que queremos implementar
+$vistaEnCurso = $vistas['tecnologias']; // guardamos en la variable vistaEnCurso la vista que queremos implementar
 require_once $vistas['layout'];
 
 ?>

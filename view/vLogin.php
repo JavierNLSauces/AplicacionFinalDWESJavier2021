@@ -5,10 +5,10 @@
         <button id="app-info-button" class="form-button">Informacion de la aplicacion</button>
         <article id="app-info-box">
             <div><a href="doc/201129CatalogoDeRequisitos.pdf" target="_blank"><p>Catalogo de requisitos</p></a></div>
-            <div><a href="doc/210102DiagramaDeCasosDeUso.pdf" target="_blank"><p>Diagrama de casos uso</p></a></div>
-            <div><a href="doc/210102DiagramaDeClases.pdf" target="_blank"><p>Diagrama de clases</p></a></div>
-            <div><a href="doc/210102ArbolDeNavegación.pdf" target="_blank"><p>Arbol de navegacion</p></a></div>
-            <div><a href="doc/210102RelacionDeFicheros.pdf" target="_blank"><p>Mapa web - relacion de ficheros</p></a></div>
+            <div><a href="doc/210130DiagramaDeCasosDeUso.pdf" target="_blank"><p>Diagrama de casos uso</p></a></div>
+            <div><a href="doc/210130DiagramaDeClases.pdf" target="_blank"><p>Diagrama de clases</p></a></div>
+            <div><a href="doc/210130ArbolDeNavegación.pdf" target="_blank"><p>Arbol de navegacion</p></a></div>
+            <div><a href="doc/210130RelacionDeFicheros.pdf" target="_blank"><p>Mapa web - relacion de ficheros</p></a></div>
             <div><a href="doc/200113EstructuraDeAlmacenamiento.jpg" target="_blank"><p>Estructura de almacenamiento</p></a></div>
             <div><a href="doc/201127ModeloFisicoDeDatos20-21.pdf" target="_blank"><p>Modelo físico de datos</p></a></div>
         </article>

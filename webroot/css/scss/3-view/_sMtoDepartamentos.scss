@@ -98,6 +98,7 @@
                 background: rgba(0, 0, 0, 0.418);
                 border-radius: 10px;
                 border-collapse: collapse;
+                min-width: calc(100vw - 200px);
 
                 thead {
                     th {
@@ -137,6 +138,12 @@
                             }
                         }
                     }
+                }
+
+                #busqueda-no-encontrada{
+                    min-width: calc(100vw - 200px);
+                    color: red;
+                    text-align: center;
                 }
             }
         }

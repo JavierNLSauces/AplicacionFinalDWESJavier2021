@@ -4,8 +4,10 @@ require_once "core/libreriaValidacion.php";
 require_once "model/Usuario.php";
 require_once "model/UsuarioDB.php";
 require_once "model/UsuarioPDO.php";
+require_once "model/Departamento.php";
+require_once "model/DepartamentoPDO.php";
 require_once "model/DBPDO.php";
-require_once "model/REST.php";
+require_once "model/RESTAjeno.php";
 
 $controladores = [
     "login" => "controller/cLogin.php",
@@ -21,9 +23,11 @@ $controladores = [
     "rehabilitacionDepartamento" => "controller/cRehabilitacionDepartamento.php",
     "consultarModificarDepartamento" => "controller/cConsultarModificarDepartamento.php",
     "importarDepartamentos" => "controller/cImportarDepartamentos.php",
+    "exportarDepartamentos" => "controller/cExportarDepartamentos.php",
     "eliminarDepartamento" => "controller/cEliminarDepartamento.php",
     "WIP" => "controller/cWIP.php",
-    "REST" => "controller/cREST.php"
+    "REST" => "controller/cREST.php",
+    "error" => "controller/cError.php"
     
 ];
 
@@ -42,8 +46,10 @@ $vistas = [
     "rehabilitacionDepartamento" => "view/vRehabilitacionDepartamento.php",
     "consultarModificarDepartamento" => "view/vConsultarModificarDepartamento.php",
     "importarDepartamentos" => "view/vImportarDepartamentos.php",
+    "exportarDepartamentos" => "view/vExportarDepartamentos.php",
     "eliminarDepartamento" => "view/vEliminarDepartamento.php",
     "WIP" => "view/vWIP.php",
-    "REST" => "view/vREST.php"
+    "REST" => "view/vREST.php",
+    "error" => "view/vError.php"
 ];
 ?>

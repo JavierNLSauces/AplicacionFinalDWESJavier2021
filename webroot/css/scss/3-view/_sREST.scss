@@ -79,6 +79,73 @@
             }
         }
 
+        #REST-departamento-GET-container {
+            margin-top: 10px;
+            display: grid;
+            grid-auto-rows: max-content max-content;
+            grid-gap: 10px;
+            
+            .form-container {
+                @include form-container-center;
+
+                > header {
+                    > h2 {
+                        font-size: 2rem;
+                    }
+                }
+                #form-REST-departamento-GET {
+                    .input-field-container {
+                        @include input-field-container;
+                    }
+
+                    .form-button {
+                        @include form-button;
+                    }
+                    >span{
+                        color: red;
+                    }
+                }
+            }
+
+            #departamento-GET-container{
+                @include form-container-center;
+                color: white;
+            }
+        }
+        #REST-departamento-POST-container {
+            margin-top: 10px;
+            display: grid;
+            grid-auto-rows: max-content max-content;
+            grid-gap: 10px;
+            
+            .form-container {
+                @include form-container-center;
+
+                > header {
+                    > h2 {
+                        font-size: 2rem;
+                    }
+                }
+                #form-REST-departamento-POST {
+                    .input-field-container {
+                        @include input-field-container;
+                    }
+
+                    .form-button {
+                        @include form-button;
+                    }
+                    >span{
+                        color: red;
+                    }
+                }
+            }
+
+            #departamento-POST-container {
+                @include form-container-center;
+                color: white;
+            }
+        }
+
         .form-button {
             @include form-button;
         }

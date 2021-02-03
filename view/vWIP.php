@@ -12,7 +12,7 @@
     <img src="webroot/media/video/gif-wip.gif" alt="gif work in progress">
     <form id="form-WIP" name="form-WIP" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <div>
-            <button class="form-button" type="submit" name="Volver">Volver</button>
+            <button class="form-button" type="submit" name="VolverWIP">Volver</button>
         </div>
     </form>
     </article>
