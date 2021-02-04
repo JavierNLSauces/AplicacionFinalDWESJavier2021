@@ -30,7 +30,7 @@
                     <a href="https://github.com/JavierNLSauces/" target="_blank"> <img id="icon-github" src="/AplicacionFinalDWESJavier2021/webroot/media/images/github.svg" alt="github icon"> </a>
                     <a href="http://daw217.ieslossauces.es/" target="_blank"> <img id="icon-1and1" src="/AplicacionFinalDWESJavier2021/webroot/media/images/1and1.svg" alt="1and1 icon"> </a>
                     <a href="/AplicacionFinalDWESJavier2021/doc/phpDocumentor/index.html" target="_blank"> <img id="icon-phpDoc" src="/AplicacionFinalDWESJavier2021/webroot/media/images/phpDoc.svg" alt="phpDoc icon"> </a>
-                    <a href="#" target="_blank"> <img id="icon-rss" src="/AplicacionFinalDWESJavier2021/webroot/media/images/rss.svg" alt="rss icon"> </a>
+                    <a href="/AplicacionFinalDWESJavier2021/webroot/rss/rss.xml" target="_blank"> <img id="icon-rss" src="/AplicacionFinalDWESJavier2021/webroot/media/images/rss.svg" alt="rss icon"> </a>
                 </article>
 
                 <article id="address">

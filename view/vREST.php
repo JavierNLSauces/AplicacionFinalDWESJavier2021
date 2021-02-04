@@ -108,13 +108,14 @@
                         <input type="text" id="CodDepartamento2" name="CodDepartamento2" value="<?php echo (isset($_REQUEST['CodDepartamento2'])) ? $_REQUEST['CodDepartamento2'] : null ?>" required>
                         <label for="CodDepartamento2"> Codigo del Departamento</label>
                     </div>
+                    <?php echo (isset($_REQUEST['ApiKey']) && isset($errorCodDepartamento2)) ? "<span>$errorCodDepartamento2</span>" : null;?>
                     <div class="input-field-container">
                         <input type="text" id="ApiKey" name="ApiKey" value="<?php echo (isset($_REQUEST['ApiKey'])) ? $_REQUEST['ApiKey'] : null ?>" required>
                         <label for="ApiKey"> Clave api</label>
                     </div>
                     <?php echo (isset($_REQUEST['ApiKey']) && isset($errorApiKey)) ? "<span>$errorApiKey</span>" : null;?>
                     <div>
-                        <button class="form-button" type="submit" name="ConsultarVolumenDeNegocioCristinaPOST">Consultar Volumen de negocio</button>
+                        <button class="form-button" type="submit" name="ConsultarDatosDepartamentoPropioPOST">Consultar Departamento</button>
                     </div>
                 </form>
             </article>

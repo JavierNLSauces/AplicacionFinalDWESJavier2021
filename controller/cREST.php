@@ -28,25 +28,24 @@ if(isset($_REQUEST["GenerarImagen"])){
 if(isset($_REQUEST["ConsultarVolumenDeNegocioCristinaGET"])){
     $errorCodDepartamento = null;
     
-    $errorCodDepartamento = validacionFormularios::comprobarAlfaNumerico($_REQUEST['CodDepartamento'], 3, 3, OBLIGATORIO);
+    $errorCodDepartamento = validacionFormularios::comprobarAlfabetico($_REQUEST['CodDepartamento'], 3, 3, OBLIGATORIO);
     if($errorCodDepartamento==null){ // si no hay ningun error en el input
         $aDatosDepartamento = RESTAjeno::consultarDatosDepartamentoCristinaGET($_REQUEST['CodDepartamento']);
     }
     
 }
 
-if(isset($_REQUEST["ConsultarVolumenDeNegocioCristinaPOST"])){
+if(isset($_REQUEST["ConsultarDatosDepartamentoPropioPOST"])){
     $errorCodDepartamento2 = null;
     $errorApiKey = null;
     
-    $errorCodDepartamento2 = validacionFormularios::comprobarAlfaNumerico($_REQUEST['CodDepartamento2'], 3, 3, OBLIGATORIO);
-    $errorCodDepartamento2 = validacionFormularios::comprobarAlfaNumerico($_REQUEST['ApiKey'], 50, 6, OBLIGATORIO);
+    $errorCodDepartamento2 = validacionFormularios::comprobarAlfabetico($_REQUEST['CodDepartamento2'], 3, 3, OBLIGATORIO);
+    $errorApiKey = validacionFormularios::comprobarAlfaNumerico($_REQUEST['ApiKey'], 50, 6, OBLIGATORIO);
     if($errorCodDepartamento2==null && $errorApiKey==null){ // si no hay ningun error en el input
         $aDatosDepartamento2 = RESTAjeno::consultarDatosDepartamentoPropioPOST($_REQUEST['CodDepartamento2'],$_REQUEST['ApiKey']);
     }
     
 }
-//var_dump($aDatosDepartamento2);
 
 
 $vistaEnCurso = $vistas['REST']; 

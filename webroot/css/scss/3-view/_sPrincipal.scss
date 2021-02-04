@@ -1,0 +1,70 @@
+#header-principal {
+    grid-template-columns: 70px auto max-content;
+
+    #header-title{
+        margin-left: 80px;
+    }
+    
+    #form-buttons {
+        width: max-content;
+        height: min-content;
+        align-self: center;
+
+        .form-button {
+            display: block;
+            border-radius: 5px;
+            background-color: #ff7f2a;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+    }
+} 
+#main-principal {
+    flex-direction: column;
+
+    
+    $urlImagenes: './images/arbolNavegacion.svg', './images/diagramaCasosUso.svg', './images/relacionFicheros.svg', './images/diagramaClases.svg', './images/catalogoRequisitos.svg', './images/modeloFisicoDatos.svg', './images/estructuraAlmacenamiento.jpg';
+
+
+    @for $articulo from 1 to 8 {
+        &>article:nth-child(#{$articulo}){
+            background-image: url(nth($urlImagenes,$articulo));
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+
+    >article{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+
+
+
+        >a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            text-decoration: none;
+            background-color: rgba(27, 27, 27, 0.692);
+            font-size: 3vw;
+
+            &:hover{
+                background-color: transparent;
+                color: black;
+            }
+        }
+    }
+
+    
+}

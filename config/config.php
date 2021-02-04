@@ -10,6 +10,7 @@ require_once "model/DBPDO.php";
 require_once "model/RESTAjeno.php";
 
 $controladores = [
+    "principal" => "controller/cPrincipal.php",
     "login" => "controller/cLogin.php",
     "inicio" => "controller/cInicio.php",
     "tecnologias" => "controller/cTecnologias.php",
@@ -33,6 +34,7 @@ $controladores = [
 
 $vistas = [
     "layout" => "view/layout.php",
+    "principal" => "view/vPrincipal.php",
     "login" => "view/vLogin.php",
     "inicio" => "view/vInicio.php",
     "tecnologias" => "view/vTecnologias.php",
