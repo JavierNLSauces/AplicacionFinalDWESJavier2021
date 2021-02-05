@@ -3,7 +3,12 @@ $_SESSION['paginaEnCursoSinRegistro'] = $controladores['login'];
 
 if (isset($_REQUEST['Registrarse'])) { // si se ha pulsado el boton de registrarse
     $_SESSION['paginaEnCursoSinRegistro'] = $controladores['registro']; // guardamos en la variable de sesion 'pagina' la ruta del controlador del registro
-    
+    header('Location: index.php');
+    exit;
+}
+
+if (isset($_REQUEST['Volver'])) { // si se ha pulsado el boton de registrarse
+    $_SESSION['paginaEnCursoSinRegistro'] = $controladores['principal']; // guardamos en la variable de sesion 'pagina' la ruta del controlador de la pagina principal
     header('Location: index.php');
     exit;
 }

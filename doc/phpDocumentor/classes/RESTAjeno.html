@@ -79,7 +79,7 @@
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    REST
+    RESTAjeno
 
     
             <div class="phpdocumentor-element__package">
@@ -93,12 +93,12 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="model/REST.php"><a href="files/model-rest.html"><abbr title="model/REST.php">REST.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="model/RESTAjeno.php"><a href="files/model-restajeno.html"><abbr title="model/RESTAjeno.php">RESTAjeno.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">14</span>
 </aside>
 
-            <p class="phpdocumentor-summary">Class REST</p>
+            <p class="phpdocumentor-summary">Class RESTAjeno</p>
 
     <section class="phpdocumentor-description"><p>Clase que se nos permite utilizar varios servicios API</p>
 </section>
@@ -159,14 +159,28 @@
 
 <dl class="phpdocumentor-table-of-contents">
                     <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/REST.html#method_consultarPelicula">consultarPelicula()</a>
+    <a href="classes/RESTAjeno.html#method_consultarDatosDepartamentoCristinaGET">consultarDatosDepartamentoCristinaGET()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Metodo consultarDatosDepartamentoCristinaGET()</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/RESTAjeno.html#method_consultarDatosDepartamentoPropioPOST">consultarDatosDepartamentoPropioPOST()</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Metodo consultarDatosDepartamentoPropioPOST()</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/RESTAjeno.html#method_consultarPelicula">consultarPelicula()</a>
     <span>
                         &nbsp;: array&lt;string|int, string&gt;    </span>
 </dt>
 <dd>Metodo consultarPelicula()</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/REST.html#method_crearImagenConTexto">crearImagenConTexto()</a>
+    <a href="classes/RESTAjeno.html#method_crearImagenConTexto">crearImagenConTexto()</a>
     <span>
                         &nbsp;: string    </span>
 </dt>
@@ -183,8 +197,114 @@
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/REST.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/RESTAjeno.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_consultarDatosDepartamentoCristinaGET">
+        consultarDatosDepartamentoCristinaGET()
+        <a href="classes/RESTAjeno.html#method_consultarDatosDepartamentoCristinaGET" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="model/RESTAjeno.php"><a href="files/model-restajeno.html"><abbr title="model/RESTAjeno.php">RESTAjeno.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">77</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Metodo consultarDatosDepartamentoCristinaGET()</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">consultarDatosDepartamentoCristinaGET</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$codDepartamento</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"><p>Metodo que utiliza el api rest de Cristina para obtener los datos de un departamento en
+base al codigo de departamento pasado como parametro</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$codDepartamento</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>codigo del departamento del que queremos obtener los datos</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>un array vacio si no se ha podido obtener la informacion del servicio REST o un array con los datos decodificados</p>
+</section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_consultarDatosDepartamentoPropioPOST">
+        consultarDatosDepartamentoPropioPOST()
+        <a href="classes/RESTAjeno.html#method_consultarDatosDepartamentoPropioPOST" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="model/RESTAjeno.php"><a href="files/model-restajeno.html"><abbr title="model/RESTAjeno.php">RESTAjeno.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">98</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Metodo consultarDatosDepartamentoPropioPOST()</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">consultarDatosDepartamentoPropioPOST</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$codDepartamento</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$api_key</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+        <section class="phpdocumentor-description"><p>Metodo que obtiene de un servicio REST propio los datos de un departamento en base al codigo del departamento y la clave de la clave de la api mediante el metodo POST</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$codDepartamento</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>codigo del departamento del que queremos obtener los datos</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$api_key</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>clave del servicio REST</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>un array vacio si no se ha podido obtener la informacion del servicio REST o un array con los datos decodificados</p>
+</section>
+
+    
+</article>
                     <article
         class="phpdocumentor-element
             -method
@@ -193,10 +313,10 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_consultarPelicula">
         consultarPelicula()
-        <a href="classes/REST.html#method_consultarPelicula" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/RESTAjeno.html#method_consultarPelicula" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="model/REST.php"><a href="files/model-rest.html"><abbr title="model/REST.php">REST.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="model/RESTAjeno.php"><a href="files/model-restajeno.html"><abbr title="model/RESTAjeno.php">RESTAjeno.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">24</span>
 </aside>
@@ -241,10 +361,10 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_crearImagenConTexto">
         crearImagenConTexto()
-        <a href="classes/REST.html#method_crearImagenConTexto" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/RESTAjeno.html#method_crearImagenConTexto" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="model/REST.php"><a href="files/model-rest.html"><abbr title="model/REST.php">REST.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="model/RESTAjeno.php"><a href="files/model-restajeno.html"><abbr title="model/RESTAjeno.php">RESTAjeno.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">53</span>
 </aside>
@@ -297,7 +417,7 @@
 </section>
             </div>
         </div>
-        <a href="classes/REST.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/RESTAjeno.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 

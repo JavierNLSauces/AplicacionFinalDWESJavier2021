@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg5565"
+   xml:space="preserve"
+   width="793.76001"
+   height="1122.5601"
+   viewBox="0 0 793.76001 1122.5601"
+   sodipodi:docname="catalogoRequisitos.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+     id="metadata5571"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs5569"><clipPath
+       id="clipPath10267"
+       clipPathUnits="userSpaceOnUse"><path
+         style="clip-rule:evenodd"
+         inkscape:connector-curvature="0"
+         id="path10265"
+         d="M 0,0.028 H 595.275 V 841.889 H 0 Z" /></clipPath></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview5567"
+     showgrid="false"
+     inkscape:zoom="0.42046748"
+     inkscape:cx="519.636"
+     inkscape:cy="439.00698"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g5573" /><g
+     id="g5573"
+     inkscape:groupmode="layer"
+     inkscape:label="201127ModeloFisicoDeDatos20-21"
+     transform="translate(0,6.9397335e-5)"><rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:9.39999962;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect10249"
+       width="975.39514"
+       height="1227.6525"
+       x="-64.265762"
+       y="-36.768734" /><g
+       transform="matrix(1.3333333,0,0,-1.3333333,-0.10364201,1121.1718)"
+       inkscape:label="201129CatalogoDeRequisitos"
+       id="g10259"><g
+         id="g10261"><g
+           clip-path="url(#clipPath10267)"
+           id="g10263"><g
+             id="g10269"><text
+               id="text10273"
+               style="font-variant:normal;font-weight:bold;font-size:8px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,52.4,798.989)"><tspan
+                 id="tspan10271"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 3.096 8.3920002 12.888 14.888 20.184 26.384001 30.879999 32.880001 37.279999 43.071999 48.863998 54.655998 59.952 64.447998">IES LOS SAUCES </tspan></text>
+</g><g
+             id="g10275"><text
+               id="text10279"
+               style="font-variant:normal;font-weight:bold;font-size:8px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,229.4,798.989)"><tspan
+                 id="tspan10277"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6.1999998 11.496">HBM</tspan></text>
+</g><g
+             id="g10281"><text
+               id="text10285"
+               style="font-variant:normal;font-weight:bold;font-size:8px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,406.4,798.989)"><tspan
+                 id="tspan10283"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.7919998 11.088 15.488 21.280001 27.072001 32.863998 39.063999 44.360001 49.655998 55.952 57.952 63.743999 69.040001 71.040001 76.832001 81.727997 87.024002 90.120003 95.912003 101.704 107.496 110.592 116.792 122.584 127.88 132.37601 134.37601 142.37601 147.672">DESARROLLO DE APLICACIONES WEB</tspan></text>
+</g><g
+             id="g10287"><text
+               id="text10291"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,294.8,786.089)"><tspan
+                 id="tspan10289"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 8.6879997 16.68 23.280001 31.968 40.655998 49.344002 58.644001 66.636002 74.627998 83.928001 86.928001 98.928001 106.92 114.912 117.912 125.904 134.592 137.592 145.584 154.272 162.26401 171.564 180.168 188.856 198.24001 201.24001 207.84 215.832 224.52 233.12399 237.81599 246.504 255.804">DESARROLLO WEB EN ENTORNO SERVIDOR</tspan></text>
+</g><g
+             id="g10293"><text
+               id="text10297"
+               style="font-variant:normal;font-weight:bold;font-size:8px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,510.4,762.189)"><tspan
+                 id="tspan10295"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.7919998 10.192 13.784 16.879999 20.879999 22.879999 26.879999 30.879999 34.880001 38.880001 41.080002 45.080002">Curso 2020/21</tspan></text>
+</g><g
+             id="g10299"><text
+               id="text10303"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#800000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,737.689)"><tspan
+                 id="tspan10301"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 8.6879997 15.984 23.879999 28.572001 37.259998 45.863998 54.551998 59.243999 68.543999 77.232002 80.232002 88.919998 96.912003 103.512 112.2 123.504 131.496 140.18401 143.18401 151.87199 160.476 169.164 175.84801 185.14799 188.14799 194.14799 200.14799 206.14799 212.14799 215.14799 219.144 222.144 228.144 234.144 240.144">APLICACIÓN RESUMEN CURSO 2020 - 2021</tspan></text>
+</g><g
+             id="g10305"><text
+               id="text10309"
+               style="font-variant:normal;font-weight:bold;font-size:14px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,715.989)"><tspan
+                 id="tspan10307"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 10.892 20.188 31.08 38.863998 48.958 59.051998 64.456001">GLOSARIO</tspan></text>
+</g><g
+             transform="translate(36.1,715.989)"
+             id="g10311"><path
+               inkscape:connector-curvature="0"
+               id="path10313"
+               style="fill:none;stroke:#000000;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               d="M 0,-1.2 H 75.4" /></g><g
+             id="g10315"><text
+               id="text10319"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,695.789)"><tspan
+                 id="tspan10317"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 8.6040001 13.296 19.98 25.98 31.284 34.584 40.584 44.580002">Usuario: </tspan></text>
+</g><g
+             id="g10321"><text
+               id="text10325"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,83.8,695.789)"><tspan
+                 id="tspan10323"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 11.304 15.3 19.992001 25.992001 31.992001 37.296001 40.296001 45.599998 51.683998 54.683998 60.683998 63.984001 68.676003 74.676003 80.580002 85.272003 88.571999 93.875999 97.176003 103.176 109.26 112.26 118.26 123.648 126.648 132.64799 135.948 139.248 142.548 145.84801 151.15199 156.45599 160.548 163.548 169.548 175.548 180.85201 185.54401 188.84399 192.84 198.228 201.228 206.532 212.532 215.832 219.132 224.436 229.74001 235.04401 238.34399 244.34399 250.536 253.536 262.224 267.52802 273.52802 276.52802">persona en disposición de utilizar nuestra aplicación web. </tspan></text>
+</g><g
+             id="g10327"><text
+               id="text10331"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,675.989)"><tspan
+                 id="tspan10329"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 8.6040001 13.296 19.98 25.98 31.284 34.584 40.584 43.584 50.268002 56.268002 59.268002 64.571999 69.875999 75.875999 79.176003 83.867996 87.863998 93.167999 99.167999 105.852 111.852 115.944">Usuario no registrado: </tspan></text>
+</g><g
+             id="g10333"><text
+               id="text10337"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,155.1,675.989)"><tspan
+                 id="tspan10335"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.9039998 10.596 16.596001 21.9 25.896 29.195999 35.279999 38.279999 44.279999 50.279999 55.584 58.584 64.584 70.584 73.584 79.584 84.888 90.192001 95.496002 100.188 103.488 106.788 112.272 115.272 118.572 124.572 129.87601 135.87601 139.17599 142.476 146.472 149.772 155.076 160.38 164.37601 169.06799 174.552 177.552 183.552 188.856 192.85201 198.15601 201.15601 207.15601 210.45599 213.756 217.056 220.356 225.66 230.964 235.15199 238.15199 244.15199 250.15199 255.45599 260.14801 263.448 267.444 272.74799 275.74799 281.052 287.052 290.35199 293.65201 298.95599 304.34399 309.64801 312.948 318.948 325.03201 328.03201 336.72 342.02399 348.02399">usuario que no necesita identificarse para utilizar nuestra aplicación web.</tspan></text>
+</g><g
+             id="g10339"><text
+               id="text10343"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,656.189)"><tspan
+                 id="tspan10341"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 8.6040001 13.296 19.98 25.98 31.284 34.584 40.584 43.584 48.888 54.192001 60.192001 63.492001 68.183998 72.18 77.484001 83.484001 90.167999 96.167999">Usuario registrado:</tspan></text>
+</g><g
+             id="g10345"><text
+               id="text10349"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,139.4,656.189)"><tspan
+                 id="tspan10347"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.9039998 10.596 16.596001 21.9 25.896 29.195999 35.279999 38.279999 44.279999 50.279999 55.584 58.584 63.276001 68.580002 71.580002 77.580002 82.884003 85.884003 89.183998 95.183998 100.488 106.488 109.788 113.088 117.18 120.48 125.784 131.088 137.088 143.28 146.28 151.584 157.584 160.584 166.584 172.584 177.888 182.58 185.88 189.87601 195.17999 198.17999 203.48399 209.48399 212.784 216.084 221.388 226.692 232.08 235.38 241.38 247.464 250.464 259.15201 264.45599 270.45599 273.45599 278.76001 284.76001 290.76001 293.76001 299.76001 305.76001 308.76001 314.76001 319.452 325.452 330.75601 334.75201 338.052 344.052 347.35199 353.35199 358.65601 363.34799 368.04001 376.728 382.728 386.724">usuario que se ha identificado en nuestra aplicación web con un usuario/password</tspan></text>
+</g><g
+             id="g10351"><text
+               id="text10355"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,642.389)"><tspan
+                 id="tspan10353"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.3039999 11.304 17.304001 22.608 26.604 31.908001 35.208 41.208">concreto.</tspan></text>
+</g><g
+             id="g10357"><text
+               id="text10361"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,83.4,642.389)"><tspan
+                 id="tspan10359"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 3.9960001 10.68 15.984 19.98 23.976 27.275999 30.576 37.368 42.264 48.264 52.956001 58.956001 64.260002 68.255997 71.556 77.556 82.452003">(Perfil=&quot;usuario&quot;)</tspan></text>
+</g><g
+             id="g10363"><text
+               id="text10367"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,622.589)"><tspan
+                 id="tspan10365"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 8.6040001 13.296 19.98 25.98 31.284 34.584 42.972 48.360001 57.048 63.731998 73.727997 77.028 83.711998 87.012001 91.704002 95.699997 101.004 107.004 113.688 119.688 124.992 133.776">Usuario Administrador: </tspan></text>
+</g><g
+             id="g10369"><text
+               id="text10373"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,173.1,622.589)"><tspan
+                 id="tspan10371"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 10.692 16.691999 21.996 25.992001 29.292">usuario</tspan></text>
+</g><g
+             id="g10375"><text
+               id="text10379"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,216.188,622.589)"><tspan
+                 id="tspan10377"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 12 19.691999 25.08 29.771999 37.464001 42.852001 48.852001 56.543999 61.931999 65.232002 71.232002 76.536003 82.536003 85.835999 89.136002 93.132004 96.515999 101.82 107.124 113.124 121.608 126.996 132.3 140.784 146.172 152.172 158.172 163.368 168.06 171.36 175.356 183.144 188.532 193.836 199.836 203.136 206.436 211.74001 217.04401 222.43201 225.73199 231.73199 240.216 245.604 254.29201 259.59601">que se ha identificado en nuestra aplicación web</tspan></text>
+</g><g
+             id="g10381"><text
+               id="text10385"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,489.788,622.589)"><tspan
+                 id="tspan10383"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.3039999 11.304 19.691999 25.08 31.08 37.080002">con una</tspan></text>
+</g><g
+             id="g10387"><text
+               id="text10391"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,608.789)"><tspan
+                 id="tspan10389"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 3.9960001 9.9960003 15.996 21.299999 24.6 30.6 36.599998 41.903999 45.203999 48.504002 54.504002 59.807999 66 69 74.195999 78.888 84.888 90.192001 95.496002 98.795998 104.1 107.592 110.592 115.896 121.896 124.896 130.896 136.896 142.2 146.892 150.192 154.188 159.576 162.576 167.88 173.88 177.17999 180.48 185.784 191.088 196.392 199.692 205.692 211.884 214.884 223.57201 228.87601 234.87601">funcionalidad especial en nuestra aplicación web.</tspan></text>
+</g><g
+             id="g10393"><text
+               id="text10397"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,277,608.789)"><tspan
+                 id="tspan10395"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 3.9960001 10.68 15.984 19.98 23.976 27.275999 30.576 37.368 42.264 47.568001 53.568001 62.868 66.167999 72.167999 75.468002 80.160004 83.459999 87.456001 92.760002 98.760002 104.76 108.756 113.652">(Perfil=&quot;administrador&quot;)</tspan></text>
+</g><g
+             id="g10399"><text
+               id="text10403"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,588.989)"><tspan
+                 id="tspan10401"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 8.6040001 15.288 20.591999 25.284 29.280001 32.580002 38.580002">Cuestión</tspan></text>
+</g><g
+             id="g10405"><text
+               id="text10409"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,81.5,588.989)"><tspan
+                 id="tspan10407"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 4.8839998">: </tspan></text>
+</g><g
+             id="g10411"><text
+               id="text10415"
+               style="font-style:italic;font-variant:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,89.4,588.989)"><tspan
+                 id="tspan10413"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 7.296 11.988 17.292 23.292 29.292 35.292 38.591999 45.383999 49.175999 55.967999 59.759998 63.060001 68.363998 77.052002 83.844002 87.636002 94.32 98.112 101.412 107.412 112.716 119.508 123.3 130.092 133.884 139.78799 144.48 150.48 156.48 159.78">Pregunta – tema – idea – asunto</tspan></text>
+</g><g
+             id="g10417"><text
+               id="text10421"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,259.984,588.989)"><tspan
+                 id="tspan10419"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 4.5960002 10.596 16.596001 20.591999 26.676001 30.468 35.771999 39.863998 43.655998 49.655998 55.655998 61.740002 65.531998 71.531998 77.531998 82.835999 87.528 90.828003 94.823997 100.908 104.7 110.004 116.004 119.304 122.604 127.908 133.21201 138.60001 141.89999 147.89999 154.78799 158.58 163.17599 169.17599 172.476 175.776 181.08 184.38 187.76401 193.06799 197.064 203.256 207.048 213.048 219.048 222.34801 228.34801 231.64799 237.64799 244.44 248.23199 254.31599 258.108 261.40799 267.40799">sobre el que nuestra aplicación solicitará opinión a los</tspan></text>
+</g><g
+             id="g10423"><text
+               id="text10427"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,575.189)"><tspan
+                 id="tspan10425"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.9039998 10.596 16.596001 21.9 25.896 29.195999 35.195999 39.984001 42.984001 46.98 52.284 58.284 61.584 66.276001 69.575996 73.571999 78.875999 84.875999 90.875999 95.568001">usuarios registrados.</tspan></text>
+</g><g
+             id="g10429"><text
+               id="text10433"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,555.389)"><tspan
+                 id="tspan10431"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 9.3000002 15.984 19.284 25.968 29.268 35.268002 41.952 47.543999">Opinión: </tspan></text>
+</g><g
+             id="g10435"><text
+               id="text10439"
+               style="font-style:italic;font-variant:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,86.7,555.389)"><tspan
+                 id="tspan10437"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.3039999 11.304 14.604 20.604">valor</tspan></text>
+</g><g
+             id="g10441" /><g
+             id="g10443"><text
+               id="text10447"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,116.6,555.389)"><tspan
+                 id="tspan10445"
+                 y="0"
+                 x="0">(</tspan></text>
+</g><g
+             id="g10449"><text
+               id="text10453"
+               style="font-style:italic;font-variant:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,120.6,555.389)"><tspan
+                 id="tspan10451"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 4.6919999 9.8879995 14.58 20.58 26.58 31.884001 36.576 39.875999">respuesta</tspan></text>
+</g><g
+             id="g10455"><text
+               id="text10459"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,166.6,555.389)"><tspan
+                 id="tspan10457"
+                 y="0"
+                 x="0">)</tspan></text>
+</g><g
+             id="g10461"><text
+               id="text10465"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,175.088,555.389)"><tspan
+                 id="tspan10463"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 12 18.084 21.875999 27.18 31.271999 35.063999 41.063999 45.756001 51.756001 57.060001 61.056 64.356003 71.148003 74.940002 78.935997 84.239998 90.239998 93.540001 98.232002 101.532 105.528 110.832 116.832 123.624 127.416 133.5 137.29201 143.29201 148.59599 154.59599 161.388 165.17999 171.168 174.96001 180.26401 183.564 189.564 195.564 201.564 207.756 211.548 217.548 223.632 227.424 230.724 236.028 241.416 245.20799 250.51199 256.51199 261.81601 266.508 269.80801 273.108 279.108 285.108 290.41199 296.004 299.79599 305.79599 311.79599 315.09601 321.09601 326.39999 332.39999 335.70001 341.784 345.57599 350.88">que el usuario registrado a dado a alguna de las cuestiones opinable en</tspan></text>
+</g><g
+             id="g10467"><text
+               id="text10471"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,541.589)"><tspan
+                 id="tspan10469"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 12 17.304001 21.996 25.296 29.292 34.596001 37.596001 46.284 51.588001 57.588001">nuestra web.</tspan></text>
+</g><g
+             id="g10473"><text
+               id="text10477"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,521.789)"><tspan
+                 id="tspan10475"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 8.6040001 15.288 18.587999 21.888 27.191999 33.192001 38.495998 41.796001 47.796001 55.080002 58.571999 67.260002 72.564003 79.751999 83.244003 89.928001 96.528 103.212 106.512 109.812 115.116 121.116 126.204">Aplicación web pública: </tspan></text>
+</g><g
+             id="g10479"><text
+               id="text10483"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,165.5,521.789)"><tspan
+                 id="tspan10481"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 11.304 15.3 18.6 24.492001 27.983999 33.984001 39.768002 43.259998 49.259998 55.259998 60.563999 65.255997 68.556 72.552002 78.444 81.935997 87.239998 93.239998 96.540001 99.839996 105.144 110.448 115.752 119.052 125.052 131.73599 135.228 141.228 147.228 153.01199 156.504 162.504 168.504 173.808 179.808 185.112 191.7 195.192 201.192 204.492 207.79201 211.092 214.392 219.696 225 229.584 233.076 236.37601 242.37601 247.56 251.052 257.052 261.74399 267.74399 273.048 277.04401 280.34399 286.34399 291.52802 295.01999 301.01999 307.51199 311.004 315 320.30399 326.30399 329.604 334.29599 337.59601 341.59201 346.896 352.896 358.896 363.58801">parte de nuestra aplicación que pueden utilizar los usuarios no registrados,</tspan></text>
+</g><g
+             id="g10485"><text
+               id="text10489"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,507.989)"><tspan
+                 id="tspan10487"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.3039999 11.304 16.608 19.908001 25.908001 31.908001 35.208 40.512001 44.507999 49.896 52.896 58.896 64.896004 70.283997 73.283997 76.584 81.888 87.888 93.888 99.276001 102.276 107.58 112.884 118.188 123.492 128.18401 134.18401 137.18401 142.48801 145.48801 151.48801 157.48801 162.79201 167.48399 170.784 174.78 180.864 183.864 188.556 193.86 197.856 203.856 207.15601 213.15601 219.15601 223.15199 226.15199 234.84 240.144 246.144">cualquiera que tenga acceso a nuestro servidor web.</tspan></text>
+</g><g
+             id="g10491"><text
+               id="text10495"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,488.189)"><tspan
+                 id="tspan10493"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 8.6040001 15.288 18.587999 21.888 27.191999 33.192001 38.495998 41.796001 47.796001 55.487999 59.279999 67.968002 73.272003 80.856003 84.648003 89.952003 95.255997 99.947998 103.944 109.248 112.548 119.232 125.232 128.532 135.216 142.104 145.992 149.892 156.576 161.88 165.17999 171.17999 177.17999 183.864 189.864 193.86 199.644">Aplicación web restringida (privada): </tspan></text>
+</g><g
+             id="g10497"><text
+               id="text10501"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,239.1,488.189)"><tspan
+                 id="tspan10499"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 11.304 15.3 18.6 24.888 28.68 34.68 40.872002 44.664001 47.964001 54.155998 58.043999 63.348 69.348 72.648003 75.947998 81.251999 86.556 91.860001 95.160004 101.16 108.144 112.032 118.032 124.032 130.224 134.01601 140.01601 146.01601 151.32001 157.32001 162.62399 169.51199 173.39999 179.39999 182.7 186 189.3 192.60001 197.90401 203.20799 208.2 212.088 215.388 221.388 226.87199 230.75999 236.664 241.356 247.356 252.66 256.65601 259.95599 265.95599 271.548 275.34 281.34 287.34">parte de la aplicación que pueden utilizar los usuarios que</tspan></text>
+</g><g
+             id="g10503"><text
+               id="text10507"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,474.389)"><tspan
+                 id="tspan10505"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 3.3 8.6040001 14.604 20.604 25.908001 31.992001 34.992001 40.296001 46.296001 51.599998 57.599998 60.900002 66.288002 69.288002 74.592003 80.592003 83.592003 89.592003 95.592003 100.896 105.588 108.888 112.884 118.188 121.188 126.492 132.492 135.79201 139.092 144.396 149.784 155.088 158.388 164.388 170.472 173.472 182.16 187.464 193.464 196.464 202.464 205.464 210.15601 215.46001 218.46001 222.45599 227.75999 233.75999 237.06 241.752 245.052 249.048 254.35201 260.436 263.436 269.436 274.73999 278.73599 284.12399 287.12399 290.42401 295.728 301.728 307.03201 311.02802 314.328 319.63199">tengan cuenta en nuestra aplicación web o se registren para tenerla.</tspan></text>
+</g><g
+             id="g10509"><text
+               id="text10513"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,454.589)"><tspan
+                 id="tspan10511"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 7.9920001 13.992 19.296 28.08 33.264 41.256001 47.855999 54.540001">Back End:</tspan></text>
+</g><g
+             id="g10515"><text
+               id="text10519"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,102.084,454.589)"><tspan
+                 id="tspan10517"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 11.304 15.3 18.6 26.184 31.271999 37.271999 44.759998 49.848 55.848 61.848 67.152 71.844002 75.143997 79.139999 86.627998 91.811996 97.115997 103.116 106.416 109.716 115.02 120.324 125.628 128.92799 134.92799 143.22 148.40401 157.092 162.396 170.48399 175.668 181.668 187.668 195.15601 200.244 204.936 210.936 214.23599 222.42 227.508 233.508 239.508 244.812 250.812 256.116 264.29999 269.48401 275.48401 278.784 282.08401 285.384 288.68399 293.98801 299.29199 305.57999 310.668 313.96799 319.96799 326.85599 331.944 337.944 342.63599 348.63599 353.94 357.936 361.23599 367.23599 374.12399 379.21201 384.51599 390.51599 398.70001 403.884 409.884 415.18799 419.18399 423.17999 426.48001">parte de nuestra aplicación web que solo pueden utilizar los usuarios con perfil</tspan></text>
+</g><g
+             id="g10521"><text
+               id="text10525"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,440.789)"><tspan
+                 id="tspan10523"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.3039999 10.608 16.608 25.908001 29.208 35.208 38.507999 43.200001 46.5 50.495998 55.799999 61.799999 67.800003 71.795998 77.099998">“administrador”.</tspan></text>
+</g><g
+             id="g10527"><text
+               id="text10531"
+               style="font-variant:normal;font-weight:bold;font-size:14px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,399.289)"><tspan
+                 id="tspan10529"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 10.094 20.188 29.483999 39.577999 48.874001 59.765999 70.657997 81.648003 85.148003 95.241997 104.538 108.038 118.132 127.428 138.32001 148.414 153.81799 161.60201 167.006 176.302 187.194 195.174 198.674 208.76801 218.064 221.564 230.86 241.052 244.552 254.548 263.13 272.42599 277.82999 287.92401 298.01801 308.112 313.51599 324.40799 334.50201">CATÁLOGO DE REQUISITOS DE LA APLICACIÓN:</tspan></text>
+</g><g
+             transform="translate(36.1,399.289)"
+             id="g10533"><path
+               inkscape:connector-curvature="0"
+               id="path10535"
+               style="fill:none;stroke:#000000;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               d="M 0,-1.2 H 339.5" /></g><g
+             id="g10537"><text
+               id="text10541"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,36.1,379.089)"><tspan
+                 id="tspan10539"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 11.304 16.608 22.608 25.608 31.608 37.608002 43.608002 46.908001 50.208 55.512001 60.816002">Web pública:</tspan></text>
+</g><g
+             transform="translate(36.1,379.089)"
+             id="g10543"><path
+               inkscape:connector-curvature="0"
+               id="path10545"
+               style="fill:none;stroke:#000000;stroke-width:0.69999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               d="M 0,-1.1 H 64.3" /></g><g
+             id="g10547"><text
+               id="text10551"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,54.1,359.289)"><tspan
+                 id="tspan10549"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6">1.</tspan></text>
+</g><g
+             id="g10553"><text
+               id="text10557"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,359.289)"><tspan
+                 id="tspan10555"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 7.296 13.296 19.788 24.672001 30.672001 35.363998 41.363998 46.667999 50.664001 53.964001 59.964001 66.552002 71.435997 77.435997 85.223999 90.108002 94.103996 99.407997 105.408 108.708 113.4 116.7 120.696 126 132 138 144.588 149.472 155.472 161.472 167.472 171.468 176.772 184.65601 189.53999 194.84399 200.84399 206.84399 211.536 217.536 220.836 224.136 229.44 235.332 240.216 246.216 251.52 254.82001 260.12399 263.42401 266.80801 272.112 278.112 283.41599 292.716 298.01999 304.104 307.40399 314.68799 319.57199 324.87601 331.96799">Los usuarios no registrados podrán consultar detalladamente el </tspan></text>
+</g><g
+             id="g10559"><text
+               id="text10563"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,407.7,359.289)"><tspan
+                 id="tspan10561"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.3039999 11.304 15.3 21.299999 24.6 30.6 36.599998 44.484001 49.368 56.051998 63.240002 68.124001 73.428001 78.732002 85.416 92.099998 95.400002 100.092 103.392 107.388 113.388">catálogo de requisitos</tspan></text>
+</g><g
+             id="g10565"><text
+               id="text10569"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,532.692,359.289)"><tspan
+                 id="tspan10567"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 13.188 18.072001 21.372">de la</tspan></text>
+</g><g
+             id="g10571"><text
+               id="text10575"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,345.489)"><tspan
+                 id="tspan10573"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.3039999 11.304 14.604 17.903999 23.208 28.511999 33.816002 37.116001 43.116001 49.116001">aplicación.</tspan></text>
+</g><g
+             id="g10577"><text
+               id="text10581"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,54.1,325.689)"><tspan
+                 id="tspan10579"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6">2.</tspan></text>
+</g><g
+             id="g10583"><text
+               id="text10587"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,325.689)"><tspan
+                 id="tspan10585"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 7.296 13.296 18.888 22.872 28.775999 33.467999 39.467999 44.771999 48.768002 52.068001 58.068001 63.756001 67.739998 73.739998 80.627998 84.612 88.608002 93.912003 99.912003 103.212 107.904 111.204 115.2 120.504 126.504 132.504 138.192 142.08 148.08 154.08 160.08 164.076 169.38 176.364 180.252 185.556 191.556 197.556 202.248 208.248 211.548 214.84801 220.15199 225.24001 229.12801 235.12801 240.43201 243.73199 249.036 252.336 255.72 261.02399 267.02399 272.328 281.62799 286.93201 293.01599 296.31601 302.70001 306.58801 311.892 317.18399">Los usuarios no registrados podrán consultar detalladamente el </tspan></text>
+</g><g
+             id="g10589"><text
+               id="text10593"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,392.6,325.689)"><tspan
+                 id="tspan10591"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6.684 9.9840002 15.984 21.983999 27.288 33.287998 43.284 50.268002 54.155998 60.84 67.127998 71.015999 76.32 82.32 87.012001 93.012001 98.603996 102.588 109.272 115.464 119.448 126.048 130.74001">diagrama de casos de uso</tspan></text>
+</g><g
+             id="g10595"><text
+               id="text10599"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,534.484,325.689)"><tspan
+                 id="tspan10597"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 12.288 16.271999 19.572001">de la</tspan></text>
+</g><g
+             id="g10601"><text
+               id="text10605"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,311.889)"><tspan
+                 id="tspan10603"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.3039999 11.304 14.604 17.903999 23.208 28.511999 33.816002 37.116001 43.116001 49.116001">aplicación.</tspan></text>
+</g><g
+             id="g10607"><text
+               id="text10611"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,54.1,292.089)"><tspan
+                 id="tspan10609"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6">3.</tspan></text>
+</g><g
+             id="g10613"><text
+               id="text10617"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,292.089)"><tspan
+                 id="tspan10615"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 7.296 13.296 18.084 21.275999 27.18 31.872 37.872002 43.175999 47.172001 50.472 56.472 61.355999 64.547997 70.547997 76.632004 79.823997 83.82 89.124001 95.124001 98.424004 103.116 106.416 110.412 115.716 121.716 127.716 132.60001 135.68401 141.68401 147.68401 153.68401 157.67999 162.98399 169.17599 172.25999 177.564 183.564 189.564 194.256 200.256 203.556 206.856 212.16 216.444 219.528 225.528 230.832 234.132 239.436 242.73599 246.12 251.424 257.42401 262.728 272.02802 277.332 283.41599 286.716 292.30801 295.392 300.69601 304.38">Los usuarios no registrados podrán consultar detalladamente el </tspan></text>
+</g><g
+             id="g10619"><text
+               id="text10623"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,379.9,292.089)"><tspan
+                 id="tspan10621"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6.684 9.9840002 15.984 21.983999 27.288 33.287998 43.284 49.476002 52.560001 59.243999 64.727997 67.811996 73.115997 76.416 82.416 87.108002 92.412003">diagrama de clases</tspan></text>
+</g><g
+             id="g10625"><text
+               id="text10629"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,480.488,292.089)"><tspan
+                 id="tspan10627"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 11.484 14.676 17.976 23.459999 26.544001 31.848 37.848 41.147999 44.448002 49.751999 55.056 60.444 63.743999 69.744003 75.744003">de la aplicación.</tspan></text>
+</g><g
+             id="g10631"><text
+               id="text10635"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,278.289)"><tspan
+                 id="tspan10633"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 3.9960001 10.68 16.464001 20.052 26.052 31.356001 34.655998 40.655998 44.652 49.956001 53.952 59.844002 63.431999 69.431999 75.431999 80.124001 83.424004 86.723999 90.024002 96.024002 101.328 110.628 115.932 121.932 125.232 131.22 134.808 138.108 144 147.588 153.588 156.888 160.188 163.48801 166.78799 172.092 177.396 182.7 186 192 198.68401 202.272 208.272 214.164 217.65601 222.96001 226.25999 231.564 236.256 241.56 246.85201 250.44 254.34 263.02802 267.02399 270.32401 275.62799 281.62799 284.92801 290.23199 295.62 298.92001 304.92001 311.604 315.09601 320.98801 324.48001 333.168 339.168 342.46799 347.772 351.07199 357.07199 361.76401 366.34799 369.936 375.23999 381.73199 385.32001 388.62 394.62 400.62 405.92401 411.216 414.70801 418.008 423.31201 428.604 432.09601 437.39999 442.70401 448.70401 454.008 459.29999 462.888 468.888 474.672 478.26001 481.56">(Se valorará positivamente la utilización de clases (Orientación a Objetos) en todas las capas de la</tspan></text>
+</g><g
+             id="g10637"><text
+               id="text10641"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,264.489)"><tspan
+                 id="tspan10639"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.3039999 11.304 14.604 17.903999 23.208 28.511999 33.816002 37.116001 43.116001 49.116001">aplicación.</tspan></text>
+</g><g
+             id="g10643"><text
+               id="text10647"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,54.1,244.689)"><tspan
+                 id="tspan10645"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6">4.</tspan></text>
+</g><g
+             id="g10649"><text
+               id="text10653"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,244.689)"><tspan
+                 id="tspan10651"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 7.296 13.296 20.184 25.368 31.368 36.060001 42.060001 47.363998 51.360001 54.66 60.66 67.547997 72.839996 78.839996 87.024002 92.208 96.204002 101.508 107.508 110.808 115.5 118.8 122.796 128.10001 134.10001 140.10001 147.084 152.26801 158.26801 164.26801 170.26801 174.26401 179.56799 187.752 193.04401 198.34801 204.34801 210.34801 215.03999 221.03999 224.34 227.64 232.944 239.23199 244.416 250.416 255.72 259.01999 264.32401 267.62399 271.008 276.31201 282.31201 287.616 296.91599 302.22 308.30399 311.604 319.18799 324.48001 329.784 337.57199">Los usuarios no registrados podrán consultar detalladamente el </tspan></text>
+</g><g
+             id="g10655"><text
+               id="text10659"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,413,244.689)"><tspan
+                 id="tspan10657"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 11.304 17.988001 23.988001 29.58 34.764 41.448002 48.936001 54.228001 60.827999 66.828003 72.828003 78.132004 84.132004 90.132004 95.435997 98.736 104.736">árbol de navegación</tspan></text>
+</g><g
+             id="g10661"><text
+               id="text10665"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,531.892,244.689)"><tspan
+                 id="tspan10663"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 13.584 18.768 22.068001">de la</tspan></text>
+</g><g
+             id="g10667"><text
+               id="text10671"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,230.889)"><tspan
+                 id="tspan10669"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.3039999 11.304 14.604 17.903999 23.208 28.511999 33.816002 37.116001 43.116001 49.116001 52.908001 56.591999 63.888 70.571999 74.160004 79.463997 84.155998 87.456001 93.444 97.127998 103.128 106.428 111.732 117.732 121.728 127.032 136.332 142.416 146.004 152.004 158.004 164.004 168 173.304 182.604 188.604 193.992 197.58 203.58 208.884 213.576 217.25999 220.56 225.864 231.15601 234.84 240.84 246.144 252.144 255.444 260.74799 266.74799 272.052 277.44 281.12399 287.12399 293.12399 299.01599 302.70001 306.69601 312.69601 316.69199 325.992 331.98001 335.56799 338.86801 344.85599 348.54001 353.84399 359.84399 363.14401 366.444 371.74799 377.052 382.35599 385.65601 391.65601 398.448 402.13199 408.72 412.40399 417.70801 423.70801 433.008 439.69199 443.37601 449.37601 455.37601 461.37601 466.67999 475.98001 481.98001">aplicación. En este diagrama podremos ver las ventanas que forma la aplicación y como podemos</tspan></text>
+</g><g
+             id="g10673"><text
+               id="text10677"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,217.089)"><tspan
+                 id="tspan10675"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 9.3000002 15.3 21.299999 26.604 30.6 36.599998 42.599998 47.784 51.276001 56.580002 62.580002 65.879997 69.875999 75.767998 79.260002 84.564003 87.863998 91.164001 96.468002 101.16 104.748 108.24 114.924 118.716 122.208 127.512 132.696 136.188 142.188 147.492 152.79601 158.10001 162.79201 168.09599 172.092 175.392 181.98 185.472 191.472 196.776 202.776 206.772 212.556 216.048 222.048 228.048 233.832 237.32401 243.32401 246.62399 252.62399 255.924 261.228 265.81201 269.30399 274.608 279.91199 285.91199 291.80399 295.29599 301.29599 307.29599 313.07999 316.57199 322.57199 328.46399 331.95599 335.25601 340.56 345.74399 349.23599 355.23599 360.54001 366.54001 369.84 375.14401 381.14401 386.448 391.73999 395.23199 401.23199 407.01599 410.508 414.504 420.504 424.5 433.79999 439.58401 443.07599 449.07599 454.38 457.67999 462.98401 466.284 469.668 474.97198 480.97198">movernos entre ellas. Si es necesario habrá que pintar cada una de las ventanas de forma detallada</tspan></text>
+</g><g
+             id="g10679"><text
+               id="text10683"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,203.289)"><tspan
+                 id="tspan10681"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 11.304 15.3 20.604 23.604 28.908001 34.908001 40.908001 44.208 47.507999 52.812 58.116001 62.304001 65.304001 69.900002 75.900002 78.900002 84.204002 90.204002 96.204002 99.503998 104.808 110.808 114.108 120.108 126.3 129.3 135.3 138.3 142.29601 148.29601 154.29601 159.60001 162.89999 168.89999 174.89999 180.20399 189.504 192.804 198.108 204.108 207.408 213.408">para explicar su contenido y funcionamiento.</tspan></text>
+</g><g
+             id="g10685"><text
+               id="text10689"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,54.1,183.489)"><tspan
+                 id="tspan10687"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6">5.</tspan></text>
+</g><g
+             id="g10691"><text
+               id="text10695"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,183.489)"><tspan
+                 id="tspan10693"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 7.296 13.296 18.587999 22.271999 28.271999 32.964001 38.964001 44.268002 48.264 51.563999 57.563999 62.952 66.636002 72.636002 79.223999 82.907997 86.903999 92.208 98.208 101.508 106.2 109.5 113.496 118.8 124.8 130.8 136.188 139.87199 145.87199 151.87199 157.87199 161.868 167.172 173.856 177.53999 182.84399 188.84399 194.84399 199.536 205.536 208.836 212.136 217.44 222.132 225.81599 231.81599 237.12 240.42 245.724 249.024 252.408 257.71201 263.71201 269.01599 278.31601 283.62 289.70401 293.004 299.08801 302.772 308.07599 312.76801">Los usuarios no registrados podrán consultar detalladamente el </tspan></text>
+</g><g
+             id="g10697"><text
+               id="text10701"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,388.3,183.489)"><tspan
+                 id="tspan10699"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 9.9960003 15.996 22.68 29.268 32.952 41.639999 46.944 54.228001 57.911999 64.596001 68.279999 73.584 78.888 82.188004 88.188004 93.491997 96.792 102.792 110.184 113.868 120.552 126.54 130.224 134.22 137.52 142.82401 149.508 154.812 160.116 166.116">mapa web – relación de ficheros</tspan></text>
+</g><g
+             id="g10703"><text
+               id="text10707"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,169.689)"><tspan
+                 id="tspan10705"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6.5999999 13.284 18.672001 21.672001 26.976 32.976002 42.972 49.655998 55.560001 62.243999 67.547997 74.232002 77.232002 80.531998 86.615997 89.615997 95.519997 102.204 105.504 108.804 114.108 120.108 125.412 128.71201 134.71201">que componen la aplicación</tspan></text>
+</g><g
+             id="g10709"><text
+               id="text10713"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,213.8,169.689)"><tspan
+                 id="tspan10711"
+                 y="0"
+                 x="0">.</tspan></text>
+</g><g
+             id="g10715"><text
+               id="text10719"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,54.1,149.889)"><tspan
+                 id="tspan10717"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6">6.</tspan></text>
+</g><g
+             id="g10721"><text
+               id="text10725"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,149.889)"><tspan
+                 id="tspan10723"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 7.296 13.296 19.08 23.172001 29.076 33.768002 39.768002 45.071999 49.068001 52.368 58.368 64.260002 68.351997 74.351997 81.444 85.536003 89.531998 94.835999 100.836 104.136 108.828 112.128 116.124 121.428 127.428 133.42799 139.21201 143.304 149.304 155.304 161.304 165.3 170.604 177.696 181.78799 187.092 193.092 199.092 203.784 209.784 213.084 216.384 221.688 226.87199 230.964 236.964 242.26801 245.56799 250.87199 254.172 257.556 262.85999 268.85999 274.164 283.46399 288.76801 294.85199 298.15201 304.64401 308.73599 314.04001 319.63199">Los usuarios no registrados podrán consultar detalladamente el </tspan></text>
+</g><g
+             id="g10727"><text
+               id="text10731"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,395.2,149.889)"><tspan
+                 id="tspan10729"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 11.304 17.988001 23.988001 28.476 32.568001 39.251999 45.636002 49.728001 55.728001 59.028 69.024002 75.024002 80.328003 85.632004 92.316002 98.316002 108.312 111.612 116.916 123.6 127.596">árbol de almacenamiento</tspan></text>
+</g><g
+             id="g10733"><text
+               id="text10737"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,534.184,149.889)"><tspan
+                 id="tspan10735"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 12.492 16.584 19.884001">de la</tspan></text>
+</g><g
+             id="g10739"><text
+               id="text10743"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,136.089)"><tspan
+                 id="tspan10741"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.3039999 11.304 14.604 17.903999 23.208 28.511999 33.816002 37.116001 43.116001 49.116001 53.208 57.192001 63.192001 66.491997 70.487999 75.792 81.096001 84.396004 90.396004 94.391998 97.692001 103.692 109.38 113.364 118.668 125.652 129.53999 132.84 138.84 144.528 148.416 154.416 160.416 166.70399 170.592 175.896 180.588 183.888 190.17599 194.16 199.464 202.76401 208.76401 212.064 217.368 223.368 229.752 233.64 236.94 243.228 247.21201 252.51601 258.51599 261.81601 265.116 270.42001 275.724 281.02802 284.328 290.328 296.328 300.42001 304.40399 309.70801 314.39999 317.70001 321.69601 327.69601 333 336.29999 342.29999 346.29599 352.67999 356.56799 362.56799 368.85599 372.74399 378.048 381.34799 390.64801 395.952 401.25601 406.56 412.64401 417.948 427.24799 430.63199 435.936 441.936 445.23599 452.328 456.216 462.216 468.504 472.48801 475.78799 481.78799">aplicación, directorios en los que está alojada la aplicación, estructura de almacenamiento de los</tspan></text>
+</g><g
+             id="g10745"><text
+               id="text10749"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,122.289)"><tspan
+                 id="tspan10747"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 3.9960001 7.296 12.6 18.6 23.903999 27.9 33.900002 40.391998 45.084 51.084 57.084 64.176003 68.963997 74.267998 80.267998 89.568001 95.568001 101.568 107.568 112.872 120.66 125.352 128.65199 135.744 140.532 145.836 151.836 155.136 158.436 163.74001 169.04401 174.34801 177.64799 183.64799 189.64799 194.532 199.32001 206.004 211.092 215.784 219.084 225.084 231.576 236.26801 240.26401 243.564 248.868 254.868 260.172 264.168 270.168 276.66 281.448 286.64401 291.336 294.63599 299.94 307.82401 312.51599 317.82001 321.12 327.12 330.42001 335.724 341.724 347.724 354.216 359.004 364.30801 372.09601 376.78799 382.78799 386.08801 390.78 394.07999 397.38 403.38 406.67999 412.67999 419.172 423.95999 429.26401 435.26401 441.26401 444.564 450.564 456.564 463.056 467.74799 472.44 477.74399 481.73999">ficheros que componen la aplicación. Si los ficheros están alojados en distintos equipos será</tspan></text>
+</g><g
+             id="g10751"><text
+               id="text10755"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,108.489)"><tspan
+                 id="tspan10753"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 11.304 16.608 21.912001 26.604 31.908001 35.903999 39.203999 45.287998 48.287998 54.287998 60.287998 63.287998 72.587997 78.587997 84.587997 89.891998 93.192001 99.276001 102.276 108.276 113.58 116.58 122.58 125.88 130.57201 133.87199 137.868 141.168 147.168 153.168 158.472 161.772 167.772 173.856 176.856 182.856 188.856 194.16 197.16 200.46001 206.54401 209.54401 218.84399 224.84399 230.14799 234.84 238.14 242.136 247.44">necesario un modelo de distribución que lo muestre.</tspan></text>
+</g><g
+             id="g10757"><text
+               id="text10761"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,54.1,88.689)"><tspan
+                 id="tspan10759"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6">7.</tspan></text>
+</g><g
+             id="g10763"><text
+               id="text10767"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,88.689)"><tspan
+                 id="tspan10765"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 7.296 13.296 19.584 24.275999 30.275999 34.967999 40.967999 46.271999 50.268002 53.568001 59.568001 65.952003 70.643997 76.643997 84.227997 88.919998 92.916 98.220001 104.22 107.52 112.212 115.512 119.508 124.812 130.812 136.812 143.196 147.888 153.888 159.888 165.888 169.884 175.188 182.88 187.57201 192.87601 198.87601 204.87601 209.56799 215.56799 218.868 222.168 227.472 233.16 237.85201 243.85201 249.15601 252.45599 257.76001 261.06 264.444 269.74799 275.74799 281.052 290.35199 295.65601 301.73999 305.04001">Los usuarios no registrados podrán consultar detalladamente</tspan></text>
+</g><g
+             id="g10769" /><g
+             id="g10771"><text
+               id="text10775"
+               style="font-variant:normal;font-weight:bold;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,389.2,88.689)"><tspan
+                 id="tspan10773"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.3039999 10.296 14.988 24.983999 30.983999 37.667999 42.972 46.271999 53.964001 58.655998 62.652 65.952003 70.643997 73.944 79.248001 86.940002 91.632004 98.316002 105.204 109.896 116.58 122.58 126.576 132.576">el modelo físico de datos</tspan></text>
+</g><g
+             id="g10777"><text
+               id="text10781"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,533.084,88.689)"><tspan
+                 id="tspan10779"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 12.984 17.676001 20.976">de la</tspan></text>
+</g><g
+             id="g10783"><text
+               id="text10787"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,74.889)"><tspan
+                 id="tspan10785"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.3039999 11.304 14.604 17.903999 23.208 28.511999 33.816002 37.116001 43.116001 49.116001 53.099998 56.891998 65.580002 68.879997 74.183998 80.183998 84.18 89.484001 98.783997 104.976 108.864 114.864 120.948 124.836 130.14 134.832 138.132 142.12801 148.12801 153.43201 156.73199 162.73199 166.728 172.92 176.71201 182.71201 188.79601 192.68401 198.68401 203.98801 207.28799 213.28799 218.772 222.66 228.66 234.66 240.744 244.536 250.536 256.53601 262.01999 265.90799 271.90799 277.21201 281.20801 290.508 293.80801 297.108 303.29999 307.18799 312.492 318.492 324.492 329.18399 332.48401 336.48001 342.48001 345.78 350.56799 354.45599 357.75601 363.84 367.728 373.728 379.03201 383.724 389.80801 393.60001 399.60001 405.79199 409.58401 415.58401 420.888 424.18799 430.18799 435.672 439.56 443.556 448.85999 452.16 457.46399 462.76801 466.06799 472.06799 478.06799 483.37201">aplicación. Diagrama de estructura de datos que nos permite construir la base de datos relacional</tspan></text>
+</g><g
+             id="g10789"><text
+               id="text10793"
+               style="font-variant:normal;font-weight:normal;font-size:12px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPSMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,72.1,61.089)"><tspan
+                 id="tspan10791"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 6 12 18 24 29.304001 32.304001 35.604 40.992001 43.992001 49.296001 55.296001 58.596001 61.896 67.199997 72.503998 77.807999 81.108002 87.108002 93.300003 96.300003 101.604 104.904 114.204 119.508 124.812 130.116 136.116 141.60001 144.60001 147.89999 153.20399 156.20399 159.504 165.504 169.5 175.5 179.496 188.79601 194.10001 199.40401 202.70399 208.70399 214.896 217.896 223.896 229.2 233.196 237.888 241.188 245.88 249.17999 254.48399 260.48401 263.784 269.08801">donde la aplicación almacena la información persistente.</tspan></text>
+</g><g
+             id="g10795"><text
+               id="text10799"
+               style="font-variant:normal;font-weight:bold;font-size:10px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,285.3,49.089)"><tspan
+                 id="tspan10797"
+                 y="0"
+                 x="0">1</tspan></text>
+</g><g
+             id="g10801"><text
+               id="text10805"
+               style="font-variant:normal;font-weight:bold;font-size:10px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,292.8,49.089)"><tspan
+                 id="tspan10803"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5.5900002 9.9899998">de </tspan></text>
+</g><g
+             id="g10807"><text
+               id="text10811"
+               style="font-variant:normal;font-weight:bold;font-size:10px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,305.3,49.089)"><tspan
+                 id="tspan10809"
+                 y="0"
+                 x="0">5</tspan></text>
+</g><g
+             id="g10813"><text
+               id="text10817"
+               style="font-variant:normal;font-weight:bold;font-size:10px;font-family:'Times New Roman';-inkscape-font-specification:TimesNewRomanPS-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               transform="matrix(1,0,0,-1,418.6,37.589)"><tspan
+                 id="tspan10815"
+                 sodipodi:role="line"
+                 y="0"
+                 x="0 5 10 15 20 25 30 37.200001 42.200001 45.5 50.5 53.290001 58.290001 63.290001 68.290001 75.489998 79.889999 87.089996 91.489998 97.080002 102.67 105.46 109.35 112.14 115.44 120.44 124.33 126.83 131.83 137.42">201129CatalogoDeRequisitos.odt</tspan></text>
+</g></g></g></g></g></svg>

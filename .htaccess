@@ -1,0 +1,5 @@
+ErrorDocument 400 /AplicacionFinalDWESJavier2021/index.php
+ErrorDocument 401 /AplicacionFinalDWESJavier2021/index.php
+ErrorDocument 402 /AplicacionFinalDWESJavier2021/index.php
+ErrorDocument 404 /AplicacionFinalDWESJavier2021/index.php
+ErrorDocument 500 /AplicacionFinalDWESJavier2021/index.php

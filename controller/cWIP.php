@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_REQUEST["Volver"])){
+if(isset($_REQUEST["VolverWIP"])){
     $_SESSION['paginaEnCurso'] = $_SESSION['paginaAnterior']; // guardamos en la variable de sesion 'pagina' la ruta del controlador del login
     header('Location: index.php');
     exit;

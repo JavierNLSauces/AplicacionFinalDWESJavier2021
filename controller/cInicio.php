@@ -1,4 +1,5 @@
 <?php
+
 $_SESSION['paginaAnterior'] = $controladores['inicio']; // se guarda la ruta del controlador actual en la variable de sesion 'paginaEncurso' 
 
 
@@ -35,10 +36,10 @@ if(isset($_REQUEST['MtoDepartamentos'])){ // si se ha pulsado el boton de Mto De
 
 $oUsuarioActual = $_SESSION['usuarioDAW217AplicacionFinal']; // almacenamos en la variable el usuario actual
 
-$numConexiones = $oUsuarioActual->numConexiones; // variable que tiene el numero de conexiones sacado de la base de datos
-$descUsuario = $oUsuarioActual->descUsuario; // variable que tiene la descripcion del usuario sacado de la base de datos
-$fechaHoraUltimaConexionAnterior = $_SESSION['fechaHoraUltimaConexionAnterior']; // variable que tiene la ultima hora de conexion anterior del usuario
-$imagenUsuario = $oUsuarioActual->imagenPerfil; // variable que tiene la imagen de perfil del usuario
+if(isset($_SESSION['fechaHoraUltimaConexionAnterior'])){
+    $fechaHoraUltimaConexionAnterior = $_SESSION['fechaHoraUltimaConexionAnterior']; // variable que tiene la ultima hora de conexion anterior del usuario
+}
+
 
 $vistaEnCurso = $vistas['inicio']; // guardamos en la variable vistaEnCurso la vista que queremos implementar
 require_once $vistas['layout'];

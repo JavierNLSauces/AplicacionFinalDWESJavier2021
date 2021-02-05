@@ -7,10 +7,10 @@
 
 **Fecha Inicio Proyecto: 20/01/2021**
 
-**Ultima Actualización: 28/01/2021**
+**Ultima Actualización: 05/02/2021**
 
 ## Descripción 
-Aplicacion final DWES MVC + Control de Acceso + utilizacion de API REST
+Aplicacion final DWES MVC + Control de Acceso + utilizacion y creacion de API REST
 
 ## Funcionalidades
 - Control de Acceso
@@ -20,10 +20,11 @@ Aplicacion final DWES MVC + Control de Acceso + utilizacion de API REST
 - Cambiar Contraseña
 - Borrar Cuenta
 - Uso de API REST
+- Creacion API REST (GET,POST(con clave de api))
 
 ## Front end
-- HTML
-- CSS
+- HTML5
+- CSS3
 - SASS
 - JavaScript
 

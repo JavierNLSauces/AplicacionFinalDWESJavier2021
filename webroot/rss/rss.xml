@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        
+        <title><![CDATA[ Javier Nieto Lorenzo]]></title>
+        <copyright> 2020-2021. Javier Nieto Lorenzo. Todos los Derechos Reservados.</copyright>
+        <link>http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021/</link>
+        <description>Aplicacion final del modulo DWES de Javier Nieto Lorenzo</description>
+        <language>es</language>
+        <lastBuildDate>Thu, 04 Feb 2021 18:00:00 GMT</lastBuildDate>
+        <image>
+            <url>http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021/webroot/media/images/logo-jnl.png</url>
+            <title>Javier Nieto Lorenzo</title>
+            <link>http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021/</link>
+        </image>
+
+        <item>
+            <title>Servicios de REST</title>
+            <link> http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021</link>
+            <description>Nueva funcionalidad para obtener datos de REST propios y ajenos</description>
+            <guid>http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021/REST</guid>
+            <pubDate>Thu, 04 Feb 2021 18:00:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Funcionalidad de Registro</title>
+            <link> http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021</link>
+            <description>Nueva funcionalidad para registrarse en la web </description>
+            <guid>http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021/registro</guid>
+            <pubDate>Fri, 29 Jan 2021 18:00:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Funcionalidad de Login</title>
+            <link> http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021</link>
+            <description>Nueva funcionalidad para iniciar sesion en la web </description>
+            <guid>http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021/login</guid>
+            <pubDate>Fri, 29 Jan 2021 18:00:00 GMT</pubDate>
+        </item>
+
+    </channel>
+
+</rss>

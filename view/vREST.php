@@ -64,6 +64,81 @@
             <?php } ?>
             
         </article>
+        
+        <article id="REST-departamento-GET-container">
+            <article class="form-container">
+                <header>
+                    <h2>REST API Consultar Departamento Cristina GET</h2>
+                </header>
+                <form id="form-REST-departamento-GET" name="form-REST-departamento-GET" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                    <div class="input-field-container">
+                        <input type="text" id="CodDepartamento" name="CodDepartamento" value="<?php echo (isset($_REQUEST['CodDepartamento'])) ? $_REQUEST['CodDepartamento'] : null ?>" required>
+                        <label for="CodDepartamento"> Codigo del Departamento</label>
+                        
+                    </div>
+                    <?php echo (isset($_REQUEST['CodDepartamento']) && isset($errorCodDepartamento)) ? "<span>$errorCodDepartamento</span>" : null;?>
+                    <div>
+                        <button class="form-button" type="submit" name="ConsultarVolumenDeNegocioCristinaGET">Consultar Volumen de negocio</button>
+                    </div>
+                </form>
+            </article>
+            <?php if(isset($aDatosDepartamento['resultado'])){ ?>
+            <article id="departamento-GET-container">
+                <header>
+                    <h3><?php echo $aDatosDepartamento['resultado']['codDepartamento'] ?></h3>
+                </header>
+                <div id="caracteristicas-departamento-GET">
+                    <p>Descripcion departamento: <?php echo $aDatosDepartamento['resultado']['descDepartamento'] ?></p>
+                    <p>Volumen de negocio: <?php echo $aDatosDepartamento['resultado']['volumenDeNegocio'] ?></p>
+                </div>
+            </article>
+            <?php } else if(isset($aDatosDepartamento['error'])) { ?>
+                <article id="departamento-GET-container">                
+                    <h3><?php echo $aDatosDepartamento['error'] ?></h3>
+                </article>
+            <?php }?>
+
+            <article id="REST-departamento-POST-container">
+            <article class="form-container">
+                <header>
+                    <h2>REST API Consultar Departamento Propio POST</h2>
+                </header>
+                <form id="form-REST-departamento-POST" name="form-REST-departamento-POST" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                    <div class="input-field-container">
+                        <input type="text" id="CodDepartamento2" name="CodDepartamento2" value="<?php echo (isset($_REQUEST['CodDepartamento2'])) ? $_REQUEST['CodDepartamento2'] : null ?>" required>
+                        <label for="CodDepartamento2"> Codigo del Departamento</label>
+                    </div>
+                    <?php echo (isset($_REQUEST['ApiKey']) && isset($errorCodDepartamento2)) ? "<span>$errorCodDepartamento2</span>" : null;?>
+                    <div class="input-field-container">
+                        <input type="text" id="ApiKey" name="ApiKey" value="<?php echo (isset($_REQUEST['ApiKey'])) ? $_REQUEST['ApiKey'] : null ?>" required>
+                        <label for="ApiKey"> Clave api</label>
+                    </div>
+                    <?php echo (isset($_REQUEST['ApiKey']) && isset($errorApiKey)) ? "<span>$errorApiKey</span>" : null;?>
+                    <div>
+                        <button class="form-button" type="submit" name="ConsultarDatosDepartamentoPropioPOST">Consultar Departamento</button>
+                    </div>
+                </form>
+            </article>
+            <?php if(isset($aDatosDepartamento2->MensajeDeError)) { ?>
+                <article id="departamento-POST-container">
+                    <h3><?php echo $aDatosDepartamento2->MensajeDeError ?></h3>
+                </article>
+            <?php }else if(isset($aDatosDepartamento2)){ ?>
+            <article id="departamento-POST-container">
+                <header>
+                    <h3><?php echo $aDatosDepartamento2->CodigoDeDepartamento ?></h3>
+                </header>
+                <div id="caracteristicas-departamento-POST">
+                    <p>Descripcion departamento: <?php echo $aDatosDepartamento2->DescripcionDeDepartamento ?></p>
+                    <p>Fecha creacion: <?php echo date("d/m/Y",$aDatosDepartamento2->FechaCreacionDeDepartamento) ?></p>
+                    <p>Fecha Baja: <?php echo ($aDatosDepartamento2->FechaBajaDeDepartamento!=null) ? date("d/m/Y",$aDatosDepartamento2->FechaBajaDeDepartamento): "NULL" ?></p>
+                    <p>Volumen de negocio: <?php echo $aDatosDepartamento2->VolumenDeNegocio ?></p>
+                </div>
+            </article>
+            <?php }?>
+            
+        </article>
+
 
         <form id="form-REST" name="form-REST" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
             <div>

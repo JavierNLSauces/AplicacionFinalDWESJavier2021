@@ -21,7 +21,7 @@ class DBPDO {
  * @param array $parametros parametros que necesita la consulta
  * @return null|PDOStatement resultado que devolverá la consulta
  */
-    public static function ejecutaConsulta($sentenciaSQL, $parametros) {
+    public static function ejecutarConsulta($sentenciaSQL, $parametros) {
         try {
             $miDB = new PDO(DNS, USER, PASSWORD);
             $miDB->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
