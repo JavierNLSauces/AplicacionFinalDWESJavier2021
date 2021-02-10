@@ -1,8 +1,8 @@
 <header id="header-eliminarDepartamento">
-    <img id="logo-jnl" src="webroot/media/images/logo-jnl.svg" alt="logo jnl">
+    <img id="logo-jnl" src="/AplicacionFinalDWESJavier2021/webroot/media/images/logo-jnl.svg" alt="logo jnl">
     <h1 id="header-title">ELIMINAR DEPARTAMENTO</h1>
     <div id="header-profile">
-        <?php echo ($imagenUsuario != null) ? '<img id="fotoPerfil" src = "data:image/png;base64,' . base64_encode($imagenUsuario) . '" alt="Foto de perfil"/>' : "<img id='fotoPerfil' src='webroot/media/images/img-perfil-white.svg' alt='imagen perfil'/>" ; ?>
+        <?php echo ($imagenUsuario != null) ? '<img id="fotoPerfil" src = "data:image/png;base64,' . base64_encode($imagenUsuario) . '" alt="Foto de perfil"/>' : "<img id='fotoPerfil' src='/AplicacionFinalDWESJavier2021/webroot/media/images/img-perfil-white.svg' alt='imagen perfil'/>" ; ?>
     </div>
 </header>
 <main id="main-eliminarDepartamento">
@@ -13,23 +13,23 @@
         <form id="form-eliminarDepartamento" name="form-consultarModificarDepartamento" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 
             <div class="input-field-container">
-                <input type="text" id="CodDepartamento" name="CodDepartamento" readonly>
+                <input type="text" id="CodDepartamento" name="CodDepartamento" value="<?php echo $oDepartamento->codDepartamento; ?>" readonly>
                 <label for="CodDepartamento">Codigo de Departamento</label>
             </div>
             <div class="input-field-container">
-                <input type="text" id="DescDepartamento" name="DescDepartamento" readonly>
+                <input type="text" id="DescDepartamento" name="DescDepartamento" value="<?php echo $oDepartamento->descDepartamento; ?>" readonly>
                 <label for="DescDepartamento">Descripcion del Departamento</label>
             </div>
             <div class="input-field-container">
-                <input type="text" id="FechaCreacion" name="FechaCreacion" readonly>
+                <input type="text" id="FechaCreacion" name="FechaCreacion" value="<?php echo date('d/m/Y',$oDepartamento->fechaCreacionDepartamento); ?>" readonly>
                 <label for="fechaCreacion">Fecha Creacion</label>
             </div>
             <div class="input-field-container">
-                <input type="text" id="FechaBaja" name="FechaBaja" readonly>
+                <input type="text" id="FechaBaja" name="FechaBaja" value="<?php echo empty($oDepartamento->fechaBajaDepartamento)?"NULL":date('d/m/Y',$oDepartamento->fechaBajaDepartamento);?>" readonly>
                 <label for="FechaBaja">Fecha Baja</label>
             </div>
             <div class="input-field-container">
-                <input type="text" id="VolumenNegocio" name="VolumenNegocio" readonly>
+                <input type="text" id="VolumenNegocio" name="VolumenNegocio" value="<?php echo $oDepartamento->volumenDeNegocio; ?>" readonly>
                 <label for="VolumenNegocio">Volumen Negocio</label>
             </div>
             

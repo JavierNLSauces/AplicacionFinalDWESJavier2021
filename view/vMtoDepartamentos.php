@@ -1,8 +1,8 @@
 <header id="header-mtoDepartamentos">
-    <img id="logo-jnl" src="webroot/media/images/logo-jnl.svg" alt="logo jnl">
+    <img id="logo-jnl" src="/AplicacionFinalDWESJavier2021/webroot/media/images/logo-jnl.svg" alt="logo jnl">
     <h1 id="header-title">MTO. DEPARTAMENTOS</h1>
     <div id="header-profile">
-        <?php echo ($imagenUsuario != null) ? '<img id="fotoPerfil" src = "data:image/png;base64,' . base64_encode($imagenUsuario) . '" alt="Foto de perfil"/>' : "<img id='fotoPerfil' src='webroot/media/images/img-perfil-white.svg' alt='imagen perfil'/>"; ?>
+        <?php echo ($imagenUsuario != null) ? '<img id="fotoPerfil" src = "data:image/png;base64,' . base64_encode($imagenUsuario) . '" alt="Foto de perfil"/>' : "<img id='fotoPerfil' src='/AplicacionFinalDWESJavier2021/webroot/media/images/img-perfil-white.svg' alt='imagen perfil'/>"; ?>
     </div>
 </header>
 <main id="main-mtoDepartamentos">
@@ -10,13 +10,6 @@
         <div class="input-field-container">
             <input type="text" id="DescDepartamento" name="DescDepartamento"  value="<?php echo $busquedaDepartamento ?>"  optional>
             <label for="DescDepartamento">Busqueda Departamento</label>
-        </div>
-        <div class="select-field-container">
-            <label for ="BusquedaPor">Buscar por: </label>
-            <select name="BusquedaPor">
-                <option value="descripcion" <?php echo ($criterioBusqueda=="descripcion") ? "selected" : null ?> > Descripcion </option>
-                <option value="codigo" <?php echo ($criterioBusqueda=="codigo") ? "selected" : null ?> > Codigo </option>
-            </select>
         </div>
         <div>
             <button class="form-button" type="submit" name="Buscar">Buscar</button>
@@ -42,7 +35,7 @@
                     foreach($aDepartamentos as $departamento => $oDepartamento){ 
                     $codDepartamento =  $oDepartamento->codDepartamento;
                 ?>
-                    <tr>
+                    <tr class="<?php echo (($oDepartamento->fechaBajaDepartamento)==null)? "alta": "baja"; ?>">
                         <td><?php echo $codDepartamento ?></td>
                         <td><?php echo $oDepartamento->descDepartamento ?></td>
                         <td><?php echo date('d/m/Y',$oDepartamento->fechaCreacionDepartamento) ?></td>
@@ -80,11 +73,11 @@
             
             <div id="paginacion-container">
             <?php if(count($aDepartamentos)>0){ ?>
-                <button type="submit" name="paginaInicial" value="1"><img class="imgPaginacion" src="webroot/media/images/img-first-page.svg" alt=""></button>
-                <button type="submit" name="retrocederPagina" value="0"><img class="imgPaginacion" src="webroot/media/images/img-previous-page.svg" alt=""></button>
-                <span>1 de 2</span>
-                <button type="submit" name="avanzarPagina" value="2"><img class="imgPaginacion" src="webroot/media/images/img-next-page.svg" alt=""></button>
-                <button type="submit" name="paginaFinal" value="2"><img class="imgPaginacion" src="webroot/media/images/img-last-page.svg" alt=""></button>
+                <button <?php echo ($paginaActual==1)? "hidden" : null;?> type="submit" name="paginaInicial" value="1"><img class="imgPaginacion" src="webroot/media/images/img-first-page.svg" alt=""></button>
+                <button <?php echo ($paginaActual==1)? "hidden" : null;?> type="submit" name="retrocederPagina" value="<?php  echo $paginaActual - 1;?>"><img class="imgPaginacion" src="webroot/media/images/img-previous-page.svg" alt=""></button>
+                <span> <?php echo $paginaActual." de ". $paginasTotales?> </span>
+                <button <?php echo ($paginaActual>=$paginasTotales)? "hidden" : null;?> type="submit" name="avanzarPagina" value="<?php  echo $paginaActual + 1;?>"><img class="imgPaginacion" src="webroot/media/images/img-next-page.svg" alt=""></button>
+                <button <?php echo ($paginaActual>=$paginasTotales)? "hidden" : null;?> type="submit" name="paginaFinal" value="<?php  echo $paginasTotales?>"><img class="imgPaginacion" src="webroot/media/images/img-last-page.svg" alt=""></button>
             <?php } ?>
             </div>
             

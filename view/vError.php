@@ -1,6 +1,6 @@
 <header id="header-Error">
     <img id="logo-jnl" src="/AplicacionFinalDWESJavier2021/webroot/media/images/logo-jnl.svg" alt="logo jnl">
-    <h1 id="header-title">error</h1>
+    <h1 id="header-title">ERROR</h1>
 </header>
 
 <main id="main-Error">

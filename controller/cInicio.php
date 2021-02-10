@@ -28,7 +28,7 @@ if(isset($_REQUEST['REST'])){ // si se ha pulsado el boton de REST
 }
 
 if(isset($_REQUEST['MtoDepartamentos'])){ // si se ha pulsado el boton de Mto Departamentos
-    $_SESSION['paginaEnCurso'] = $controladores['WIP']; // almacenamos en la variable de sesion 'pagina' la ruta del controlador del MtoDepartamentos
+    $_SESSION['paginaEnCurso'] = $controladores['mtoDepartamentos']; // almacenamos en la variable de sesion 'pagina' la ruta del controlador del MtoDepartamentos
     header('Location: index.php');
     exit;
 }

@@ -10,7 +10,8 @@
  * @copyright 22-01-2021
  * @version 1.0
  */
-interface UsuarioDB{
+interface UsuarioDB
+{
 
     /**
      * Metodo validarUsuario()
@@ -20,7 +21,5 @@ interface UsuarioDB{
      * @param string $codUsuario codigo del usuario
      * @param string $password password del usuario
      */
-    public static function validarUsuario($codUsuario,$password);
+    public static function validarUsuario($codUsuario, $password);
 }
-
-?>

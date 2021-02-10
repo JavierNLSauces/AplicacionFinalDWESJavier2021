@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_REQUEST['Cancelar'])) { // si se ha pulsado el boton de registrarse
+if (isset($_REQUEST['Cancelar'])) { // si se ha pulsado el boton de cancelar
     $_SESSION['paginaEnCurso'] = $controladores['inicio']; // guardamos en la variable de sesion 'pagina' la ruta del controlador del inicio
     
     header('Location: index.php');

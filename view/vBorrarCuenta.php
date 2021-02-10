@@ -1,8 +1,8 @@
 <header id="header-borrarCuenta">
-    <img id="logo-jnl" src="webroot/media/images/logo-jnl.svg" alt="logo jnl">
+    <img id="logo-jnl" src="/AplicacionFinalDWESJavier2021/webroot/media/images/logo-jnl.svg" alt="logo jnl">
     <h1 id="header-title">BORRAR CUENTA</h1>
     <div id="header-profile">
-        <?php echo ($imagenUsuario != null) ? '<img id="fotoPerfil" src = "data:image/png;base64,' . base64_encode($imagenUsuario) . '" alt="Foto de perfil"/>' : "<img id='fotoPerfil' src='webroot/media/images/img-perfil-white.svg' alt='imagen_perfil'/>"; ?>
+        <?php echo ($imagenUsuario != null) ? '<img id="fotoPerfil" src = "data:image/png;base64,' . base64_encode($imagenUsuario) . '" alt="Foto de perfil"/>' : "<img id='fotoPerfil' src='/AplicacionFinalDWESJavier2021/webroot/media/images/img-perfil-white.svg' alt='imagen_perfil'/>"; ?>
     </div>
 </header>
 <main id="main-borrarCuenta">

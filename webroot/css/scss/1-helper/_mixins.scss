@@ -190,6 +190,11 @@
             &~label{
                 color: black;
             }
+
+            &~label{
+                font-size: 16px;
+                transform: translateY(-20px);
+            }
             
             // & ~ label {
             //     width: 314px;
