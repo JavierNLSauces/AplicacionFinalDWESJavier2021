@@ -81,12 +81,15 @@ class RESTAjeno
     {
         $jsonresponse = []; // inicializamos el array vacio
 
-        $JSONDecodificado = json_decode(file_get_contents("http://daw215.sauces.local/AplicacionFinalDWESCristina2021/api/servicioDepartamento.php?codDepartamento=$codDepartamento"), true); // obtenemos y almacenamos los datos obtenidos en forma de array
-
-        if ($JSONDecodificado != null) { // si hemos obtenido alguna informacion
-            $jsonresponse = $JSONDecodificado; // almacenamos los datos obtenidos en el array
+        
+        if(file_get_contents("http://daw215.sauces.local/AplicacionFinalDWESCristina2021/api/servicioDepartamento.php?codDepartamento=$codDepartamento") !== false){
+            $respuestaURL = file_get_contents("http://daw215.sauces.local/AplicacionFinalDWESCristina2021/api/servicioDepartamento.php?codDepartamento=$codDepartamento"); // obtenemos y almacenamos los datos obtenidos en forma de array
+            $JSONDecodificado = json_decode($respuestaURL, true);
+            
+            if ($JSONDecodificado != null) { // si hemos obtenido alguna informacion
+                $jsonresponse = $JSONDecodificado; // almacenamos los datos obtenidos en el array
+            }
         }
-
         return $jsonresponse;
     }
 

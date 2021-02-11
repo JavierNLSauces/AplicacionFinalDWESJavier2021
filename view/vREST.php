@@ -120,10 +120,10 @@
                 </form>
             </article>
             <?php if(isset($aDatosDepartamento2->MensajeDeError)) { ?>
-                <article id="departamento-POST-container">
-                    <h3><?php echo $aDatosDepartamento2->MensajeDeError ?></h3>
-                </article>
-            <?php }else if(isset($aDatosDepartamento2)){ ?>
+            <article id="departamento-POST-container">
+                <h3><?php echo $aDatosDepartamento2->MensajeDeError ?></h3>
+            </article>
+            <?php }else if(isset($aDatosDepartamento2) && !empty($aDatosDepartamento2)){ ?>
             <article id="departamento-POST-container">
                 <header>
                     <h3><?php echo $aDatosDepartamento2->CodigoDeDepartamento ?></h3>
@@ -135,8 +135,11 @@
                     <p>Volumen de negocio: <?php echo $aDatosDepartamento2->VolumenDeNegocio ?></p>
                 </div>
             </article>
-            <?php }?>
-            
+            <?php } else {?>
+            <article id="departamento-POST-container">
+                <h3>No se ha podido obtener la informacion solicitada</h3>
+            </article>
+            <?php } ?>
         </article>
 
 

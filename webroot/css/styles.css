@@ -598,6 +598,10 @@ body .body-container footer #address {
   transform: translateY(-20px);
 }
 
+#main-registro .form-container #form-registro .input-field-container > div {
+  position: relative;
+}
+
 #main-registro .form-container #form-registro .form-button {
   display: block;
   width: 100%;

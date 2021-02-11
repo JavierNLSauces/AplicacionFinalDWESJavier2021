@@ -9,8 +9,7 @@
     <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="/AplicacionFinalDWESJavier2021/webroot/css/styles.css" type="text/css">
     <link rel="icon" href="/AplicacionFinalDWESJavier2021/webroot/media/images/favicon.ico" type="image/x-icon">
-    <script type="text/javascript" src="/AplicacionFinalDWESJavier2021/webroot/js/script.js">
-	</script>
+    <script type="text/javascript" src="/AplicacionFinalDWESJavier2021/webroot/js/script.js"></script>
 </head>
 
 <body>

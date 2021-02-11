@@ -17,7 +17,7 @@
             <h2>Bienvenido/a <?php echo $oUsuarioActual->descUsuario ?> </h2>
         </header>
         <p><?php echo ($oUsuarioActual->numConexiones > 1) ? "Esta es la $oUsuarioActual->numConexiones vez que se conecta" : 'Esta es la primera vez que se conecta'; ?></p>
-        <?php echo (isset($fechaHoraUltimaConexionAnterior)) ? "<p>Usted se conecto por ultima vez hace  " . date('d/m/Y H:i:s', $fechaHoraUltimaConexionAnterior) . "</p>" : null; ?>
+        <?php echo (isset($fechaHoraUltimaConexionAnterior)) ? "<p>Usted se conecto por ultima vez el " . date('d/m/Y', $fechaHoraUltimaConexionAnterior). " a las ". date('H:i:s', $fechaHoraUltimaConexionAnterior) . "</p>" : null; ?>
     </article>
     <form id="form-vistas" name="form-vistas" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <button type="submit" id="MtoDepartamentos" name="MtoDepartamentos">
