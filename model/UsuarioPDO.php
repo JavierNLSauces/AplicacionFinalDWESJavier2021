@@ -198,7 +198,7 @@ class UsuarioPDO implements UsuarioDB{
      * Metodo que obtiene todos los datos de un usuario de la base de datos
      * 
      * @param  string $codUsuario codigo del usuario del que queremos obtener los datos
-     * @return null|\Usuario devuelve un objeto de tipo Usuario con los datos guardados en la base de datos y null si no se ha podido modificar el password
+     * @return null|\Usuario devuelve un objeto de tipo Usuario con los datos guardados en la base de datos y null si no se ha podido obtener los datos
      */
     private static function obtenerDatosUsuario($codUsuario){
         $oUsuario = null; // inicializo la variable que tendrá el objeto de clase usuario en el caso de que se encuentre en la base de datos

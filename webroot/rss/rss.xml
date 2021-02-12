@@ -15,6 +15,14 @@
         </image>
 
         <item>
+            <title>Mantenimiento de Departamentos</title>
+            <link> http://http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021</link>
+            <description>Nueva funcionalidad de mantenimiento de departamentos</description>
+            <guid>http://http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021/MtoDepartamentos</guid>
+            <pubDate>Sun, 7 Feb 2021 18:00:00 GMT</pubDate>
+        </item>
+
+        <item>
             <title>Servicios de REST</title>
             <link> http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021</link>
             <description>Nueva funcionalidad para obtener datos de REST propios y ajenos</description>
@@ -24,6 +32,7 @@
 
         <item>
             <title>Funcionalidad de Registro</title>
+
             <link> http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021</link>
             <description>Nueva funcionalidad para registrarse en la web </description>
             <guid>http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021/registro</guid>
@@ -32,6 +41,7 @@
 
         <item>
             <title>Funcionalidad de Login</title>
+
             <link> http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021</link>
             <description>Nueva funcionalidad para iniciar sesion en la web </description>
             <guid>http://daw217.ieslossauces.es/AplicacionFinalDWESJavier2021/login</guid>

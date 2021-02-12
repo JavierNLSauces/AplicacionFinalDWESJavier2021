@@ -10,57 +10,58 @@
  * @copyright 16-01-2021
  * @version 1.0
  */
-class Usuario {
-    
+class Usuario
+{
+
     /**
      * Codigo del usuario 
      * 
      * @var string 
      */
     private $codUsuario;
-    
+
     /**
      * Password del usuario 
      * 
      * @var string  
      */
     private $password;
-    
+
     /**
      * Descripcion del usuario 
      * 
      * @var string 
      */
     private $descUsuario;
-    
+
     /**
      * Numero de conexiones que ha realizado el usuario 
      * 
      * @var int 
      */
     private $numConexiones;
-    
+
     /**
      * Ultima fecha y hora de la ultima conexion en formato timestamp 
      * 
      * @var int 
      */
     private $fechaHoraUltimaConexion;
-    
+
     /**
      * Tipo de perfil del usuario (usuario, administrador) 
      * 
      * @var string 
      */
     private $perfil;
-    
+
     /**
      * Datos de la imagen en formato binario de la base de datos
      * 
      * @var string 
      */
     private $imagenPerfil;
-    
+
     /**
      * Metodo magico __construct()
      * 
@@ -74,7 +75,8 @@ class Usuario {
      * @param string $perfil tipo de perfil del usuario
      * @param string $imagenPerfil imagen de perfil del usuario imagen en formato binario de la base de datos
      */
-    function __construct($codUsuario, $password, $descUsuario, $numConexiones, $fechaHoraUltimaConexion, $perfil, $imagenPerfil) {
+    function __construct($codUsuario, $password, $descUsuario, $numConexiones, $fechaHoraUltimaConexion, $perfil, $imagenPerfil)
+    {
         $this->codUsuario = $codUsuario;
         $this->password = $password;
         $this->descUsuario = $descUsuario;
@@ -92,7 +94,8 @@ class Usuario {
      * @param mixed $atributo atributo del que queremos obtener el valor
      * @return mixed valor del atributo que hemos pasado com parametro
      */
-    function __get($atributo){
+    function __get($atributo)
+    {
         return $this->$atributo;
     }
 
@@ -104,7 +107,8 @@ class Usuario {
      * @param mixed $atributo atributo al cual queremos cambiarle el valor
      * @param mixed $nuevoValor nuevo valor que queremos para el atributo
      */
-    function __set($atributo, $nuevoValor){
+    function __set($atributo, $nuevoValor)
+    {
         $this->$atributo = $nuevoValor;
     }
 }

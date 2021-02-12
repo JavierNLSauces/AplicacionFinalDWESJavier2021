@@ -1,4 +1,4 @@
-#main-importarDepartamentos{
+#main-exportarDepartamentos{
     @include container-flex-center;
 
     .form-container{
@@ -9,11 +9,8 @@
                 font-size: 2rem;
             }
         }
-        #form-importarDepartamentos{
 
-            .input-field-container{
-                @include input-field-container;
-            }
+        #form-exportarDepartamentos{
 
             .select-field-container {
                 width: 314px;
@@ -43,6 +40,10 @@
                         border-color: orange;
                     }
                 }
+            }
+
+            .input-field-container{
+                @include input-field-container;
             }
 
             .form-button{

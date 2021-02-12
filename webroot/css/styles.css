@@ -472,6 +472,11 @@ body .body-container footer #address {
   color: black;
 }
 
+#main-login .form-container #form-login .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
+}
+
 #main-login .form-container #form-login .form-button {
   display: block;
   width: 100%;
@@ -588,6 +593,15 @@ body .body-container footer #address {
   color: black;
 }
 
+#main-registro .form-container #form-registro .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
+}
+
+#main-registro .form-container #form-registro .input-field-container > div {
+  position: relative;
+}
+
 #main-registro .form-container #form-registro .form-button {
   display: block;
   width: 100%;
@@ -702,6 +716,11 @@ body .body-container footer #address {
 #main-miCuenta .form-container #form-miCuenta .input-field-container input[type="file"],
 #main-miCuenta .form-container #form-miCuenta .input-field-container input[type="file"] ~ label {
   color: black;
+}
+
+#main-miCuenta .form-container #form-miCuenta .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
 }
 
 #main-miCuenta .form-container #form-miCuenta .form-button {
@@ -827,6 +846,11 @@ body .body-container footer #address {
 #main-borrarCuenta .form-container #form-borrarCuenta .input-field-container input[type="file"],
 #main-borrarCuenta .form-container #form-borrarCuenta .input-field-container input[type="file"] ~ label {
   color: black;
+}
+
+#main-borrarCuenta .form-container #form-borrarCuenta .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
 }
 
 #main-borrarCuenta .form-container #form-borrarCuenta .form-button {
@@ -956,6 +980,11 @@ body .body-container footer #address {
 #main-cambiarPassword .form-container #form-cambiarPassword .input-field-container input[type="file"],
 #main-cambiarPassword .form-container #form-cambiarPassword .input-field-container input[type="file"] ~ label {
   color: black;
+}
+
+#main-cambiarPassword .form-container #form-cambiarPassword .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
 }
 
 #main-cambiarPassword .form-container #form-cambiarPassword .form-button {
@@ -1110,6 +1139,14 @@ body .body-container footer #address {
   border-top: 1px solid white;
 }
 
+#main-mtoDepartamentos #container-departamentos #form-mtoDepartamentos #table-departamentos tbody tr.baja td {
+  color: #d43500;
+}
+
+#main-mtoDepartamentos #container-departamentos #form-mtoDepartamentos #table-departamentos tbody tr.alta td {
+  color: #00d455;
+}
+
 #main-mtoDepartamentos #container-departamentos #form-mtoDepartamentos #table-departamentos tbody tr td:last-child {
   width: 120px;
 }
@@ -1136,11 +1173,41 @@ body .body-container footer #address {
   display: grid;
   align-items: center;
   margin-top: 10px;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr 205px 1fr;
 }
 
 #main-mtoDepartamentos #container-departamentos #form-mtoDepartamentos-paginacion #paginacion-container {
   display: flex;
+  position: relative;
+  height: 38px;
+  width: 205px;
+}
+
+#main-mtoDepartamentos #container-departamentos #form-mtoDepartamentos-paginacion #paginacion-container :nth-child(1) {
+  position: absolute;
+  left: 0px;
+}
+
+#main-mtoDepartamentos #container-departamentos #form-mtoDepartamentos-paginacion #paginacion-container :nth-child(2) {
+  position: absolute;
+  left: 30px;
+}
+
+#main-mtoDepartamentos #container-departamentos #form-mtoDepartamentos-paginacion #paginacion-container :nth-child(3) {
+  position: absolute;
+  left: 80px;
+  top: 11px;
+  width: 50px;
+}
+
+#main-mtoDepartamentos #container-departamentos #form-mtoDepartamentos-paginacion #paginacion-container :nth-child(4) {
+  position: absolute;
+  left: 130px;
+}
+
+#main-mtoDepartamentos #container-departamentos #form-mtoDepartamentos-paginacion #paginacion-container :nth-child(5) {
+  position: absolute;
+  left: 160px;
 }
 
 #main-mtoDepartamentos #container-departamentos #form-mtoDepartamentos-paginacion #paginacion-container span {
@@ -1266,6 +1333,11 @@ body .body-container footer #address {
   color: black;
 }
 
+#main-consultarModificarDepartamento .form-container #form-consultarModificarDepartamento .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
+}
+
 #main-consultarModificarDepartamento .form-container #form-consultarModificarDepartamento .form-button {
   display: block;
   width: 100%;
@@ -1380,6 +1452,11 @@ body .body-container footer #address {
 #main-altaDepartamento .form-container #form-altaDepartamento .input-field-container input[type="file"],
 #main-altaDepartamento .form-container #form-altaDepartamento .input-field-container input[type="file"] ~ label {
   color: black;
+}
+
+#main-altaDepartamento .form-container #form-altaDepartamento .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
 }
 
 #main-altaDepartamento .form-container #form-altaDepartamento .form-button {
@@ -1498,6 +1575,11 @@ body .body-container footer #address {
   color: black;
 }
 
+#main-bajaLogicaDepartamento .form-container #form-bajaLogicaDepartamento .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
+}
+
 #main-bajaLogicaDepartamento .form-container #form-bajaLogicaDepartamento .form-button {
   display: block;
   width: 100%;
@@ -1612,6 +1694,11 @@ body .body-container footer #address {
 #main-rehabilitacionDepartamento .form-container #form-rehabilitacionDepartamento .input-field-container input[type="file"],
 #main-rehabilitacionDepartamento .form-container #form-rehabilitacionDepartamento .input-field-container input[type="file"] ~ label {
   color: black;
+}
+
+#main-rehabilitacionDepartamento .form-container #form-rehabilitacionDepartamento .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
 }
 
 #main-rehabilitacionDepartamento .form-container #form-rehabilitacionDepartamento .form-button {
@@ -1730,6 +1817,11 @@ body .body-container footer #address {
   color: black;
 }
 
+#main-eliminarDepartamento .form-container #form-eliminarDepartamento .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
+}
+
 #main-eliminarDepartamento .form-container #form-eliminarDepartamento .form-button {
   display: block;
   width: 100%;
@@ -1846,6 +1938,41 @@ body .body-container footer #address {
   color: black;
 }
 
+#main-importarDepartamentos .form-container #form-importarDepartamentos .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
+}
+
+#main-importarDepartamentos .form-container #form-importarDepartamentos .select-field-container {
+  width: 314px;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  margin: auto;
+}
+
+#main-importarDepartamentos .form-container #form-importarDepartamentos .select-field-container label {
+  position: absolute;
+  left: 15px;
+  font-size: 14px;
+}
+
+#main-importarDepartamentos .form-container #form-importarDepartamentos .select-field-container select {
+  width: 100%;
+  padding: 15px 20px 3px 30px;
+  outline: none;
+  margin-left: 0px;
+  border: none;
+  border-bottom: 3px solid #6a6865;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#main-importarDepartamentos .form-container #form-importarDepartamentos .select-field-container select:focus {
+  background-color: #dbdbdb;
+  border-color: orange;
+}
+
 #main-importarDepartamentos .form-container #form-importarDepartamentos .form-button {
   display: block;
   width: 100%;
@@ -1860,6 +1987,157 @@ body .body-container footer #address {
 }
 
 #main-importarDepartamentos .form-container #form-buttons .form-button {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #ff7f2a;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1.3rem;
+  margin: 20px 0px 20px 0px;
+  font-weight: bold;
+}
+
+#main-exportarDepartamentos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-exportarDepartamentos .form-container {
+  display: block;
+  min-width: max-content;
+  min-height: min-content;
+  background: rgba(0, 0, 0, 0.418);
+  border-radius: 10px;
+  padding: 50px;
+}
+
+#main-exportarDepartamentos .form-container header {
+  color: white;
+}
+
+#main-exportarDepartamentos .form-container > header > h2 {
+  font-size: 2rem;
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .select-field-container {
+  width: 314px;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  margin: auto;
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .select-field-container label {
+  position: absolute;
+  left: 15px;
+  font-size: 14px;
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .select-field-container select {
+  width: 100%;
+  padding: 15px 20px 3px 30px;
+  outline: none;
+  margin-left: 0px;
+  border: none;
+  border-bottom: 3px solid #6a6865;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .select-field-container select:focus {
+  background-color: #dbdbdb;
+  border-color: orange;
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .input-field-container {
+  position: relative;
+  width: min-content;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .input-field-container label {
+  position: absolute;
+  font-size: 20px;
+  left: 20px;
+  bottom: 5px;
+  pointer-events: none;
+  transition: all 0.2s linear;
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .input-field-container input {
+  width: 314px;
+  height: 50px;
+  font-size: 1.2rem;
+  border: 0;
+  outline: none;
+  border-radius: 4px;
+  padding: 20px 0px 0px 20px;
+  background-color: #fff;
+  border-bottom: 3px solid #6a6865;
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .input-field-container input:focus {
+  background-color: #dbdbdb;
+  border-bottom: 3px solid orange;
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .input-field-container input:focus ~ label,
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .input-field-container input:valid ~ label,
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .input-field-container input:read-only ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .input-field-container input:read-only,
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .input-field-container input:read-only ~ label {
+  color: #c4c4c4;
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .input-field-container input:read-only {
+  background-color: #393939;
+  border-bottom: 3px solid #6a6865;
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .input-field-container input[type="date"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .input-field-container input[type="file"] {
+  padding-top: 25px;
+  font-size: 0.7rem;
+  background-color: white;
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .input-field-container input[type="file"],
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .input-field-container input[type="file"] ~ label {
+  color: black;
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
+}
+
+#main-exportarDepartamentos .form-container #form-exportarDepartamentos .form-button {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #ff7f2a;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1.3rem;
+  margin: 20px 0px 20px 0px;
+  font-weight: bold;
+}
+
+#main-exportarDepartamentos .form-container #form-buttons .form-button {
   display: block;
   width: 100%;
   border-radius: 5px;
@@ -2012,6 +2290,11 @@ body .body-container footer #address {
   color: black;
 }
 
+#main-REST #REST-container #REST-peliculas-container .form-container #form-REST-pelicula .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
+}
+
 #main-REST #REST-container #REST-peliculas-container .form-container #form-REST-pelicula .form-button {
   display: block;
   width: 100%;
@@ -2132,6 +2415,11 @@ body .body-container footer #address {
 #main-REST #REST-container #REST-textoImagen-container .form-container #form-REST-textoImagen .input-field-container input[type="file"],
 #main-REST #REST-container #REST-textoImagen-container .form-container #form-REST-textoImagen .input-field-container input[type="file"] ~ label {
   color: black;
+}
+
+#main-REST #REST-container #REST-textoImagen-container .form-container #form-REST-textoImagen .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
 }
 
 #main-REST #REST-container #REST-textoImagen-container .form-container #form-REST-textoImagen .form-button {
@@ -2256,6 +2544,11 @@ body .body-container footer #address {
   color: black;
 }
 
+#main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
+}
+
 #main-REST #REST-container #REST-departamento-GET-container .form-container #form-REST-departamento-GET .form-button {
   display: block;
   width: 100%;
@@ -2376,6 +2669,11 @@ body .body-container footer #address {
 #main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container input[type="file"],
 #main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container input[type="file"] ~ label {
   color: black;
+}
+
+#main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .input-field-container input[type="file"] ~ label {
+  font-size: 16px;
+  transform: translateY(-20px);
 }
 
 #main-REST #REST-container #REST-departamento-POST-container .form-container #form-REST-departamento-POST .form-button {

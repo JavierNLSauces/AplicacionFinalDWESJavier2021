@@ -13,6 +13,9 @@
 
             .input-field-container{
                 @include input-field-container;
+                >div{
+                    position: relative;
+                }
             }
 
             .form-button{

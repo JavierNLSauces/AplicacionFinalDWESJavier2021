@@ -6,11 +6,11 @@
 ## Autor: Javier Nieto Lorenzo
 
 **Fecha Inicio Proyecto: 20/01/2021**
+**Ultima Actualización: 12/02/2021**
 
-**Ultima Actualización: 05/02/2021**
 
 ## Descripción 
-Aplicacion final DWES MVC + Control de Acceso + utilizacion y creacion de API REST
+Aplicacion final DWES MVC + Control de Acceso + CRUD + utilizacion y creacion de API REST
 
 ## Funcionalidades
 - Control de Acceso
@@ -21,6 +21,7 @@ Aplicacion final DWES MVC + Control de Acceso + utilizacion y creacion de API RE
 - Borrar Cuenta
 - Uso de API REST
 - Creacion API REST (GET,POST(con clave de api))
+- Mantenimiento de Departamentos -> CRUD + importacion y Exportacion
 
 ## Front end
 - HTML5

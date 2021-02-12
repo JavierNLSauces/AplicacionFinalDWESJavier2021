@@ -1,5 +1,5 @@
 <header id="header-principal">
-    <img id="logo-jnl" src="webroot/media/images/logo-jnl.svg" alt="logo jnl">
+    <img id="logo-jnl" src="/AplicacionFinalDWESJavier2021/webroot/media/images/logo-jnl.svg" alt="logo jnl">
     <h1 id="header-title">PRINCIPAL</h1>
     <form  id="form-buttons" action="<?php echo $_SERVER['PHP_SELF'] ?>" name="registro" method="post">
         <button class="form-button" type="submit" name="IniciarSesion">Iniciar Sesion</button>

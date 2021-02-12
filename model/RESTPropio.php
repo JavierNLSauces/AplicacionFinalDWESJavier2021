@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 require_once '../config/configDB.php';
 require_once 'DBPDO.php';
@@ -11,8 +11,9 @@ require_once 'DepartamentoPDO.php';
  * Clase que será utilizada para ofrecer servicios REST
  * 
  */
-class RESTPropio{
-    
+class RESTPropio
+{
+
     /**
      * Metodo obtenerDatosDepartamento()
      *
@@ -21,14 +22,15 @@ class RESTPropio{
      * @param  string $codDepartamento codigo del departamento del que queremos obtener los datos
      * @return int volumen de negocio del departamento
      */
-    public static function obtenerDatosDepartamento($codDepartamento){
+    public static function obtenerDatosDepartamento($codDepartamento)
+    {
         $aDatosDepartamento = null;
 
-        if(!DepartamentoPDO::validarCodNoExiste($codDepartamento)){// si el codigo de departamento existe
+        if (!DepartamentoPDO::validarCodNoExiste($codDepartamento)) { // si el codigo de departamento existe
             $sentenciaSQL = "Select * from T02_Departamento where T02_CodDepartamento=?";
             $resultadoConsulta = DBPDO::ejecutarConsulta($sentenciaSQL, [$codDepartamento]); // Ejecutamos la consulta y almacenamos el resultado en la variable resultadoConsulta
 
-            if($resultadoConsulta){ // Si se ha realizado la consulta correctamente
+            if ($resultadoConsulta) { // Si se ha realizado la consulta correctamente
                 $aResultadoconsulta = $resultadoConsulta->fetch(); // almacenamos en la variable el darray con la respuesta de la consulta
                 $aDatosDepartamento = [
                     'CodigoDeDepartamento' => $aResultadoconsulta['T02_CodDepartamento'],
@@ -38,14 +40,13 @@ class RESTPropio{
                     'VolumenDeNegocio' => $aResultadoconsulta['T02_VolumenNegocio']
                 ];
             }
-            
         }
 
         return $aDatosDepartamento;
     }
 
-    
-    
+
+
     /**
      * Metodo sumar()
      * 
@@ -55,11 +56,11 @@ class RESTPropio{
      * @param  int|float $numero2 segundo numero a sumar
      * @return int|float resultado de la suma
      */
-    public static function sumar($numero1, $numero2){
+    public static function sumar($numero1, $numero2)
+    {
         return $numero1 + $numero2;
-
     }
-    
+
     /**
      * Metodo restar()
      *
@@ -69,11 +70,11 @@ class RESTPropio{
      * @param  int|float $numero2 segundo numero a restar
      * @return int|float resultado de la resta
      */
-    public static function restar($numero1, $numero2){
+    public static function restar($numero1, $numero2)
+    {
         return $numero1 - $numero2;
-
     }
-    
+
     /**
      * Metodo multiplicar()
      *
@@ -83,10 +84,10 @@ class RESTPropio{
      * @param  int|float $numero2 segundo numero a multiplicar
      * @return int|float resultado de la multiplicacion
      */
-    public static function multiplicar($numero1, $numero2){
+    public static function multiplicar($numero1, $numero2)
+    {
         return $numero1 * $numero2;
-
-    }    
+    }
     /**
      * Metodo dividir()
      *
@@ -96,8 +97,8 @@ class RESTPropio{
      * @param  int|float $numero2 segundo numero a dividir
      * @return int|float resultado de la division
      */
-    public static function dividir($numero1, $numero2){
+    public static function dividir($numero1, $numero2)
+    {
         return $numero1 / $numero2;
     }
 }
-?>
