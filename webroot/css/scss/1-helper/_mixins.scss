@@ -11,6 +11,11 @@
 
     padding: 0px 40px 0px 40px;
 
+    position: sticky;
+    grid-template-columns: 70px auto max-content;
+    top: 0;
+    z-index: 1;
+
     #logo-jnl{
         align-self: center;
         width: 60px;

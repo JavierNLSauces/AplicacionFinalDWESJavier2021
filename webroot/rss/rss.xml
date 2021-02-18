@@ -15,6 +15,14 @@
         </image>
 
         <item>
+            <title>Mantenimiento de Usuarios</title>
+            <link> http://daw217.sauces.local/AplicacionFinalDWESJavier2021</link>
+            <description>Nueva funcionalidad de mantenimiento de usuarios (Opcion de borrar usuarios para usuarios con perfil de administrador)</description>
+            <guid>http://daw217.sauces.local/AplicacionFinalDWESJavier2021/MtoUsuarios</guid>
+            <pubDate>Mon, 15 Feb 2021 18:00:00 GMT</pubDate>
+        </item>
+        
+        <item>
             <title>Mantenimiento de Departamentos</title>
             <link> http://daw217.sauces.local/AplicacionFinalDWESJavier2021</link>
             <description>Nueva funcionalidad de mantenimiento de departamentos</description>

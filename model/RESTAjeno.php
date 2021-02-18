@@ -8,7 +8,7 @@
  * 
  * @author Javier Nieto
  * @since 1.0
- * @copyright 26-01-2021
+ * @copyright 2020-2021 Javier Nieto
  * @version 1.0
  */
 class RESTAjeno
@@ -82,8 +82,8 @@ class RESTAjeno
         $jsonresponse = []; // inicializamos el array vacio
 
         
-        if(file_get_contents("http://daw215.sauces.local/AplicacionFinalDWESCristina2021/api/servicioDepartamento.php?codDepartamento=$codDepartamento") !== false){
-            $respuestaURL = file_get_contents("http://daw215.sauces.local/AplicacionFinalDWESCristina2021/api/servicioDepartamento.php?codDepartamento=$codDepartamento"); // obtenemos y almacenamos los datos obtenidos en forma de array
+        if(file_get_contents(PATH_CRISTINA."AplicacionFinalDWESCristina2021/api/servicioDepartamento.php?codDepartamento=$codDepartamento") !== false){
+            $respuestaURL = file_get_contents(PATH_CRISTINA."AplicacionFinalDWESCristina2021/api/servicioDepartamento.php?codDepartamento=$codDepartamento"); // obtenemos y almacenamos los datos obtenidos en forma de array
             $JSONDecodificado = json_decode($respuestaURL, true);
             
             if ($JSONDecodificado != null) { // si hemos obtenido alguna informacion
@@ -112,7 +112,7 @@ class RESTAjeno
         ];
 
         // iniciamos una sesion cURL
-        $cURLConnection = curl_init('http://daw217.sauces.local/AplicacionFinalDWESJavier2021/api/consultarDatosDepartamento.php');
+        $cURLConnection = curl_init(PATH.'AplicacionFinalDWESJavier2021/api/consultarDatosDepartamento.php');
         // indicamos que queremos que los parametros sean enviados por post y pasamos como parametro el array de los datos a enviar
         curl_setopt($cURLConnection, CURLOPT_POSTFIELDS, $parametrosPOST);
         // indicamos que queremos que al ejecutar la sesion cURL queremos que nos devuelva como un string la respuesta

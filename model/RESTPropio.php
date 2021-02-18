@@ -10,10 +10,13 @@ require_once 'DepartamentoPDO.php';
  * 
  * Clase que será utilizada para ofrecer servicios REST
  * 
+ * @author Javier Nieto
+ * @since 1.0
+ * @copyright 2020-2021 Javier Nieto
+ * @version 1.0
  */
 class RESTPropio
 {
-
     /**
      * Metodo obtenerDatosDepartamento()
      *
@@ -45,7 +48,59 @@ class RESTPropio
         return $aDatosDepartamento;
     }
 
+    /**
+     * Metodo borrarUsuario()
+     * 
+     * Metodo que elimina un usuario de la base de datos
+     *
+     * @param  string $codUsuario codigo del usuario que queremos borrar
+     * @return boolean true si se ha borrado el usuario y false en caso contrario
+     */
+    public static function borrarUsuario($codUsuario)
+    {
+        $usuarioEliminado = false; // Inicializamos la variable usuarioEliminado a false
 
+        $sentenciaSQL = "Delete from T01_Usuario where T01_CodUsuario=?";
+        $resultadoConsulta = DBPDO::ejecutarConsulta($sentenciaSQL, [$codUsuario]); // Ejecutamos la consulta y almacenamos el resultado en la variable resultadoConsulta
+
+        if($resultadoConsulta){ // Si se ha realizado la consulta correctamente
+            $usuarioEliminado = true; // Cambiamos el valor de la variable usuarioEliminado a true 
+        }
+
+        return $usuarioEliminado; // devolvemos la variable usuarioEliminado
+        
+    }
+
+    /**
+     * Metodo obtenerUsuariosPorDescripcion()
+     *
+     * Metodo que obtiene todos los usuarios de la base de datos con la descripcion pasada como parametro
+     * 
+     * @return mixed[] devuleve un array con los datos de los usuarios si se han podido obtener y un array vacio en caso contrario
+     */
+    public static function obtenerUsuariosPorDescripcion($descUsuario)
+    {
+        $aUsuarios = [];
+        $sentenciaSQL = "Select * from T01_Usuario where T01_DescUsuario LIKE '%' ? '%'";
+        $resultadoConsulta = DBPDO::ejecutarConsulta($sentenciaSQL, [$descUsuario]); // Ejecutamos la consulta y almacenamos el resultado en la variable resultadoConsulta
+
+        if ($resultadoConsulta->rowCount() >0) { // Si se ha realizado la consulta correctamente
+            $aResultadoConsulta = $resultadoConsulta->fetch(); // almacenamos en la variable el darray con la respuesta de la consulta
+            while ($aResultadoConsulta) {
+                if ($aResultadoConsulta['T01_CodUsuario'] != "admin") {
+                    $aUsuarios[] = [
+                        'CodigoDeUsuario' => $aResultadoConsulta['T01_CodUsuario'],
+                        'DescripcionDeUsuario' => $aResultadoConsulta['T01_DescUsuario'],
+                        'NumConexiones' => $aResultadoConsulta['T01_NumConexiones'],
+                        'FechaHoraUltimaConexion' => $aResultadoConsulta['T01_FechaHoraUltimaConexion'],
+                    ];
+                }
+
+                $aResultadoConsulta = $resultadoConsulta->fetch();
+            }
+        }
+        return $aUsuarios;
+    }
 
     /**
      * Metodo sumar()

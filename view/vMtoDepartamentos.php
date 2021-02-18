@@ -2,7 +2,11 @@
     <img id="logo-jnl" src="/AplicacionFinalDWESJavier2021/webroot/media/images/logo-jnl.svg" alt="logo jnl">
     <h1 id="header-title">MTO. DEPARTAMENTOS</h1>
     <div id="header-profile">
-        <?php echo ($imagenUsuario != null) ? '<img id="fotoPerfil" src = "data:image/png;base64,' . base64_encode($imagenUsuario) . '" alt="Foto de perfil"/>' : "<img id='fotoPerfil' src='/AplicacionFinalDWESJavier2021/webroot/media/images/img-perfil-white.svg' alt='imagen perfil'/>"; ?>
+        <?php echo ($oUsuarioActual->imagenPerfil != null) ? '<img id="fotoPerfil" src = "data:image/png;base64,' . base64_encode($oUsuarioActual->imagenPerfil) . '" alt="Foto de perfil"/>' : "<img id='fotoPerfil' src='/AplicacionFinalDWESJavier2021/webroot/media/images/img-perfil-white.svg' alt='imagen_perfil'/>"; ?>
+        <form id="menu-profile" name="menu-profile" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+            <p id="nombre-usuario"><?php echo $oUsuarioActual->descUsuario ?></p>
+            <button type="submit" name='CerrarSesion'>Cerrar Sesion</button>
+        </form>
     </div>
 </header>
 <main id="main-mtoDepartamentos">
@@ -10,6 +14,14 @@
         <div class="input-field-container">
             <input type="text" id="DescDepartamento" name="DescDepartamento"  value="<?php echo $busquedaDepartamento ?>"  optional>
             <label for="DescDepartamento">Busqueda Departamento</label>
+        </div>
+        <div class="select-field-container">
+            <label for ="BusquedaPor">Estado del departamento: </label>
+            <select name="BusquedaPor">
+                <option value="todos" <?php echo ($criterioBusqueda=="todos") ? "selected" : null ?> > Todos </option>
+                <option value="alta" <?php echo ($criterioBusqueda=="alta") ? "selected" : null ?> > Alta </option>
+                <option value="baja" <?php echo ($criterioBusqueda=="baja") ? "selected" : null ?> > Baja </option>
+            </select>
         </div>
         <div>
             <button class="form-button" type="submit" name="Buscar">Buscar</button>

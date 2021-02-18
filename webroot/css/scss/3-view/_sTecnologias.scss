@@ -1,0 +1,36 @@
+#main-tecnologias {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    > header {
+        > h2 {
+            color: white;
+            font-size: 2rem;
+        }
+    }
+    #tecnologias-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vw;
+        align-items: center;
+        justify-content: center;
+        article {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.418);
+            border-radius: 5px;
+            height: max-content;
+            text-align: center;
+            color: white;
+            font-size: 1.3rem;
+            margin: 10px auto 0 auto;
+            img {
+                max-width: 250px;
+            }
+        }
+    }
+
+    .form-button {
+        @include form-button;
+    }
+}

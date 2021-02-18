@@ -9,10 +9,20 @@ if(http_response_code() != 200){ // si el codigo HTTP de respuesta es distinto d
     exit;
 } else {
     
-    
+    if(isset($_REQUEST['Aceptar-cookie'])){ // si se ha pulsado el boton Aceptar-cookies
+        setcookie('PoliticaCookie', "si", time()+2592000); // establece la cookie 'PoliticaCookie' con el valor 'si'
+        header("Location: index.php");
+        exit;
+    }
+
+    if (isset($_REQUEST['CerrarSesion'])) { // si se ha pulsado el boton de Cerrar Sesion
+        session_destroy(); // destruye todos los datos asociados a la sesion
+        header("Location: index.php");
+        exit;
+    }
 
     if(isset($_REQUEST['Tecnologias'])){ //  si se ha pulsado el boton Tecnologias
-        require_once $controladores['WIP']; // incluye el controlador de Tecnologias
+        require_once $controladores['tecnologias']; // incluye el controlador de Tecnologias
         exit;
     }
 

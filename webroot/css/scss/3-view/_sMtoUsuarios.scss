@@ -1,0 +1,137 @@
+#main-mtoUsuarios {
+    display: flex;
+    flex-direction: column;
+
+    .form-button {
+        display: block;
+        max-width: min-content;
+        max-height: min-content;
+        border-radius: 5px;
+        background-color: #ff7f2a;
+        color: white;
+        border: none;
+        padding: 10px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    #form-mtoUsuarios-buscador {
+        display: flex;
+        margin-left: 50px;
+        width: min-content;
+        align-items: center;
+
+        .input-field-container {
+            position: relative;
+            width: min-content;
+            height: min-content;
+            margin: 10px 20px 10px 0px;
+
+            label {
+                position: absolute;
+                font-size: 1.2rem;
+                left: 20px;
+                bottom: 5px;
+                pointer-events: none;
+                transition: all 0.2s linear;
+            }
+
+            input {
+                @include input-field;
+                height: 40px;
+                padding-top: 15px;
+
+                &:focus {
+                    background-color: #dbdbdb;
+                    border-bottom: 3px solid orange;
+                }
+
+                &:focus ~ label,
+                &:valid ~ label,
+                &:read-only ~ label {
+                    font-size: 14px;
+                    transform: translateY(-19px);
+                }
+            }
+        }
+
+        
+    }
+
+    #container-usuarios {
+        align-self: center;
+        min-width: min-content;
+
+        
+
+        #form-mtoUsuarios {
+            border: 3px solid white;
+            border-radius: 10px;
+
+            #table-usuarios {
+                background: rgba(0, 0, 0, 0.418);
+                border-radius: 10px;
+                border-collapse: collapse;
+                min-width: calc(100vw - 200px);
+                
+                .form-button{
+                    background-color: red;
+                }
+                
+                tr{
+                    width: 100%;
+                }
+                thead {
+                    display: flex;
+                    width: 100%;
+                    th {
+                        width: 25%;
+                        padding: 10px 15px 10px 10px;
+                        font-size: 1rem;
+                        font-weight: bold;
+                        color: white;
+                        text-align: left;
+                        &:last-child{
+                            min-width: 124px;
+                        }
+                    }
+                }
+
+                tbody {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    overflow-y: scroll;
+                    max-height: 500px;
+                    td {
+                        width: 25%;
+                        min-width: 95px;
+                        max-width: 7vw;
+                        padding-right: 10px;
+                        padding-left: 10px;
+                        color:#c7c7c7;
+                        font-size: 1.2rem;
+                        
+                        &:nth-child(n) {
+                            border-top: 1px solid white;
+                            
+                        }
+                    }
+                }
+
+                #busqueda-no-encontrada{
+                    min-width: calc(100vw - 200px);
+                    color: red;
+                    text-align: center;
+                }
+            }
+        }
+
+        #form-mtoUsuarios-paginacion {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            grid-template-columns: 1fr 205px 1fr;
+        }
+    }
+}

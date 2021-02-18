@@ -63,4 +63,5 @@
             <button class="form-button" type="submit" name="Cancelar"> Cancelar</button>
         </form>
     </article>
+    <script src="/AplicacionFinalDWESJavier2021/webroot/js/sRegistro.js"></script>
 </main>

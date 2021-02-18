@@ -1,8 +1,14 @@
 <header id="header-REST">
     <img id="logo-jnl" src="/AplicacionFinalDWESJavier2021/webroot/media/images/logo-jnl.svg" alt="logo jnl">
     <h1 id="header-title">REST</h1>
+    <div id="header-profile">
+        <?php echo ($oUsuarioActual->imagenPerfil != null) ? '<img id="fotoPerfil" src = "data:image/png;base64,' . base64_encode($oUsuarioActual->imagenPerfil) . '" alt="Foto de perfil"/>' : "<img id='fotoPerfil' src='/AplicacionFinalDWESJavier2021/webroot/media/images/img-perfil-white.svg' alt='imagen_perfil'/>"; ?>
+        <form id="menu-profile" name="menu-profile" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+            <p id="nombre-usuario"><?php echo $oUsuarioActual->descUsuario ?></p>
+            <button type="submit" name='CerrarSesion'>Cerrar Sesion</button>
+        </form>
+    </div>
 </header>
-
 <main id="main-REST">
     <article id="REST-container">
         <article id="REST-peliculas-container">
@@ -68,7 +74,8 @@
         <article id="REST-departamento-GET-container">
             <article class="form-container">
                 <header>
-                    <h2>REST API Consultar Departamento Cristina GET</h2>
+                    <h2>REST API Consultar Departamento Cristina GET</h2> 
+                    <a href="<?php echo  PATH_CRISTINA?>AplicacionFinalDWESCristina2021/doc/210216DocumentacionApiPropia.pdf" target="_blank">Link a la API</a>
                 </header>
                 <form id="form-REST-departamento-GET" name="form-REST-departamento-GET" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                     <div class="input-field-container">
@@ -102,6 +109,7 @@
             <article class="form-container">
                 <header>
                     <h2>REST API Consultar Departamento Propio POST</h2>
+                    <a href="/AplicacionFinalDWESJavier2021/doc/210216DocumentacionApiPropia.pdf" target="_blank">Link a la API</a>
                 </header>
                 <form id="form-REST-departamento-POST" name="form-REST-departamento-POST" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                     <div class="input-field-container">
@@ -135,13 +143,12 @@
                     <p>Volumen de negocio: <?php echo $aDatosDepartamento2->VolumenDeNegocio ?></p>
                 </div>
             </article>
-            <?php } else {?>
+            <?php } else if (isset($aDatosDepartamento2)){?>
             <article id="departamento-POST-container">
                 <h3>No se ha podido obtener la informacion solicitada</h3>
             </article>
             <?php } ?>
         </article>
-
 
         <form id="form-REST" name="form-REST" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
             <div>

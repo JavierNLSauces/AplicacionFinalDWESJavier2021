@@ -7,10 +7,10 @@
 
 **Fecha Inicio Proyecto: 20/01/2021**
 
-**Ultima Actualización: 11/02/2021**
+**Ultima Actualización: 18/02/2021**
 
 ## Descripción 
-Aplicacion final DWES MVC + Control de Acceso + CRUD + utilizacion y creacion de API REST
+Aplicacion final DWES MVC + Control de Acceso + CRUD + utilizacion y creacion de API REST + COOKIE
 
 ## Funcionalidades
 - Control de Acceso
@@ -22,6 +22,8 @@ Aplicacion final DWES MVC + Control de Acceso + CRUD + utilizacion y creacion de
 - Uso de API REST
 - Creacion API REST (GET,POST(con clave de api))
 - Mantenimiento de Departamentos -> CRUD + importacion y Exportacion
+- Mantenimiento de usuarios (para usuarios con perfil administador podrán borar usuarios)
+- Uso de Cookies 
 
 ## Front end
 - HTML5
@@ -31,6 +33,20 @@ Aplicacion final DWES MVC + Control de Acceso + CRUD + utilizacion y creacion de
 
 ## Back end
 - PHP 7.4
+    - **Modulos de PHP necesarios**
+        - curl
+        - date
+        - dom
+        - ftp
+        - json
+        - libxml
+        - mysqlnd
+        - PDO
+        - pdo_mysql
+        - SimpleXML
+        - xml
+        - xmlreader
+        - xmlwriter
 - MySQL 8.0
 
 ## Entornos

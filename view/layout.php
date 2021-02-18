@@ -13,6 +13,19 @@
 </head>
 
 <body>
+    <?php if(!isset($_COOKIE['PoliticaCookie'])){ ?>
+    <article id='contenedor-cookie'>
+        <div id='modal-cookie'>
+            <form id="form-cookie" name="form-cookie" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                <img id="logo-cookies" src="/AplicacionFinalDWESJavier2021/webroot/media/images/logo-jnl.svg" alt="logo jnl">
+                <h2>Antes de continuar</h2>
+                <p>Utilizamos cookies y otros datos para proporcionar, mantener y mejorar nuestros servicios</p>
+                <button id="aceptar-cookie" class="form-button" name="Aceptar-cookie" type="submit">Aceptar</button>
+            </form>
+        </div>
+    </article>
+    <?php } ?>
+
     <div class="body-container">
 
         <?php require_once $vistaEnCurso ?>
@@ -29,6 +42,7 @@
                     <a href="https://github.com/JavierNLSauces/" target="_blank"> <img id="icon-github" src="/AplicacionFinalDWESJavier2021/webroot/media/images/github.svg" alt="github icon"> </a>
                     <a href="http://daw217.ieslossauces.es/" target="_blank"> <img id="icon-1and1" src="/AplicacionFinalDWESJavier2021/webroot/media/images/1and1.svg" alt="1and1 icon"> </a>
                     <a href="/AplicacionFinalDWESJavier2021/doc/phpDocumentor/index.html" target="_blank"> <img id="icon-phpDoc" src="/AplicacionFinalDWESJavier2021/webroot/media/images/phpDoc.svg" alt="phpDoc icon"> </a>
+                    <a href="/AplicacionFinalDWESJavier2021/doc/doxygen/index.html" target="_blank"> <img id="icon-doxygen" src="/AplicacionFinalDWESJavier2021/webroot/media/images/doxygen.svg" alt="doxygen icon"> </a>
                     <a href="/AplicacionFinalDWESJavier2021/webroot/rss/rss.xml" target="_blank"> <img id="icon-rss" src="/AplicacionFinalDWESJavier2021/webroot/media/images/rss.svg" alt="rss icon"> </a>
                 </article>
 

@@ -336,6 +336,16 @@ Search.appendIndex(
             "summary": "Metodo\u0020obtenerDatosDepartamento\u0028\u0029",
             "url": "classes/RESTPropio.html#method_obtenerDatosDepartamento"
         },                {
+            "fqsen": "\\RESTPropio\u003A\u003AborrarUsuario\u0028\u0029",
+            "name": "borrarUsuario",
+            "summary": "Metodo\u0020borrarUsuario\u0028\u0029",
+            "url": "classes/RESTPropio.html#method_borrarUsuario"
+        },                {
+            "fqsen": "\\RESTPropio\u003A\u003AobtenerUsuariosPorDescripcion\u0028\u0029",
+            "name": "obtenerUsuariosPorDescripcion",
+            "summary": "Metodo\u0020obtenerUsuariosPorDescripcion\u0028\u0029",
+            "url": "classes/RESTPropio.html#method_obtenerUsuariosPorDescripcion"
+        },                {
             "fqsen": "\\RESTPropio\u003A\u003Asumar\u0028\u0029",
             "name": "sumar",
             "summary": "Metodo\u0020sumar\u0028\u0029",
