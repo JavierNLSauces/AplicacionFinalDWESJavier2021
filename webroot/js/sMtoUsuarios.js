@@ -93,7 +93,7 @@ function borrarUsuario(codUsuario) {
                             icon: "success",
                             title: data.respuesta,
                         });
-                        consultarUsuarios();
+                        consultarDatosUsuariosPorDescripcion("");
 
                     }
 
@@ -125,7 +125,7 @@ window.onload = () => {
             }
         });
     }
-    
+
     consultarDatosUsuariosPorDescripcion("");
     $('#DescUsuario').keyup(() => {
         consultarDatosUsuariosPorDescripcion($('#DescUsuario').val());
