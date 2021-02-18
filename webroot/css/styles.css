@@ -27,6 +27,63 @@ a:hover {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#contenedor-cookie {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  background: rgba(0, 0, 0, 0.349);
+  justify-content: center;
+  align-items: center;
+}
+
+#contenedor-cookie .form-button {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #ff7f2a;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1.3rem;
+  margin: 20px 0px 20px 0px;
+  font-weight: bold;
+}
+
+#contenedor-cookie #modal-cookie {
+  min-height: 210px;
+  min-width: 420px;
+  width: 50vw;
+  height: 40vh;
+  background: white;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contenedor-cookie #modal-cookie > #form-cookie {
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0px 20px 0px 20px;
+}
+
+#contenedor-cookie #modal-cookie > #form-cookie #logo-cookies {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+}
+
 body {
   max-width: 100vw;
   max-height: 100vh;
@@ -45,6 +102,10 @@ body .body-container > header {
   height: 70px;
   background: linear-gradient(180deg, #181818 0%, rgba(255, 255, 255, 0) 100%);
   padding: 0px 40px 0px 40px;
+  position: sticky;
+  grid-template-columns: 70px auto max-content;
+  top: 0;
+  z-index: 1;
 }
 
 body .body-container > header #logo-jnl {
@@ -161,7 +222,8 @@ body .body-container footer #links {
   gap: 10px 40px;
 }
 
-body .body-container footer #links button, body .body-container footer #links a {
+body .body-container footer #links button,
+body .body-container footer #links a {
   max-width: max-content;
   margin: auto;
 }
@@ -188,7 +250,11 @@ body .body-container footer #icons a {
   text-decoration: none;
 }
 
-body .body-container footer #icons #icon-github, body .body-container footer #icons #icon-1and1, body .body-container footer #icons #icon-phpDoc, body .body-container footer #icons #icon-rss {
+body .body-container footer #icons #icon-github,
+body .body-container footer #icons #icon-1and1,
+body .body-container footer #icons #icon-phpDoc,
+body .body-container footer #icons #icon-rss,
+body .body-container footer #icons #icon-doxygen {
   width: 35px;
   height: 41px;
   margin: 0px 10px 0px 10px;
@@ -203,7 +269,7 @@ body .body-container footer #address {
 }
 
 .error {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 #header-principal {
@@ -372,6 +438,57 @@ body .body-container footer #address {
 
 #main-inicio #form-vistas button#REST {
   background-image: url("../css/images/REST.png");
+}
+
+#main-inicio #form-vistas button#MtoUsuarios {
+  background-image: url("../css/images/mtoUsuarios.png");
+}
+
+#main-tecnologias {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-tecnologias > header > h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+#main-tecnologias #tecnologias-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-tecnologias #tecnologias-container article {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.418);
+  border-radius: 5px;
+  height: max-content;
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  margin: 10px auto 0 auto;
+}
+
+#main-tecnologias #tecnologias-container article img {
+  max-width: 250px;
+}
+
+#main-tecnologias .form-button {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #ff7f2a;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1.3rem;
+  margin: 20px 0px 20px 0px;
+  font-weight: bold;
 }
 
 #header-login {
@@ -1082,6 +1199,7 @@ body .body-container footer #address {
 }
 
 #main-mtoDepartamentos #form-mtoDepartamentos-buscador .select-field-container select {
+  min-width: 210px;
   width: min-content;
   padding: 15px 20px 3px 15px;
   outline: none;
@@ -2148,6 +2266,151 @@ body .body-container footer #address {
   font-size: 1.3rem;
   margin: 20px 0px 20px 0px;
   font-weight: bold;
+}
+
+#main-mtoUsuarios {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-mtoUsuarios .form-button {
+  display: block;
+  max-width: min-content;
+  max-height: min-content;
+  border-radius: 5px;
+  background-color: #ff7f2a;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#main-mtoUsuarios #form-mtoUsuarios-buscador {
+  display: flex;
+  margin-left: 50px;
+  width: min-content;
+  align-items: center;
+}
+
+#main-mtoUsuarios #form-mtoUsuarios-buscador .input-field-container {
+  position: relative;
+  width: min-content;
+  height: min-content;
+  margin: 10px 20px 10px 0px;
+}
+
+#main-mtoUsuarios #form-mtoUsuarios-buscador .input-field-container label {
+  position: absolute;
+  font-size: 1.2rem;
+  left: 20px;
+  bottom: 5px;
+  pointer-events: none;
+  transition: all 0.2s linear;
+}
+
+#main-mtoUsuarios #form-mtoUsuarios-buscador .input-field-container input {
+  width: 314px;
+  height: 50px;
+  font-size: 1.2rem;
+  border: 0;
+  outline: none;
+  border-radius: 4px;
+  padding: 20px 0px 0px 20px;
+  background-color: #fff;
+  border-bottom: 3px solid #6a6865;
+  height: 40px;
+  padding-top: 15px;
+}
+
+#main-mtoUsuarios #form-mtoUsuarios-buscador .input-field-container input:focus {
+  background-color: #dbdbdb;
+  border-bottom: 3px solid orange;
+}
+
+#main-mtoUsuarios #form-mtoUsuarios-buscador .input-field-container input:focus ~ label,
+#main-mtoUsuarios #form-mtoUsuarios-buscador .input-field-container input:valid ~ label,
+#main-mtoUsuarios #form-mtoUsuarios-buscador .input-field-container input:read-only ~ label {
+  font-size: 14px;
+  transform: translateY(-19px);
+}
+
+#main-mtoUsuarios #container-usuarios {
+  align-self: center;
+  min-width: min-content;
+}
+
+#main-mtoUsuarios #container-usuarios #form-mtoUsuarios {
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios {
+  background: rgba(0, 0, 0, 0.418);
+  border-radius: 10px;
+  border-collapse: collapse;
+  min-width: calc(100vw - 200px);
+}
+
+#main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios .form-button {
+  background-color: red;
+}
+
+#main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios tr {
+  width: 100%;
+}
+
+#main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios thead {
+  display: flex;
+  width: 100%;
+}
+
+#main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios thead th {
+  width: 25%;
+  padding: 10px 15px 10px 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+
+#main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios thead th:last-child {
+  min-width: 124px;
+}
+
+#main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios tbody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: scroll;
+  max-height: 500px;
+}
+
+#main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios tbody td {
+  width: 25%;
+  min-width: 95px;
+  max-width: 7vw;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #c7c7c7;
+  font-size: 1.2rem;
+}
+
+#main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios tbody td:nth-child(n) {
+  border-top: 1px solid white;
+}
+
+#main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios #busqueda-no-encontrada {
+  min-width: calc(100vw - 200px);
+  color: red;
+  text-align: center;
+}
+
+#main-mtoUsuarios #container-usuarios #form-mtoUsuarios-paginacion {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  grid-template-columns: 1fr 205px 1fr;
 }
 
 #main-WIP #WIP-container {

@@ -7,7 +7,7 @@
  * 
  * @author Cristina Nuñez y Javier Nieto
  * @since 1.1
- * @copyright 29-01-2021
+ * @copyright 2020-2021 Cristina Nuñez y Javier Nieto
  * @version 1.1
  */
 class DepartamentoPDO
@@ -40,20 +40,29 @@ class DepartamentoPDO
     /**
      * Metodo buscarDepartamentosPorDescripcion()
      * 
-     * Metodo que devuelve un array con los departamentos obtenidos en la busqueda de los departamentos por la descripcion
+     * Metodo que devuelve un array con los departamentos obtenidos en la busqueda de los departamentos por la descripcion 
      * y el numero de paginas totales para realizar la paginacion
      *
      * @param  string $descDepartamento descripcion del departamento
+     * @param  string $criterioBusqueda criterio de busqueda segun el estado de la fecha de baja del departamento (todos|alta|baja)
      * @param  int $numPaginaActual numero de pagina actual
      * @param  int $numMaxDepartamentos numero de paginas totales
      * @return mixed[] array con los departamentos y el numero de paginas totales para realizar la paginacion
      */
-    public static function buscarDepartamentosPorDescripcion($descDepartamento, $numPaginaActual, $numMaxDepartamentos)
+    public static function buscarDepartamentosPorDescripcion($descDepartamento, $criterioBusqueda, $numPaginaActual, $numMaxDepartamentos)
     {
         $aDepartamentos = []; // declaramos e inicializamos el array de departamentos
         $numPaginasTotal = 1; // declaramos e inicializamos el numero de paginas totales
 
-        $sentenciaSQL = "Select * FROM T02_Departamento where T02_DescDepartamento LIKE '%' ? '%' LIMIT " . (($numPaginaActual - 1) * $numMaxDepartamentos) . ',' . $numMaxDepartamentos;
+        $filtroConsulta = null; // declaramos e inicializamos el criterio de busqueda a null
+
+        if ($criterioBusqueda == "baja") {
+            $filtroConsulta = "and T02_FechaBajaDepartamento is not null";
+        } else if ($criterioBusqueda == "alta") {
+            $filtroConsulta = "and T02_FechaBajaDepartamento is null";
+        }
+
+        $sentenciaSQL = "Select * FROM T02_Departamento where T02_DescDepartamento LIKE '%' ? '%' " . (($filtroConsulta != null) ? $filtroConsulta : NULL) . " LIMIT " . (($numPaginaActual - 1) * $numMaxDepartamentos) . ',' . $numMaxDepartamentos;
         $resultadoConsulta = DBPDO::ejecutarConsulta($sentenciaSQL, [$descDepartamento]); // almacenamos en la variable $resultadoConsulta los departamentos obtenidos en la consulta
 
         if ($resultadoConsulta->rowCount() > 0) { // si la consulta devuelve algun departamento
@@ -69,7 +78,7 @@ class DepartamentoPDO
             }
         }
 
-        $sentenciaSQLNumDepartamentos = "Select count(*) FROM T02_Departamento WHERE T02_DescDepartamento LIKE '%' ? '%'";
+        $sentenciaSQLNumDepartamentos = "Select count(*) FROM T02_Departamento WHERE T02_DescDepartamento LIKE '%' ? '%' " . (($filtroConsulta != null) ? $filtroConsulta : NULL);
         $resultadoConsultaNumDepartamentos = DBPDO::ejecutarConsulta($sentenciaSQLNumDepartamentos, [$descDepartamento]); // almacenamos en la variable $resultadoConsultaNumDepartamentos el resultado devuelto por la consulta
         $numDepartamentos = $resultadoConsultaNumDepartamentos->fetch(); // almacenamos el la variable $numDepartamentos el numero de departamentos devuelto por la consulta
 

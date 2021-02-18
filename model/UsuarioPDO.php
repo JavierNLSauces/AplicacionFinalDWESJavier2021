@@ -7,7 +7,7 @@
  * 
  * @author Cristina Nuñez y Javier Nieto
  * @since 1.0
- * @copyright 16-01-2021
+ * @copyright 2020-2021 Cristina Nuñez y Javier Nieto
  * @version 1.0
  */
 class UsuarioPDO implements UsuarioDB{

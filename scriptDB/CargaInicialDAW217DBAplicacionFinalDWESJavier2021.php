@@ -13,7 +13,7 @@
          *   CargaInicialDAW217DBAplicacionLoginLogoffMulticapaPOO
 
         */ 
-            require_once '../config/confDB.php';
+            require_once '../config/configDB.php';
             echo "<h2>CargaInicialDAW217DBAplicacionLoginLogoffMulticapaPOO</h2>";
             try { // Bloque de código que puede tener excepciones en el objeto PDO
                 $miDB = new PDO(DNS,USER,PASSWORD); // creo un objeto PDO con la conexion a la base de datos
@@ -65,7 +65,7 @@
                         ('leticia','Leticia',SHA2('leticiapaso',256));
 
                     -- Usuario con el rol admin --
-                    INSERT INTO Usuario(CodUsuario, DescUsuario, Password, Perfil) VALUES ('admin','admin',SHA2('adminpaso',256), 'administrador');
+                    INSERT INTO T01_Usuario(T01_CodUsuario, T01_DescUsuario, T01_Password, T01_Perfil) VALUES ('admin','admin',SHA2('adminpaso',256), 'administrador');
 
 SQL;
                 $miDB->exec($sql);

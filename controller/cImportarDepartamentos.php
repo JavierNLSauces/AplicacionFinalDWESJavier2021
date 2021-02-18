@@ -1,6 +1,6 @@
 <?php
 
-$imagenUsuario = $_SESSION['usuarioDAW217AplicacionFinal']->imagenPerfil;
+$oUsuarioActual = $_SESSION['usuarioDAW217AplicacionFinal']; // almacenamos en la variable el usuario actual
 
 if (isset($_REQUEST['Cancelar'])) { // si se ha pulsado el boton de cancelar
     $_SESSION['paginaEnCurso'] = $controladores['mtoDepartamentos']; // guardamos en la variable de sesion 'pagina' la ruta del controlador del inicio

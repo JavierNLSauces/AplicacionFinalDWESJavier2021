@@ -3,12 +3,6 @@
 $_SESSION['paginaAnterior'] = $controladores['inicio']; // se guarda la ruta del controlador actual en la variable de sesion 'paginaEncurso' 
 
 
-if (isset($_REQUEST['CerrarSesion'])) { // si se ha pulsado el boton de Cerrar Sesion
-    session_destroy(); // destruye todos los datos asociados a la sesion
-    header("Location: index.php");
-    exit;
-}
-
 if(isset($_REQUEST['MiCuenta'])){ // si se ha pulsado el boton de Mi Cuenta
     $_SESSION['paginaEnCurso'] = $controladores['miCuenta']; // almacenamos en la variable de sesion 'pagina' la ruta del controlador de MiCuenta
     header('Location: index.php');
@@ -33,6 +27,11 @@ if(isset($_REQUEST['MtoDepartamentos'])){ // si se ha pulsado el boton de Mto De
     exit;
 }
 
+if(isset($_REQUEST['MtoUsuarios'])){ // si se ha pulsado el boton de Mto Usuarios
+    $_SESSION['paginaEnCurso'] = $controladores['mtoUsuarios']; // almacenamos en la variable de sesion 'pagina' la ruta del controlador del MtoUsuarios
+    header('Location: index.php');
+    exit;
+}
 
 $oUsuarioActual = $_SESSION['usuarioDAW217AplicacionFinal']; // almacenamos en la variable el usuario actual
 

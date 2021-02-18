@@ -13,7 +13,7 @@
         </a>
     </article>
     <article id="diagramaCasosUso">
-        <a href="doc/210130DiagramaDeCasosDeUso.pdf" target="_blank">
+        <a href="doc/210216DiagramaDeCasosDeUso.pdf" target="_blank">
             <p>DIAGRAMA DE CASOS DE USO</p>
         </a>
     </article>
@@ -23,7 +23,7 @@
         </a>
     </article>
     <article id="diagramaClases">
-        <a href="doc/210130DiagramaDeClases.pdf" target="_blank">
+        <a href="doc/210216DiagramaDeClases.pdf" target="_blank">
             <p>DIAGRAMA DE CLASES</p>
         </a>
     </article>

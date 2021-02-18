@@ -13,7 +13,7 @@
          *   CreaDAW217DBAplicacionLoginLogoffMulticapaPOO
 
         */ 
-            require_once '../config/confDB.php';
+            require_once '../config/configDB.php';
             echo "<h2>CreaDAW217DBAplicacionLoginLogoffMulticapaPOO</h2>";
             try { // Bloque de código que puede tener excepciones en el objeto PDO
                 $miDB = new PDO(DNS,USER,PASSWORD); // creo un objeto PDO con la conexion a la base de datos

@@ -21,7 +21,7 @@ $aErrores = [ //declaro e inicializo el array de errores
 
 
 if (isset($_REQUEST["Registrarse"])) { // comprueba que el usuario le ha dado a al boton de IniciarSesion y valida la entrada de todos los campos
-    $aErrores['CodUsuario'] = validacionFormularios::comprobarAlfaNumerico($_REQUEST['CodUsuario'], 15, 3, OBLIGATORIO); // comprueba que la entrada del codigo de usuario es correcta
+    $aErrores['CodUsuario'] = validacionFormularios::comprobarAlfaNumerico($_REQUEST['CodUsuario'], 8, 3, OBLIGATORIO); // comprueba que la entrada del codigo de usuario es correcta
 
     if($aErrores['CodUsuario']==null && UsuarioPDO::validarCodNoExiste($_REQUEST['CodUsuario'])==false){ // si no ha habido error en el campo CodUsuario y que no exista el nombre de usuario en la base de datos
         $aErrores['CodUsuario']="El nombre de usuario ya existe"; // guarda en el array de errores el men saje de error
