@@ -2375,7 +2375,7 @@ body .body-container footer #address {
 }
 
 #main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios thead th:last-child {
-  min-width: 124px;
+  min-width: 141px;
 }
 
 #main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios tbody {
@@ -2400,17 +2400,22 @@ body .body-container footer #address {
   border-top: 1px solid white;
 }
 
+#main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios tbody #btns-usuarios {
+  min-width: 125px;
+}
+
+#main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios tbody #btns-usuarios .form-button {
+  margin: auto;
+}
+
+#main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios tbody #btns-usuarios #restablecerPassword {
+  background-color: #e9c835;
+}
+
 #main-mtoUsuarios #container-usuarios #form-mtoUsuarios #table-usuarios #busqueda-no-encontrada {
   min-width: calc(100vw - 200px);
   color: red;
   text-align: center;
-}
-
-#main-mtoUsuarios #container-usuarios #form-mtoUsuarios-paginacion {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-  grid-template-columns: 1fr 205px 1fr;
 }
 
 #main-WIP #WIP-container {

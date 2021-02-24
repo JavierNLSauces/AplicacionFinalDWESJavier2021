@@ -15,6 +15,14 @@
         </image>
 
         <item>
+            <title>Mantenimiento de Usuarios (Restablecer password de un usuario)</title>
+            <link> http://daw217.sauces.local/AplicacionFinalDWESJavier2021</link>
+            <description>Nueva funcionalidad de mantenimiento de usuarios (Opcion de restablecer password de un usuario con perfil de administrador)</description>
+            <guid>http://daw217.sauces.local/AplicacionFinalDWESJavier2021/MtoUsuariosRestablecerPassword</guid>
+            <pubDate>Tue, 23 Feb 2021 18:00:00 GMT</pubDate>
+        </item>
+        
+        <item>
             <title>Mantenimiento de Usuarios</title>
             <link> http://daw217.sauces.local/AplicacionFinalDWESJavier2021</link>
             <description>Nueva funcionalidad de mantenimiento de usuarios (Opcion de borrar usuarios para usuarios con perfil de administrador)</description>
