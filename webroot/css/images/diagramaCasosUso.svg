@@ -138,11 +138,11 @@
      inkscape:window-height="1017"
      id="namedview4749"
      showgrid="false"
-     inkscape:zoom="0.75719779"
-     inkscape:cx="396.88"
-     inkscape:cy="561.28003"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:zoom="1.0708394"
+     inkscape:cx="578.30567"
+     inkscape:cy="340.97511"
+     inkscape:window-x="-8"
+     inkscape:window-y="66"
      inkscape:window-maximized="1"
      inkscape:current-layer="g4755" /><g
      id="g4755"
@@ -173,6 +173,7 @@
      sodipodi:role="line"
      id="tspan4765">Registrarse</tspan></text>
 
+
 <path
    d="m 64.199,328.32 c 0,-3.121 2.52,-5.761 5.762,-5.761 3.117,0 5.758,2.64 5.758,5.761 0,3.121 -2.641,5.641 -5.758,5.641 -3.242,0 -5.762,-2.52 -5.762,-5.641 z"
    style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -196,6 +197,7 @@
      sodipodi:role="line"
      id="tspan4779">Usuario no registrado</tspan></text>
 
+
 <path
    d="m 137.039,49.441 c 0,-7.921 12.84,-14.402 28.801,-14.402 15.84,0 28.801,6.481 28.801,14.402 0,8.039 -12.961,14.399 -28.801,14.399 -15.961,0 -28.801,-6.36 -28.801,-14.399 z"
    style="fill:#fdebdd;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -217,6 +219,7 @@
      y="7.2000022"
      sodipodi:role="line"
      id="tspan4791">requisitos</tspan></text>
+
 
 <path
    d="m 137.039,93.121 c 0,-8.043 12.84,-14.402 28.801,-14.402 15.84,0 28.801,6.359 28.801,14.402 0,7.918 -12.961,14.399 -28.801,14.399 -15.961,0 -28.801,-6.481 -28.801,-14.399 z"
@@ -240,6 +243,7 @@
      sodipodi:role="line"
      id="tspan4803">casos de uso</tspan></text>
 
+
 <path
    d="m 137.039,138.602 c 0,-7.922 12.84,-14.403 28.801,-14.403 15.84,0 28.801,6.481 28.801,14.403 0,8.039 -12.961,14.398 -28.801,14.398 -15.961,0 -28.801,-6.359 -28.801,-14.398 z"
    style="fill:#fdebdd;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -261,6 +265,7 @@
      y="7.2000084"
      sodipodi:role="line"
      id="tspan4815">clases</tspan></text>
+
 
 <path
    d="m 137.039,184.199 c 0,-7.918 12.84,-14.398 28.801,-14.398 15.84,0 28.801,6.48 28.801,14.398 0,8.039 -12.961,14.403 -28.801,14.403 -15.961,0 -28.801,-6.364 -28.801,-14.403 z"
@@ -284,6 +289,7 @@
      sodipodi:role="line"
      id="tspan4827">navegación</tspan></text>
 
+
 <path
    d="m 137.039,229.32 c 0,-7.922 12.84,-14.398 28.801,-14.398 15.84,0 28.801,6.476 28.801,14.398 0,8.039 -12.961,14.399 -28.801,14.399 -15.961,0 -28.801,-6.36 -28.801,-14.399 z"
    style="fill:#fdebdd;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -305,6 +311,7 @@
      y="7.2000022"
      sodipodi:role="line"
      id="tspan4839">relación de ficheros</tspan></text>
+
 
 <path
    d="m 137.039,277.32 c 0,-7.922 12.84,-14.398 28.801,-14.398 15.84,0 28.801,6.476 28.801,14.398 0,7.918 -12.961,14.399 -28.801,14.399 -15.961,0 -28.801,-6.481 -28.801,-14.399 z"
@@ -328,6 +335,7 @@
      sodipodi:role="line"
      id="tspan4851">almacenamiento</tspan></text>
 
+
 <path
    d="m 137.039,325.68 c 0,-7.918 12.84,-14.399 28.801,-14.399 15.84,0 28.801,6.481 28.801,14.399 0,8.039 -12.961,14.398 -28.801,14.398 -15.961,0 -28.801,-6.359 -28.801,-14.398 z"
    style="fill:#fdebdd;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -349,6 +357,7 @@
      y="7.2000022"
      sodipodi:role="line"
      id="tspan4863">de datos</tspan></text>
+
 
 <path
    d="m 137.039,617.641 c 0,-7.922 12.84,-14.403 28.801,-14.403 15.84,0 28.801,6.481 28.801,14.403 0,7.918 -12.961,14.398 -28.801,14.398 -15.961,0 -28.801,-6.48 -28.801,-14.398 z"
@@ -372,6 +381,7 @@
      sodipodi:role="line"
      id="tspan4875">repositorio (*)</tspan></text>
 
+
 <path
    d="m 137.039,663.238 c 0,-7.918 12.84,-14.398 28.801,-14.398 15.84,0 28.801,6.48 28.801,14.398 0,7.922 -12.961,14.403 -28.801,14.403 -15.961,0 -28.801,-6.481 -28.801,-14.403 z"
    style="fill:#dbeef3;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -393,6 +403,7 @@
      y="7.0799975"
      sodipodi:role="line"
      id="tspan4887">PHP Doc (*)</tspan></text>
+
 
 <path
    d="m 130.199,801.84 c 0,-9.84 15.961,-17.762 35.641,-17.762 19.68,0 35.64,7.922 35.64,17.762 0,9.84 -15.96,17.879 -35.64,17.879 -19.68,0 -35.641,-8.039 -35.641,-17.879 z"
@@ -416,6 +427,7 @@
      sodipodi:role="line"
      id="tspan4899">Imitada por el alumno (*)</tspan></text>
 
+
 <path
    d="m 128.641,522.84 c 0,-10.199 16.679,-18.602 37.199,-18.602 20.519,0 37.199,8.403 37.199,18.602 0,10.32 -16.68,18.601 -37.199,18.601 -20.52,0 -37.199,-8.281 -37.199,-18.601 z"
    style="fill:#dbeef3;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -438,6 +450,7 @@
      sodipodi:role="line"
      id="tspan4911">herramientas utilizadas (*)</tspan></text>
 
+
 <path
    d="m 137.039,572.281 c 0,-7.922 12.84,-14.402 28.801,-14.402 15.84,0 28.801,6.48 28.801,14.402 0,8.039 -12.961,14.399 -28.801,14.399 -15.961,0 -28.801,-6.36 -28.801,-14.399 z"
    style="fill:#dbeef3;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -455,6 +468,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan4921">Ver RSS O Atom (*)</tspan></text>
+
 
 <path
    d="m 136.922,708.359 c 0,-7.918 12.84,-14.398 28.797,-14.398 15.84,0 28.801,6.48 28.801,14.398 0,7.922 -12.961,14.403 -28.801,14.403 -15.957,0 -28.797,-6.481 -28.797,-14.403 z"
@@ -477,6 +491,7 @@
      y="7.1999784"
      sodipodi:role="line"
      id="tspan4933">Autor (*)</tspan></text>
+
 
 <path
    d="m 446.641,558 c 0,-3.121 2.64,-5.641 5.757,-5.641 3.122,0 5.762,2.52 5.762,5.641 0,3.121 -2.64,5.762 -5.762,5.762 -3.117,0 -5.757,-2.641 -5.757,-5.762 z"
@@ -501,6 +516,7 @@
      sodipodi:role="line"
      id="tspan4947">Administrador</tspan></text>
 
+
 <path
    d="m 253.922,315.602 c 0,-3.243 2.637,-5.762 5.758,-5.762 3.121,0 5.761,2.519 5.761,5.762 0,3.117 -2.64,5.636 -5.761,5.636 -3.121,0 -5.758,-2.519 -5.758,-5.636 z"
    style="fill:#0070c0;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -524,6 +540,7 @@
      sodipodi:role="line"
      id="tspan4961">Usuario registrado</tspan></text>
 
+
 <g
    id="g4965"><path
      d="M 127.922,49.441 H 69.84 V 322.32"
@@ -542,6 +559,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan4973">«uses»</tspan></text>
+
 
 <g
    id="g4977"><path
@@ -652,6 +670,7 @@
      sodipodi:role="line"
      id="tspan5057">«uses»</tspan></text>
 
+
 <path
    d="m 332.879,656.281 c 0,-7.922 12.961,-14.402 28.801,-14.402 15.961,0 28.8,6.48 28.8,14.402 0,7.918 -12.839,14.399 -28.8,14.399 -15.84,0 -28.801,-6.481 -28.801,-14.399 z"
    style="fill:#eeeaf2;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -670,6 +689,7 @@
      sodipodi:role="line"
      id="tspan5067">Editar perfil</tspan></text>
 
+
 <path
    d="m 332.879,742.199 c 0,-8.039 12.961,-14.398 28.801,-14.398 15.961,0 28.8,6.359 28.8,14.398 0,7.922 -12.839,14.403 -28.8,14.403 -15.84,0 -28.801,-6.481 -28.801,-14.403 z"
    style="fill:#eeeaf2;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -687,6 +707,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan5077">Borrar cuenta</tspan></text>
+
 
 <path
    d="m 329.398,116.039 c 0,-9 14.524,-16.199 32.282,-16.199 17.879,0 32.281,7.199 32.281,16.199 0,8.883 -14.402,16.082 -32.281,16.082 -17.758,0 -32.282,-7.199 -32.282,-16.082 z"
@@ -710,6 +731,7 @@
      sodipodi:role="line"
      id="tspan5089">por descripción</tspan></text>
 
+
 <path
    d="m 332.879,272.039 c 0,-7.918 12.961,-14.398 28.801,-14.398 15.961,0 28.8,6.48 28.8,14.398 0,8.039 -12.839,14.402 -28.8,14.402 -15.84,0 -28.801,-6.363 -28.801,-14.402 z"
    style="fill:#ebf1df;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -731,6 +753,7 @@
      y="7.2000022"
      sodipodi:role="line"
      id="tspan5101">departamento</tspan></text>
+
 
 <path
    d="m 332.398,306.359 c 0,-8.039 13.082,-14.64 29.282,-14.64 16.199,0 29.281,6.601 29.281,14.64 0,8.039 -13.082,14.641 -29.281,14.641 -16.2,0 -29.282,-6.602 -29.282,-14.641 z"
@@ -754,6 +777,7 @@
      sodipodi:role="line"
      id="tspan5113">un departamento</tspan></text>
 
+
 <path
    d="m 332.879,339.719 c 0,-8.039 12.961,-14.399 28.801,-14.399 15.961,0 28.8,6.36 28.8,14.399 0,7.922 -12.839,14.402 -28.8,14.402 -15.84,0 -28.801,-6.48 -28.801,-14.402 z"
    style="fill:#ebf1df;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -775,6 +799,7 @@
      y="7.2000084"
      sodipodi:role="line"
      id="tspan5125">departamento</tspan></text>
+
 
 <path
    d="m 332.879,497.34 c 0,-7.918 12.961,-14.399 28.801,-14.399 15.961,0 28.8,6.481 28.8,14.399 0,7.922 -12.839,14.398 -28.8,14.398 -15.84,0 -28.801,-6.476 -28.801,-14.398 z"
@@ -798,6 +823,7 @@
      sodipodi:role="line"
      id="tspan5137">SOAP ajeno</tspan></text>
 
+
 <path
    d="m 332.879,537.059 c 0,-7.918 12.961,-14.399 28.801,-14.399 15.961,0 28.8,6.481 28.8,14.399 0,8.043 -12.839,14.402 -28.8,14.402 -15.84,0 -28.801,-6.359 -28.801,-14.402 z"
    style="fill:#f2dcda;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -819,6 +845,7 @@
      y="7.2000322"
      sodipodi:role="line"
      id="tspan5149">SOAP propio</tspan></text>
+
 
 <path
    d="m 332.879,575.762 c 0,-7.922 12.961,-14.403 28.801,-14.403 15.961,0 28.8,6.481 28.8,14.403 0,7.918 -12.839,14.398 -28.8,14.398 -15.84,0 -28.801,-6.48 -28.801,-14.398 z"
@@ -842,6 +869,7 @@
      sodipodi:role="line"
      id="tspan5161">REST ajeno</tspan></text>
 
+
 <path
    d="m 332.879,614.102 c 0,-8.043 12.961,-14.403 28.801,-14.403 15.961,0 28.8,6.36 28.8,14.403 0,7.918 -12.839,14.398 -28.8,14.398 -15.84,0 -28.801,-6.48 -28.801,-14.398 z"
    style="fill:#c6d8f0;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -863,6 +891,7 @@
      y="7.2000322"
      sodipodi:role="line"
      id="tspan5173">REST propio</tspan></text>
+
 
 <path
    d="m 129.602,375 c 0,-9.961 16.199,-18.121 36.238,-18.121 20.039,0 36.238,8.16 36.238,18.121 0,10.078 -16.199,18.121 -36.238,18.121 -20.039,0 -36.238,-8.043 -36.238,-18.121 z"
@@ -890,6 +919,7 @@
      sodipodi:role="line"
      id="tspan5187">cuestiones</tspan></text>
 
+
 <path
    d="m 324.84,455.578 c 0,-10.199 16.558,-18.476 36.84,-18.476 20.398,0 36.84,8.277 36.84,18.476 0,10.082 -16.442,18.363 -36.84,18.363 -20.282,0 -36.84,-8.281 -36.84,-18.363 z"
    style="fill:#d8d8d8;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -911,6 +941,7 @@
      y="7.1999846"
      sodipodi:role="line"
      id="tspan5199">Opiniones a las cuestiones</tspan></text>
+
 
 <path
    d="m 485.16,619.32 c 0,-7.922 12.84,-14.398 28.801,-14.398 15.84,0 28.801,6.476 28.801,14.398 0,7.918 -12.961,14.399 -28.801,14.399 -15.961,0 -28.801,-6.481 -28.801,-14.399 z"
@@ -934,6 +965,7 @@
      sodipodi:role="line"
      id="tspan5211">apellidos/nombre</tspan></text>
 
+
 <path
    d="m 485.16,669.359 c 0,-7.918 12.84,-14.398 28.801,-14.398 15.84,0 28.801,6.48 28.801,14.398 0,8.039 -12.961,14.403 -28.801,14.403 -15.961,0 -28.801,-6.364 -28.801,-14.403 z"
    style="fill:#eeeaf2;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -943,14 +975,38 @@
      d="m 485.16,669.359 c 0,-7.918 12.84,-14.398 28.801,-14.398 15.84,0 28.801,6.48 28.801,14.398 0,8.039 -12.961,14.403 -28.801,14.403 -15.961,0 -28.801,-6.364 -28.801,-14.403"
      style="fill:none;stroke:#000000;stroke-width:0.47999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
      id="path5219"
-     inkscape:connector-curvature="0" /></g><text
+     inkscape:connector-curvature="0" /><path
+     d="m 485.16,714.359 c 0,-7.918 12.84,-14.398 28.801,-14.398 15.84,0 28.801,6.48 28.801,14.398 0,8.039 -12.961,14.403 -28.801,14.403 -15.961,0 -28.801,-6.364 -28.801,-14.403 z"
+     style="fill:#eeeaf2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99999994"
+     id="path5215-3"
+     inkscape:connector-curvature="0" /><path
+     d="m 485.16,714.359 c 0,-7.918 12.84,-14.398 28.801,-14.398 15.84,0 28.801,6.48 28.801,14.398 0,8.039 -12.961,14.403 -28.801,14.403 -15.961,0 -28.801,-6.364 -28.801,-14.403"
+     style="fill:none;stroke:#000000;stroke-width:0.47999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+     id="path5219-8"
+     inkscape:connector-curvature="0" /><text
+     y="712.56958"
+     x="514.31982"
+     style="font-variant:normal;font-weight:normal;font-size:6.00023174px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
+     id="text5223-8"><tspan
+       style="text-align:center;text-anchor:middle;stroke-width:0.99999994"
+       sodipodi:role="line"
+       id="tspan5221-7"
+       x="515.27496"
+       y="712.56958">Restablecer </tspan><tspan
+       style="text-align:center;text-anchor:middle;stroke-width:0.99999994"
+       sodipodi:role="line"
+       x="514.31982"
+       y="720.06989"
+       id="tspan11705">password</tspan></text>
+</g><text
    transform="translate(490.32,671.16008)"
    style="font-variant:normal;font-weight:normal;font-size:6.00023222px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
    id="text5223"><tspan
-     x="0 2.8681109 4.2961659 5.6042166 10.398402 11.832458 14.946578 17.808689 19.848768 21.276823 24.384943 27.493063 28.807114 32.041241 34.309326 37.537453 40.399563 42.43964 43.747692"
-     y="0"
      sodipodi:role="line"
-     id="tspan5221">Eliminar un usuario</tspan></text>
+     id="tspan5221"
+     x="0"
+     y="0">Eliminar usuario</tspan></text>
+
 
 <path
    d="m 485.16,418.32 c 0,-7.922 12.84,-14.398 28.801,-14.398 15.84,0 28.801,6.476 28.801,14.398 0,7.918 -12.961,14.399 -28.801,14.399 -15.961,0 -28.801,-6.481 -28.801,-14.399 z"
@@ -974,6 +1030,7 @@
      sodipodi:role="line"
      id="tspan5233">por descripción</tspan></text>
 
+
 <path
    d="m 485.16,468.359 c 0,-7.918 12.84,-14.398 28.801,-14.398 15.84,0 28.801,6.48 28.801,14.398 0,7.922 -12.961,14.403 -28.801,14.403 -15.961,0 -28.801,-6.481 -28.801,-14.403 z"
    style="fill:#d8d8d8;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -991,6 +1048,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan5243">Crear una Cuestión</tspan></text>
+
 
 <path
    d="m 484.32,518.879 c 0,-8.277 13.321,-14.879 29.641,-14.879 16.32,0 29.641,6.602 29.641,14.879 0,8.16 -13.321,14.762 -29.641,14.762 -16.32,0 -29.641,-6.602 -29.641,-14.762 z"
@@ -1018,6 +1076,7 @@
      sodipodi:role="line"
      id="tspan5257">Cuestión</tspan></text>
 
+
 <path
    d="m 485.16,569.281 c 0,-7.922 12.84,-14.402 28.801,-14.402 15.84,0 28.801,6.48 28.801,14.402 0,7.918 -12.961,14.399 -28.801,14.399 -15.961,0 -28.801,-6.481 -28.801,-14.399 z"
    style="fill:#d8d8d8;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -1040,6 +1099,7 @@
      sodipodi:role="line"
      id="tspan5269">Cuestión</tspan></text>
 
+
 <text
    transform="translate(298.2,42.360103)"
    style="font-variant:normal;font-weight:normal;font-size:12.00045109px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1052,6 +1112,7 @@
      y="14.400001"
      sodipodi:role="line"
      id="tspan5275">Alumno:</tspan></text>
+
 
 <g
    id="g5279"><path
@@ -1071,6 +1132,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan5287">«uses»</tspan></text>
+
 
 <g
    id="g5291"><path
@@ -1156,6 +1218,7 @@
      sodipodi:role="line"
      id="tspan5373">«uses»</tspan></text>
 
+
 <g
    id="g5377"><path
      d="m 323.879,491.578 v 11.281 l 9,-5.64 z"
@@ -1189,6 +1252,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan5397">«uses»</tspan></text>
+
 
 <g
    id="g5401"><path
@@ -1228,6 +1292,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan5425">«uses»</tspan></text>
+
 
 <g
    id="g5429"><path
@@ -1298,6 +1363,7 @@
      sodipodi:role="line"
      id="tspan5477">«uses»</tspan></text>
 
+
 <g
    id="g5481"><path
      d="m 476.039,619.32 h -23.641 v -4.441"
@@ -1327,6 +1393,7 @@
      sodipodi:role="line"
      id="tspan5497">«uses»</tspan></text>
 
+
 <path
    d="m 472.801,362.039 c 0,-11.398 18.359,-20.519 41.16,-20.519 22.68,0 41.16,9.121 41.16,20.519 0,11.402 -18.48,20.641 -41.16,20.641 -22.801,0 -41.16,-9.239 -41.16,-20.641 z"
    style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -1349,6 +1416,7 @@
      sodipodi:role="line"
      id="tspan5509">en el pie de página (*)</tspan></text>
 
+
 <g
    id="g5513"><path
      d="M 463.68,362.039 H 452.398 V 552"
@@ -1368,6 +1436,7 @@
      sodipodi:role="line"
      id="tspan5521">«uses»</tspan></text>
 
+
 <path
    d="m 332.879,790.32 c 0,-7.922 12.961,-14.398 28.801,-14.398 15.961,0 28.8,6.476 28.8,14.398 0,7.918 -12.839,14.399 -28.8,14.399 -15.84,0 -28.801,-6.481 -28.801,-14.399 z"
    style="fill:#d99690;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -1385,6 +1454,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan5531">Cerrar sesión</tspan></text>
+
 
 <g
    id="g5535"><path
@@ -1444,6 +1514,7 @@
      sodipodi:role="line"
      id="tspan5573">Iniciar sesión</tspan></text>
 
+
 <g
    id="g5577"><path
      d="M 127.922,470.16 H 69.84 v -84.961"
@@ -1496,6 +1567,7 @@
      sodipodi:role="line"
      id="tspan5609">departamento (**)</tspan></text>
 
+
 <path
    d="m 332.879,236.398 c 0,-7.918 12.961,-14.398 28.801,-14.398 15.961,0 28.8,6.48 28.8,14.398 0,8.043 -12.839,14.403 -28.8,14.403 -15.84,0 -28.801,-6.36 -28.801,-14.403 z"
    style="fill:#ebf1df;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -1517,6 +1589,7 @@
      y="7.2000022"
      sodipodi:role="line"
      id="tspan5621">departamento (**)</tspan></text>
+
 
 <g
    id="g5625"><path
@@ -1547,6 +1620,7 @@
      sodipodi:role="line"
      id="tspan5641">DIAGRAMA DE CASOS DE USO</tspan></text>
 
+
 <path
    d="m 332.762,375 c 0,-8.039 12.957,-14.52 28.918,-14.52 16.082,0 29.039,6.481 29.039,14.52 0,8.039 -12.957,14.52 -29.039,14.52 -15.961,0 -28.918,-6.481 -28.918,-14.52 z"
    style="fill:#ebf1df;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -1568,6 +1642,7 @@
      y="7.2000022"
      sodipodi:role="line"
      id="tspan5653">departamentos (**)</tspan></text>
+
 
 <path
    d="m 332.762,413.879 c 0,-8.039 12.957,-14.52 28.918,-14.52 16.082,0 29.039,6.481 29.039,14.52 0,8.043 -12.957,14.519 -29.039,14.519 -15.961,0 -28.918,-6.476 -28.918,-14.519 z"
@@ -1591,6 +1666,7 @@
      sodipodi:role="line"
      id="tspan5665">departamentos (**)</tspan></text>
 
+
 <path
    d="m 319.559,158.281 c 0,-11.64 18.839,-21 42.121,-21 23.281,0 42.121,9.36 42.121,21 0,11.641 -18.84,21.117 -42.121,21.117 -23.282,0 -42.121,-9.476 -42.121,-21.117 z"
    style="fill:#ebf1df;fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -1612,6 +1688,7 @@
      y="7.2000022"
      sodipodi:role="line"
      id="tspan5677">resultados de la búsqueda (**)</tspan></text>
+
 
 <g
    id="g5681"><path
@@ -1665,6 +1742,7 @@
      sodipodi:role="line"
      id="tspan5713">Autor(*)</tspan></text>
 
+
 <g
    id="g5717"><path
      d="M 127.801,753.602 H 69.84 V 385.199"
@@ -1685,6 +1763,18 @@
      d="m 203.398,759.238 v -11.16 l -9,5.524 z"
      style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.72000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
      id="path5731"
+     inkscape:connector-curvature="0" /></g><g
+   id="g5489-1"
+   transform="translate(0,45)"><path
+     d="m 476.039,669.359 h -23.641 v -54.48"
+     style="fill:none;stroke:#000000;stroke-width:0.47999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+     id="path5491-8"
+     inkscape:connector-curvature="0" /></g><g
+   id="g5493-1"
+   transform="translate(0,45)"><path
+     d="M 476.039,663.719 V 675 l 9,-5.641 z"
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.72000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+     id="path5495-5"
      inkscape:connector-curvature="0" /></g></g><g
        id="g5733"><g
          id="g5735"
@@ -1798,6 +1888,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan5921">Cambiar password</tspan></text>
+
 
 <g
    id="g5925"><path

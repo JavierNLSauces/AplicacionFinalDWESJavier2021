@@ -7,7 +7,7 @@
 
 **Fecha Inicio Proyecto: 20/01/2021**
 
-**Ultima Actualización: 24/02/2021**
+**Ultima Actualización: 27/02/2021**
 
 ## Descripción 
 Aplicacion final DWES MVC + Control de Acceso + CRUD + utilizacion y creacion de API REST + COOKIE

@@ -104,6 +104,8 @@ function validarLongitud(posicion, max_longitud, min_longitud, mensaje_max_longi
 function validarCodUsuario(posicion) {
     if (!validarCampoNoVacio(posicion, "obligatorio")) {
         return false;
+    } else if (!validarAlfabetico(posicion,null)) {
+        return false;
     } else if (!validarLongitud(posicion, 8, 3, null, null)) {
         return false;
     }
