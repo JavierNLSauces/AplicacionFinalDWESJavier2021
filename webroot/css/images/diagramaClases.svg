@@ -93,11 +93,11 @@
      inkscape:window-height="1017"
      id="namedview4749"
      showgrid="false"
-     inkscape:zoom="4.2833576"
-     inkscape:cx="442.81331"
-     inkscape:cy="508.63922"
+     inkscape:zoom="1.0708394"
+     inkscape:cx="252.1553"
+     inkscape:cy="841.84287"
      inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-y="66"
      inkscape:window-maximized="1"
      inkscape:current-layer="g4755" /><g
      id="g4755"
@@ -164,6 +164,7 @@
 
 
 
+
 <text
    id="text4845"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -173,6 +174,7 @@
      sodipodi:role="line"
      y="163.9801"
      x="353.14682 356.29059 359.00821 362.8595 365.54495 367.29776 370.57819 372.39529 376.39133 378.31296 382.30899 385.702 389.92316 392.52017 396.37146 399.16949 403.45499 407.6922 411.91336 415.05713 419.27829 421.11951 423.70044 427.55176 429.98798 433.13171 437.12775 441.25241 443.85748 447.85352 452.07468 455.46765 457.3089 461.16022 464.85071 470.22968 473.67896 475.681 477.49811 481.71924 485.57056 488.21582 492.06711 498.48328 502.41498 505.10043 507.77786 512.01508 515.15887">static ejecutarConsulta(sentenciaSQL, parametros)</tspan></text>
+
 
 
 
@@ -204,6 +206,7 @@
 
 
 
+
 <text
    id="text4865"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -213,6 +216,7 @@
      sodipodi:role="line"
      y="237.9601"
      x="243.11485 246.25861 248.97623 252.82753 255.51299 257.25775 260.54623 262.36334 266.05383 269.83276 271.74637 273.51523 277.68814 281.53946 284.26511 289.47522 292.53055 296.75168 300.603 303.32062 305.25027 309.48752 311.92374 315.24438 319.48163 323.70279 328.8566 332.00037 336.22153 340.07281 342.87085 344.68796 348.79654 350.79858 352.61569 356.83685 360.68814 363.83191 366.93546 372.5878 376.82504 379.5105 383.73166">static validarUsuario(codUsuario, password)</tspan></text>
+
 
 
 
@@ -233,6 +237,7 @@
 
 
 
+
 <text
    id="text4877"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -242,6 +247,7 @@
      sodipodi:role="line"
      y="247.56009"
      x="243.10683 246.1541 248.74307">static altaUsuario(codUsuario, password, descUsuario)</tspan></text>
+
 
 
 
@@ -256,6 +262,7 @@
 
 
 
+
 <text
    id="text4885"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -265,6 +272,7 @@
      x="256.99243"
      id="tspan4883"
      sodipodi:role="line" /></text>
+
 
 
 
@@ -286,6 +294,7 @@
 
 
 
+
 <text
    id="text4897"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -294,6 +303,7 @@
      id="tspan4895"
      y="257.1601"
      x="296.6925" /></text>
+
 
 
 
@@ -306,6 +316,7 @@
      x="301.17096"
      id="tspan4899"
      sodipodi:role="line" /></text>
+
 
 
 
@@ -326,6 +337,7 @@
 
 
 
+
 <text
    id="text4913"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -338,6 +350,7 @@
 
 
 
+
 <text
    id="text4917"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -346,6 +359,7 @@
      id="tspan4915"
      y="266.7601"
      x="279.24796">ﬁ</tspan></text>
+
 
 
 
@@ -361,6 +375,7 @@
 
 
 
+
 <text
    id="text4925"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -369,6 +384,7 @@
      id="tspan4923"
      y="266.7601"
      x="440.3595">ﬁ</tspan></text>
+
 
 
 
@@ -381,6 +397,7 @@
      sodipodi:role="line"
      y="266.7601"
      x="444.61282 446.45404">l)</tspan></text>
+
 
 
 
@@ -401,6 +418,7 @@
 
 
 
+
 <text
    id="text4941"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -410,6 +428,7 @@
      sodipodi:role="line"
      y="276.36011"
      x="243.10683 246.25058 248.9682">static cambiarPassword(codUsuario, passwordNueva)</tspan></text>
+
 
 
 
@@ -424,6 +443,7 @@
 
 
 
+
 <text
    id="text4949"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -433,6 +453,7 @@
      x="257.21753"
      id="tspan4947"
      sodipodi:role="line" /></text>
+
 
 
 
@@ -453,6 +474,7 @@
 
 
 
+
 <text
    id="text4961"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -462,6 +484,7 @@
      sodipodi:role="line"
      y="285.96011"
      x="243.10683 246.25058 248.9682 252.8195 255.50496 257.25775 260.65076 262.46786 266.68903 270.92627 273.72427 276.36954 280.22086 283.01886 288.1727 291.31647 295.53763 299.38892 302.16281 304.02817 308.26541 310.70163 314.01422 318.25146 322.47263 327.62646 330.7702 334.99136 338.84268 341.64069 343.45779 347.69504">static borrarUsuario(codUsuario)</tspan></text>
+
 
 
 
@@ -482,6 +505,7 @@
 
 
 
+
 <text
    id="text4973"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -491,6 +515,7 @@
      sodipodi:role="line"
      y="295.56009"
      x="243.10683 246.25058 248.9682 252.8195 255.50496 257.25775 260.65076 262.46786 265.98148 269.83276 271.67401 273.51523 277.73639 281.58771 284.38571 288.6712 292.88431 297.10547 302.31558 306.55283 310.4765 313.95795 315.79916 318.83841 321.44345 325.43948 327.8757 331.20438 335.44162 339.66278 344.81662 347.96039 352.18152 356.03284 358.80673 360.64798 364.88519">static validarCodNoExiste(codUsuario)</tspan></text>
+
 
 
 
@@ -511,6 +536,7 @@
 
 
 
+
 <text
    id="text4985"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -520,6 +546,7 @@
      sodipodi:role="line"
      y="305.1601"
      x="243.12 246.26375 248.98137 252.83267 255.51813 257.35938 260.75238 262.56949 266.78259 271.00375 273.60077 277.5968 281.81796 285.814 288.612 293.53268 297.31161 299.93274 304.16998 307.31375 312.46759 315.61133 319.83249 323.68381 326.4577 328.29892 332.53616 334.97238 338.30106 342.5383 346.75946 351.9133 355.05704 359.2782 363.12952 365.92752 367.74463 371.98187">static obtenerDatosUsuario(codUsuario)</tspan></text>
+
 
 
 
@@ -540,6 +567,7 @@
 
 
 
+
 <text
    id="text4997"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -549,6 +577,7 @@
      sodipodi:role="line"
      y="314.76007"
      x="243.10683 246.25058 248.9682 252.8195 255.50496 257.34619 260.7392 262.5563 266.75336 270.97449 274.11826 277.46301 281.31433 284.11237 289.26617 292.40994 296.6311 300.48239 303.28043 305.09753 309.33478 312.47855 316.4826 320.71985 323.51785 328.46265 332.45868 335.60245 338.97131 341.40753">static buscarUsuariosPorDesc()</tspan></text>
+
 
 
 
@@ -567,6 +596,7 @@
      sodipodi:role="line"
      y="212.28009"
      x="317.75998 323.05048 326.08972 330.3913 334.39536 337.24966 339.17932 343.4809 347.66183 352.73526">UsuarioPDO</tspan></text>
+
 
 
 
@@ -620,6 +650,7 @@
 
 
 
+
 <g
    id="g5033"><path
      inkscape:connector-curvature="0"
@@ -634,6 +665,7 @@
      sodipodi:role="line"
      y="236.58009"
      x="77.279991 82.570503 85.609741 89.911301 93.915367 96.769676 98.699348">Usuario</tspan></text>
+
 
 
 
@@ -696,6 +728,7 @@
 
 
 
+
 <text
    id="text5075"
    style="font-style:italic;font-variant:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -705,6 +738,7 @@
      sodipodi:role="line"
      y="408.54007"
      x="274.7868 278.36475 282.49747 284.33868 286.17993 290.31262 294.44534 297.17102 302.32483 305.45251 309.58524 313.71796 316.46771 318.30896 322.43362 324.86984 328.14224 332.26691 336.39963 341.55347 344.68112 348.81384 352.94656 355.69635 357.53757 361.51752 363.51956 365.33667 369.46939 373.60208 376.72977 379.79312 385.53391 389.65857 392.40836 396.54108">validarUsuario(codUsuario, password)</tspan></text>
+
 
 
 
@@ -730,6 +764,7 @@
 
 
 
+
 <path
    inkscape:connector-curvature="0"
    id="path5087"
@@ -748,6 +783,7 @@
      sodipodi:role="line"
      y="33.995949"
      x="65.634789 82.234787 89.674789 105.13479 121.53479 136.9348 152.33479 172.23479 187.69479 194.6548 211.25479 224.91479 231.8748 246.53479 259.27478 274.67477 289.0748 302.7348 317.1348 324.09479 339.55481 354.1348 366.87479 374.31479 388.97479 404.43478 419.03479 426.47479 443.47479 460.19479 467.15479 481.05481 494.89481 503.19479 517.09479">DIAGRAMA DE CLASES APLICACION 20-21</tspan></text>
+
 
 
 
@@ -794,6 +830,7 @@
 
 
 
+
 <text
    id="text5121"
    style="font-variant:normal;font-weight:normal;font-size:8.54030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -803,6 +840,7 @@
      sodipodi:role="line"
      y="529.86011"
      x="31.560001 33.942745 38.187275 41.791279 46.274937 50.365742 54.917721 57.761642 62.006168 66.09697 69.700981 71.656708 76.157448 80.641106 85.867767 90.137917 94.621574 98.712379 101.6844 104.43438 108.52518 115.34034 119.58487 123.96604 126.7331">fechaCreacionDepartamento</tspan></text>
+
 
 
 
@@ -820,6 +858,7 @@
      sodipodi:role="line"
      y="488.10007"
      x="86.160004 91.225388 95.277702 99.57122 103.52705 106.26075 109.05074 113.00656 119.59157 123.53132 127.83288 130.62286">Departamento</tspan></text>
+
 
 
 
@@ -874,6 +913,7 @@
 
 
 
+
 <g
    id="g5159"><path
      inkscape:connector-curvature="0"
@@ -888,6 +928,7 @@
      sodipodi:role="line"
      y="623.0401"
      x="96 100.34176 104.50664 108.60719 111.79919 114.53289 116.44648 120.75608">Cuestion</tspan></text>
+
 
 
 
@@ -908,6 +949,7 @@
 
 
 
+
 <g
    id="g5175"><path
      inkscape:connector-curvature="0"
@@ -922,6 +964,7 @@
      sodipodi:role="line"
      y="653.28009"
      x="310.07999 314.02777 317.15546 319.88916 323.72437 326.41788 328.17065 331.61993 333.37274 337.58585 341.75073 344.87839 348.26337 352.02621 356.20718 360.42029 364.52084 367.64853 370.22144 372.04657 376.21146 380.3924 384.65378 388.81863 391.55234 395.87802 400.05899 404.22385 406.05704 409.81992 414.0491 416.48532">+static buscaCuestionPorCodigo()</tspan></text>
+
 
 
 
@@ -942,6 +985,7 @@
 
 
 
+
 <g
    id="g5191"><path
      inkscape:connector-curvature="0"
@@ -956,6 +1000,7 @@
      sodipodi:role="line"
      y="672.4801"
      x="310.07999 314.02777 317.15546 319.88916 323.72437 326.41788 328.17065 331.61993 333.37274 337.58585 341.42108 343.17386 347.00906 350.70761 352.53278 355.66043 357.50168 360.88663 364.72186 368.9028 373.06769 377.16824 380.29593 382.98941 384.6618 388.89099 393.05588 395.62878">+static bajaFisicaCuestion()</tspan></text>
+
 
 
 
@@ -976,6 +1021,7 @@
 
 
 
+
 <g
    id="g5207"><path
      inkscape:connector-curvature="0"
@@ -993,6 +1039,7 @@
 
 
 
+
 <g
    id="g5215"><path
      inkscape:connector-curvature="0"
@@ -1007,6 +1054,7 @@
      sodipodi:role="line"
      y="701.1601"
      x="310.07999 314.02777 317.15546 319.88916 323.72437 326.41788 328.17065 331.61993 333.37274 337.58585 341.42108 343.17386 347.00906 351.35083 355.51572 359.45547 362.58313 365.31683 367.15002 371.31491 375.48782 377.92404">+static bajaCuestion()</tspan></text>
+
 
 
 
@@ -1034,6 +1082,7 @@
      sodipodi:role="line"
      y="618.00012"
      x="343.67999 347.86093 352.16251 356.20676 359.39877 362.13248 364.08627 368.33957 372.63309 376.97485 381.95984">CuestionPDO</tspan></text>
+
 
 
 
@@ -1076,6 +1125,7 @@
 
 
 
+
 <g
    id="g5261"><path
      inkscape:connector-curvature="0"
@@ -1090,6 +1140,7 @@
      sodipodi:role="line"
      y="769.20007"
      x="94.919998 100.307 104.60856 106.52215 110.83175 112.74534 117.05494">Opinion</tspan></text>
+
 
 
 
@@ -1140,6 +1191,7 @@
 
 
 
+
 <text
    id="text5299"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1149,6 +1201,7 @@
      sodipodi:role="line"
      y="323.76007"
      x="243.10683 246.25058 248.9682 252.8195 255.50496 257.34619 260.7392 262.5563 265.94931 268.64282 272.63885 276.49014 279.28818 284.61084 288.832 290.67325 294.89438 296.71149 300.94873 305.16989 307.60611">static crearOpinion()</tspan></text>
+
 
 
 
@@ -1169,6 +1222,7 @@
 
 
 
+
 <text
    id="text5311"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1178,6 +1232,7 @@
      sodipodi:role="line"
      y="332.76007"
      x="243.10683 246.25058 248.9682 252.8195 255.50496 257.34619 260.7392 262.5563 268.94833 273.18558 277.40674">static modi</tspan></text>
+
 
 
 
@@ -1192,6 +1247,7 @@
 
 
 
+
 <text
    id="text5319"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1201,6 +1257,7 @@
      sodipodi:role="line"
      y="332.76007"
      x="283.50128 286.83801 290.6893 293.48734 298.81 303.03116 304.87241 309.09357 310.93478 315.17203 319.39319 321.82938">carOpinion()</tspan></text>
+
 
 
 
@@ -1221,6 +1278,7 @@
 
 
 
+
 <text
    id="text5331"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1230,6 +1288,7 @@
      sodipodi:role="line"
      y="341.76007"
      x="243.10683 246.25058 248.9682 252.8195 255.50496 257.34619 260.7392 262.5563 266.75336 270.99057 273.7886 276.45798 280.3093 283.1073 288.42999 292.65115 294.49237 298.71353 300.53064 304.76788 308.98904 311.42526">static borrarOpinion()</tspan></text>
+
 
 
 
@@ -1260,6 +1319,7 @@
 
 
 
+
 <g
    id="g5347"><path
      inkscape:connector-curvature="0"
@@ -1274,6 +1334,7 @@
      sodipodi:role="line"
      y="794.52002"
      x="306.95999 310.90778 314.03543 316.72894 320.49179 323.22549 325.05066 328.34717 330.14819 334.31308 338.52618 341.65387 345.09512 348.93036 354.25302 358.42593 360.18677 364.35165 366.17679 370.3497 374.52261 378.61514 381.7428 385.91574 390.08865 394.02036 397.15607 399.88171 401.7149 405.87979 410.06076 412.48892">+static buscaOpinionesCuestion()</tspan></text>
+
 
 
 
@@ -1294,6 +1355,7 @@
 
 
 
+
 <g
    id="g5363"><path
      inkscape:connector-curvature="0"
@@ -1311,6 +1373,7 @@
 
 
 
+
 <g
    id="g5371"><path
      inkscape:connector-curvature="0"
@@ -1325,6 +1388,7 @@
      sodipodi:role="line"
      y="823.32013"
      x="306.95999 310.90778 314.03543 316.72894 320.49179 323.22549 325.05066 328.34717 330.14819 336.66086 340.82571 344.9906 346.82379 349.15549 351.06906 354.45404 358.2973 363.5235 367.7366 369.48938 373.69446 375.61609 379.78098 383.99408 389.0434 392.24344 396.41635 400.09882 402.99332 404.81848 408.99139 411.42761">+static modificaOpinionUsuario()</tspan></text>
+
 
 
 
@@ -1352,6 +1416,7 @@
      sodipodi:role="line"
      y="759.36011"
      x="342.48001 347.867 352.16855 354.24295 358.41586 360.37772 364.68732 368.93259 373.27435 378.25934">OpinionPDO</tspan></text>
+
 
 
 
@@ -1402,6 +1467,7 @@
 
 
 
+
 <path
    inkscape:connector-curvature="0"
    id="path5417"
@@ -1431,6 +1497,7 @@
 
 
 
+
 <text
    id="text5433"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1440,6 +1507,7 @@
      x="257.68683"
      id="tspan5431"
      sodipodi:role="line">static buscarDepartamentosPorCodigo(codDepartamento)</tspan></text>
+
 
 
 
@@ -1454,6 +1522,7 @@
 
 
 
+
 <text
    id="text5441"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1463,6 +1532,7 @@
      x="271.57242"
      id="tspan5439"
      sodipodi:role="line" /></text>
+
 
 
 
@@ -1483,6 +1553,7 @@
 
 
 
+
 <text
    id="text5453"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1492,6 +1563,7 @@
      x="257.68683"
      id="tspan5451"
      sodipodi:role="line">static buscarDepartamentosPorDescripcion (descDepartamento, </tspan></text>
+
 
 
 
@@ -1506,6 +1578,7 @@
 
 
 
+
 <text
    id="text5463"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1514,11 +1587,12 @@
      id="tspan5461"
      sodipodi:role="line"
      x="259.84097"
-     y="482.50131"></tspan><tspan
+     y="482.50131" /><tspan
      sodipodi:role="line"
      x="259.84097"
      y="492.5517"
      id="tspan5923">criterioBusqueda,numPaginaActual, numMaxPaginas)</tspan></text>
+
 
 
 
@@ -1539,6 +1613,7 @@
 
 
 
+
 <text
    id="text5477"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1552,6 +1627,7 @@
      sodipodi:role="line"
      y="513.04901"
      x="257.70001 259.51712 263.05484 267.29208 269.1333 273.35446 279.77063 283.76666 287.96368 292.90848 296.90451 302.09052 306.08652 309.83331 314.07056 317.46356 319.30478 323.54202"> volumenDeNegocio)</tspan></text>
+
 
 
 
@@ -1572,6 +1648,7 @@
 
 
 
+
 <text
    id="text5489"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1581,6 +1658,7 @@
      sodipodi:role="line"
      y="523.02014"
      x="257.68683 260.83057 263.54819 267.39951 270.08496 271.83774 275.23074 277.04785 281.26901 285.12033 287.04196 290.89325 294.58377 296.40085 299.54462 301.38586 304.73865 308.58997 313.53473 317.53076 321.75192 325.60324 328.40125 330.98218 334.8335 341.24966 345.2457 349.37036 351.9754 356.21265 358.64886 361.97754 366.21478 370.43594 375.38074 379.37677 383.5979 387.44922 390.22311 392.82013 396.67145 403.08762 407.08365 411.20831 413.81335 418.0506">static bajaFisicaDepartamento(codDepartamento)</tspan></text>
+
 
 
 
@@ -1601,6 +1679,7 @@
 
 
 
+
 <text
    id="text5501"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1610,6 +1689,7 @@
      sodipodi:role="line"
      y="534.12012"
      x="257.68683 260.83057 263.54819 267.39951 270.08496 271.83774 275.23074 277.04785 281.26901 285.12033 287.04196 290.89325 294.27017 298.48331 302.26224 304.10349 307.44019 311.2915 316.2363 320.2323 324.45346 328.30478 331.10278 333.68375 337.53503 343.9512 347.94724 352.07993 354.69302 358.93027 361.36649 364.67908 368.91632 373.13748 378.08228 382.07831 386.29947 390.15076 392.94879 395.53775 399.38907 405.80524 409.80127 413.92593 416.53098 420.6235 422.62555 424.44266 426.68588 430.68192 434.07492 438.29608 442.14737 446.48914 450.34045 452.28619 456.13751">static bajaLogicaDepartamento(codDepartamento, fechaBaja)</tspan></text>
+
 
 
 
@@ -1630,6 +1710,7 @@
 
 
 
+
 <text
    id="text5513"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1642,6 +1723,7 @@
 
 
 
+
 <text
    id="text5517"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1650,6 +1732,7 @@
      id="tspan5515"
      y="545.22015"
      x="293.76364">ﬁ</tspan></text>
+
 
 
 
@@ -1666,6 +1749,7 @@
      sodipodi:role="line"
      y="555.34906"
      x="257.70001 259.51712 263.73825 267.73428 270.87805 274.27106 279.21585 283.18774 287.40891 291.26022 294.05823 296.6633 300.51459 306.93076 310.92679 315.05145 317.65652 321.75708 323.75909 325.5762 329.11395 333.3512 335.19241 339.41357 345.82974 349.80164 354.0228 358.96759 362.96359 368.1496 372.14563 375.88437 380.12161 383.51462 385.35583 389.59308"> descDepartamento, volumenDeNegocio)</tspan></text>
+
 
 
 
@@ -1686,6 +1770,7 @@
 
 
 
+
 <text
    id="text5535"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1695,6 +1780,7 @@
      sodipodi:role="line"
      y="565.32013"
      x="257.68683 260.83057 263.54819 267.39951 270.08496 271.83774 275.23074 277.04785 279.74136 283.7374 287.95856 291.80984 296.03101 297.87225 299.71347 301.55469 304.14368 307.99496 310.793 315.73779 319.73383 323.95496 327.80627 330.60431 333.19327 337.04459 343.46072 347.45676 351.58145 354.18649 358.42374 360.85995 364.18863 368.42587 372.64703 377.5918 381.58783 385.80899 389.66031 392.4342 395.03122 398.88254 405.29868 409.29471 413.42743 416.0325 420.26971">static rehabilitarDepartamento(codDepartamento)</tspan></text>
+
 
 
 
@@ -1715,6 +1801,7 @@
 
 
 
+
 <text
    id="text5547"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1724,6 +1811,7 @@
      sodipodi:role="line"
      y="574.9201"
      x="257.68683 260.83057 263.54819 267.39951 270.08496 271.83774 275.23074 277.04785 280.56146 284.41278 286.254 288.09525 292.31641 296.16769 298.96573 303.25119 307.46432 311.68549 316.8956 321.13281 325.05649 328.53793 330.37918 333.4184 336.02347 340.0195 342.45569 345.78439 350.02164 354.24277 359.18756 363.18359 367.40475 371.25604 374.02997 376.62698 380.47827 386.89444 390.89047 395.02319 397.62823 401.86548">static validarCodNoExiste(codDepartamento)</tspan></text>
+
 
 
 
@@ -1765,6 +1853,7 @@
 
 
 
+
 <g
    transform="matrix(1.3252273,0,0,1,-130.33407,0)"
    id="g5569"><path
@@ -1794,6 +1883,7 @@
 
 
 
+
 <text
    id="text5587"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1806,6 +1896,7 @@
 
 
 
+
 <g
    transform="scale(1,0.482163)"
    id="g5589"><path
@@ -1815,9 +1906,9 @@
      d="M 250.738,957.931 H 434.164" /></g><path
    inkscape:connector-curvature="0"
    id="path5593"
-   style="fill:#ebf1df;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.23276389"
-   d="M 31.148,88.492 H 231.14 v 77.69502 H 31.148 Z" /><g
-   transform="matrix(0.99904395,0,0,0.6268867,0.12511061,-157.02683)"
+   style="fill:#ebf1df;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.29783881"
+   d="M 31.148,88.492 H 231.14 v 86.11422 H 31.148 Z" /><g
+   transform="matrix(0.99877631,0,0,0.69543105,0.16013421,-183.97804)"
    id="g5595"><path
      inkscape:connector-curvature="0"
      id="path5597"
@@ -1833,6 +1924,7 @@
 
 
 
+
 <text
    id="text5605"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1845,6 +1937,7 @@
 
 
 
+
 <text
    id="text5609"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1853,6 +1946,7 @@
      id="tspan5607"
      y="78.771667"
      x="48.469482" /></text>
+
 
 
 
@@ -1868,6 +1962,7 @@
 
 
 
+
 <g
    transform="matrix(1,0,0,0.453339,0,-72)"
    id="g5615"><path
@@ -1878,10 +1973,11 @@
    id="text5621"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
    x="32.107475"
-   y="127.37166"><tspan
+   y="136.37166"><tspan
      id="tspan5619"
-     y="127.37166"
+     y="136.37166"
      x="32.107475">+</tspan></text>
+
 
 
 
@@ -1889,11 +1985,12 @@
    id="text5625"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
    x="39.054295"
-   y="127.37166"><tspan
+   y="136.37166"><tspan
      id="tspan5623"
      sodipodi:role="line"
-     y="127.37166"
+     y="136.37166"
      x="39.054295 42.101566 44.698582">static sumar(numero1,numero2)</tspan></text>
+
 
 
 
@@ -1905,6 +2002,7 @@
      id="tspan5627"
      y="88.371658"
      x="48.469482" /></text>
+
 
 
 
@@ -1920,8 +2018,9 @@
 
 
 
+
 <g
-   transform="matrix(1,0,0,0.960724,0,-51)"
+   transform="matrix(1,0,0,0.960724,0,-42)"
    id="g5635"><path
      inkscape:connector-curvature="0"
      id="path5637"
@@ -1955,6 +2054,7 @@
      sodipodi:role="line"
      y="72.206512"
      x="107.48449 111.84233 115.67756 119.31177 123.22739 127.37619 130.07773 134.31497 138.53613 140.37737">RESTPropio</tspan></text>
+
 
 
 
@@ -2014,6 +2114,7 @@
 
 
 
+
 <text
    id="text5721"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2023,6 +2124,7 @@
      sodipodi:role="line"
      y="79.879204"
      x="314.3139 317.45767 320.17529 324.02658 326.71207 328.46484 331.90607 333.72321 337.05994 341.29715 345.51831 348.66208 352.88324 354.72446 357.30539 361.15668 363.95471 367.95074 371.94678 373.78799 375.62924 379.02225 383.24341 385.08463 388.93594">static consultarPelicula(tiulo)</tspan></text>
+
 
 
 
@@ -2037,6 +2139,7 @@
 
 
 
+
 <text
    id="text5729"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2046,6 +2149,7 @@
      x="119.85058"
      id="tspan5727"
      sodipodi:role="line" /></text>
+
 
 
 
@@ -2066,6 +2170,7 @@
 
 
 
+
 <text
    id="text5741"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2075,6 +2180,7 @@
      sodipodi:role="line"
      y="89.479195"
      x="314.3139 317.45767 320.17529 324.02658 326.71207 328.46484 331.85785 333.67496 337.06796 339.76144 343.75748 347.6088 350.4068 352.42493 358.81699 362.66827 366.38287 370.37891 374.60007 378.88556 383.1228 387.34396 390.54401 394.4194 397.94107 400.54611 404.78336 407.21957 409.80853 413.68396 417.19757 419.81067 424.04791">static crearImagenConTexto(texto)</tspan></text>
+
 
 
 
@@ -2116,14 +2222,16 @@
 
 
 
+
 <text
    id="text5765"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
    x="31.884508"
-   y="138.26497"><tspan
+   y="147.26497"><tspan
      id="tspan5763"
-     y="138.26497"
+     y="147.26497"
      x="31.884508">+</tspan></text>
+
 
 
 
@@ -2131,11 +2239,12 @@
    id="text5769"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
    x="38.831329"
-   y="138.26497"><tspan
+   y="147.26497"><tspan
      id="tspan5767"
      sodipodi:role="line"
-     y="138.26497"
+     y="147.26497"
      x="38.831329 41.878601 44.47562">static restar(numero1,numero2)</tspan></text>
+
 
 
 
@@ -2147,6 +2256,7 @@
      id="tspan5771"
      y="99.264969"
      x="48.246517" /></text>
+
 
 
 
@@ -2162,8 +2272,9 @@
 
 
 
+
 <g
-   transform="matrix(1,0,0,0.739979,0,-51)"
+   transform="matrix(1,0,0,0.739979,0,-42)"
    id="g5779"><path
      inkscape:connector-curvature="0"
      id="path5781"
@@ -2172,10 +2283,11 @@
    id="text5785"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
    x="32.107475"
-   y="148.37166"><tspan
+   y="157.37166"><tspan
      id="tspan5783"
-     y="148.37166"
+     y="157.37166"
      x="32.107475">+</tspan></text>
+
 
 
 
@@ -2183,11 +2295,12 @@
    id="text5789"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
    x="39.054295"
-   y="148.37166"><tspan
+   y="157.37166"><tspan
      id="tspan5787"
      sodipodi:role="line"
-     y="148.37166"
+     y="157.37166"
      x="39.054295 42.101566 44.698582">static multiplicar(numero1,numero2)</tspan></text>
+
 
 
 
@@ -2199,6 +2312,7 @@
      id="tspan5791"
      y="107.87166"
      x="48.469482" /></text>
+
 
 
 
@@ -2214,6 +2328,7 @@
 
 
 
+
 <text
    id="text5805"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2226,8 +2341,9 @@
 
 
 
+
 <g
-   transform="matrix(1,0,0,0.858921,0,-49.5)"
+   transform="matrix(1,0,0,0.858921,0,-40.5)"
    id="g5807"><path
      inkscape:connector-curvature="0"
      id="path5809"
@@ -2243,6 +2359,7 @@
 
 
 
+
 <text
    id="text5817"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2255,6 +2372,7 @@
 
 
 
+
 <text
    id="text5821"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2263,6 +2381,7 @@
      id="tspan5819"
      y="99.979195"
      x="47.729088" /></text>
+
 
 
 
@@ -2278,6 +2397,7 @@
 
 
 
+
 <text
    id="text5829"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2286,6 +2406,7 @@
      id="tspan5827"
      y="99.979195"
      x="166.05014" /></text>
+
 
 
 
@@ -2298,6 +2419,7 @@
      x="170.52859"
      id="tspan5831"
      sodipodi:role="line" /></text>
+
 
 
 
@@ -2318,6 +2440,7 @@
 
 
 
+
 <text
    id="text5845"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2330,6 +2453,7 @@
 
 
 
+
 <text
    id="text5849"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2338,6 +2462,7 @@
      id="tspan5847"
      y="110.47916"
      x="47.729073" /></text>
+
 
 
 
@@ -2353,6 +2478,7 @@
 
 
 
+
 <text
    id="text5857"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2361,6 +2487,7 @@
      id="tspan5855"
      y="238.36163"
      x="236.1972">+</tspan></text>
+
 
 
 
@@ -2374,10 +2501,11 @@
    id="text5865"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
    x="32.107475"
-   y="159.77167"><tspan
+   y="168.77167"><tspan
      id="tspan5863"
-     y="159.77167"
+     y="168.77167"
      x="32.107475">+</tspan></text>
+
 
 
 
@@ -2385,11 +2513,12 @@
    id="text5869"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
    x="39.054295"
-   y="159.77167"><tspan
+   y="168.77167"><tspan
      id="tspan5867"
      sodipodi:role="line"
-     y="159.77167"
+     y="168.77167"
      x="39.054295 42.101566 44.698582">static dividir(numero1,numero2)</tspan></text>
+
 
 
 
@@ -2401,6 +2530,7 @@
      id="tspan5871"
      y="117.77167"
      x="48.469482" /></text>
+
 
 
 
@@ -2416,8 +2546,9 @@
 
 
 
+
 <g
-   transform="matrix(1.0323946,0,0,0.763722,-1.04003,-48)"
+   transform="matrix(1.0323946,0,0,0.763722,-1.04003,-39)"
    id="g5879"><path
      inkscape:connector-curvature="0"
      id="path5881"
@@ -2461,6 +2592,7 @@
 
 
 
+
 </g><text
    id="text5621-9"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -2470,6 +2602,7 @@
      id="tspan5619-6"
      y="106.49547"
      x="32.231297">+</tspan></text>
+
 
 
 
@@ -2483,6 +2616,7 @@
      sodipodi:role="line"
      x="39.178112"
      y="106.49547">static borrarUsuario(codUsuario)</tspan></text>
+
 
 
 
@@ -2508,6 +2642,7 @@
 
 
 
+
 <text
    id="text5789-9"
    style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -2521,10 +2656,36 @@
 
 
 
+
 <g
    transform="matrix(1.3750182,0,0,0.85892102,-12.03996,-81)"
    id="g5807-7"><path
      inkscape:connector-curvature="0"
      id="path5809-5"
+     style="fill:none;stroke:#000000;stroke-width:0.55884099;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+     d="M 32.105,232.641 H 159.102" /></g><text
+   id="text5785-6-5"
+   style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
+   x="32.107483"
+   y="126.62878"><tspan
+     style="stroke-width:0.99999994"
+     id="tspan5783-0-1"
+     y="126.62878"
+     x="32.107483">+</tspan></text>
+<text
+   id="text5789-9-9"
+   style="font-variant:normal;font-weight:normal;font-size:8.04030037px;font-family:Carlito;-inkscape-font-specification:Carlito;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
+   x="39.054298"
+   y="126.62878"><tspan
+     style="stroke-width:0.99999994"
+     id="tspan5787-9-3"
+     sodipodi:role="line"
+     x="39.054298"
+     y="126.62878">static restablecerPassword(codUsuario)</tspan></text>
+<g
+   transform="matrix(1.0708435,0,0,0.85892102,-2.2744316,-71.242871)"
+   id="g5807-7-3"><path
+     inkscape:connector-curvature="0"
+     id="path5809-5-1"
      style="fill:none;stroke:#000000;stroke-width:0.55884099;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
      d="M 32.105,232.641 H 159.102" /></g></g></svg>

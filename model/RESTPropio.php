@@ -103,6 +103,31 @@ class RESTPropio
     }
 
     /**
+     * Metodo restablecerPassword()
+     *
+     * Metodo que restablece el password de un usuario a 'paso'
+     * 
+     * @param  string $codUsuario codigo del usuario que queremos restablecer el password
+     * @return boolean true si se ha restablecido el password el usuario y false en caso contrario
+     */
+    public static function restablecerPassword($codUsuario)
+    {
+        $passwordCambiado = false;
+        
+        $sentenciaSQL = "Update T01_Usuario set T01_Password=? where T01_CodUsuario=?";
+        $passwordNueva = hash("sha256", $codUsuario.'paso'); // encripta el password pasado como parametro
+        $resultadoConsulta = DBPDO::ejecutarConsulta($sentenciaSQL, [$passwordNueva,$codUsuario]); // Ejecutamos la consulta y almacenamos el resultado en la variable resultadoConsulta
+        
+        if($resultadoConsulta){ // Si se ha realizado la consulta correctamente
+            $passwordCambiado = true; // Cambiamos el valor de la variable usuarioEliminado a true 
+        }
+
+ 
+
+        return $passwordCambiado; // devolvemos la variable usuarioEliminado
+    }
+
+    /**
      * Metodo sumar()
      * 
      * Metodo que suma dos numeros pasados como parametro

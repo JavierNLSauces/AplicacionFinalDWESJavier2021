@@ -346,6 +346,11 @@ Search.appendIndex(
             "summary": "Metodo\u0020obtenerUsuariosPorDescripcion\u0028\u0029",
             "url": "classes/RESTPropio.html#method_obtenerUsuariosPorDescripcion"
         },                {
+            "fqsen": "\\RESTPropio\u003A\u003ArestablecerPassword\u0028\u0029",
+            "name": "restablecerPassword",
+            "summary": "Metodo\u0020restablecerPassword\u0028\u0029",
+            "url": "classes/RESTPropio.html#method_restablecerPassword"
+        },                {
             "fqsen": "\\RESTPropio\u003A\u003Asumar\u0028\u0029",
             "name": "sumar",
             "summary": "Metodo\u0020sumar\u0028\u0029",

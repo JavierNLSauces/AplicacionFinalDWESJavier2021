@@ -35,7 +35,8 @@ function consultarDatosUsuariosPorDescripcion(descUsuario) {
                     tabla += "<td>" + datos[usuario].NumConexiones + "</td>";
                     var fecha = new Date(datos[usuario].FechaHoraUltimaConexion * 1000);
                     tabla += "<td>" + (fecha.toLocaleDateString() != "1/1/1970" ? fecha.toLocaleDateString() + " " + fecha.toLocaleTimeString() : "NULL") + "</td>";
-                    tabla += "<td><button class='form-button' value='" + datos[usuario].CodigoDeUsuario + "' onclick='borrarUsuario(this.value)'>Eliminar</button></td>";
+                    tabla += "<td id='btns-usuarios' ><button id='eliminar' class='form-button' value='" + datos[usuario].CodigoDeUsuario + "' onclick='borrarUsuario(this.value)'>Eliminar</button>";
+                    tabla += "<button id='restablecerPassword' class='form-button' value='" + datos[usuario].CodigoDeUsuario + "' onclick='restablecerPassword(this.value)'>Restablecer Password</button></td>";
                     tabla += "</tr>";
 
                 }
@@ -43,7 +44,7 @@ function consultarDatosUsuariosPorDescripcion(descUsuario) {
             }
         },
         error: (data) => {
-            if(data.readyState == 4){
+            if (data.readyState == 4) {
                 Toast.fire({
                     icon: 'error',
                     title: "No se ha podido obtener datos de la pagina solicitada"
@@ -88,18 +89,78 @@ function borrarUsuario(codUsuario) {
                             icon: 'error',
                             title: data.error
                         });
+                        
                     } else if (data.respuesta != null) {
                         Toast.fire({
                             icon: "success",
                             title: data.respuesta,
                         });
-                        consultarDatosUsuariosPorDescripcion("");
+                    }
+                    $('#DescUsuario').val("");
+                    consultarDatosUsuariosPorDescripcion($('#DescUsuario').val());
+
+                },
+                error: (data) => {
+                    if (data.readyState == 4) {
+                        Toast.fire({
+                            icon: 'error',
+                            title: "No se ha podido obtener datos de la pagina solicitada"
+                        });
+                    }
+                }
+            });
+        }
+    })
+
+}
+
+function restablecerPassword(codUsuario) {
+    Swal.fire({
+        title: 'Esta seguro de que desea restablecer el password del usuario',
+        text: "Esta es una accion irreversible",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#28a745',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Restablecer password'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            const Toast = Swal.mixin({
+                toast: true,
+                position: 'top-end',
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true,
+                didOpen: (toast) => {
+                    toast.addEventListener('mouseenter', Swal.stopTimer)
+                    toast.addEventListener('mouseleave', Swal.resumeTimer)
+                }
+            })
+            $.ajax({
+                type: 'POST',
+                url: '/AplicacionFinalDWESJavier2021/api/restablecerPassword.php',
+                data: {
+                    API_KEY: "7e0c8060cbc8392295f2be3a5f4f312aaed377ab5e8cb1cb01f47c2f9aa59e05",
+                    codUsuario: codUsuario
+                },
+                success: (data) => {
+                    if (data.error != null) {
+                        Toast.fire({
+                            icon: 'error',
+                            title: data.error
+                        });
+                    } else if (data.respuesta != null) {
+                        Toast.fire({
+                            icon: "success",
+                            title: data.respuesta,
+                        });
+                        consultarDatosUsuariosPorDescripcion($('#DescUsuario').val());
 
                     }
 
                 },
                 error: (data) => {
-                    if(data.readyState == 4){
+                    if (data.readyState == 4) {
                         Toast.fire({
                             icon: 'error',
                             title: "No se ha podido obtener datos de la pagina solicitada"

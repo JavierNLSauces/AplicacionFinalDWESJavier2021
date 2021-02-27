@@ -8,7 +8,7 @@
 **Fecha Inicio Proyecto: 20/01/2021**
 **Ultima Actualización: 12/02/2021**
 
-**Ultima Actualización: 18/02/2021**
+**Ultima Actualización: 27/02/2021**
 
 ## Descripción 
 Aplicacion final DWES MVC + Control de Acceso + CRUD + utilizacion y creacion de API REST + COOKIE
@@ -23,7 +23,7 @@ Aplicacion final DWES MVC + Control de Acceso + CRUD + utilizacion y creacion de
 - Uso de API REST
 - Creacion API REST (GET,POST(con clave de api))
 - Mantenimiento de Departamentos -> CRUD + importacion y Exportacion
-- Mantenimiento de usuarios (para usuarios con perfil administador podrán borar usuarios)
+- Mantenimiento de Usuarios con AJAX (para usuarios con perfil administador) Borrar usuarios y restablecer password
 - Uso de Cookies 
 
 ## Front end
